@@ -1,0 +1,46 @@
+id: dea:information-system-component-observability-platform
+type: ApplicationComponent
+name: Observability Platform
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F2
+
+component_domain: iscc:domain:observability
+
+facets:
+  component_kind: apc
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - long-running
+  component_criticality: operationally-significant
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-at-rest
+    - encrypted-in-transit
+  automation_characteristics: gitops-automated
+
+composition:
+  - target: dea:information-system-component-metrics-collector
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-log-aggregator
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-distributed-tracer
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+
+readme: ./README.md

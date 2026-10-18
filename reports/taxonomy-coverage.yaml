@@ -2,8 +2,8 @@ version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
 total_domains: 10
-domains_covered: 5
-domains_uncovered: 5
+domains_covered: 8
+domains_uncovered: 2
 by_domain:
   iscc:domain:customer-experience:
     code: ISCC-01
@@ -13,13 +13,13 @@ by_domain:
   iscc:domain:employee-experience:
     code: ISCC-02
     name: Employee Experience
-    component_count: 0
-    status: uncovered
+    component_count: 3
+    status: covered
   iscc:domain:partner-integration:
     code: ISCC-03
     name: Partner Integration
-    component_count: 0
-    status: uncovered
+    component_count: 4
+    status: covered
   iscc:domain:core-operations:
     code: ISCC-04
     name: Core Operations
@@ -43,8 +43,8 @@ by_domain:
   iscc:domain:observability:
     code: ISCC-08
     name: Observability
-    component_count: 0
-    status: uncovered
+    component_count: 4
+    status: covered
   iscc:domain:development-platform:
     code: ISCC-09
     name: Development Platform
@@ -56,8 +56,5 @@ by_domain:
     component_count: 0
     status: uncovered
 uncovered_domains:
-- iscc:domain:employee-experience
-- iscc:domain:partner-integration
-- iscc:domain:observability
 - iscc:domain:development-platform
 - iscc:domain:ai-native

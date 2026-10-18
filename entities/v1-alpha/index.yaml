@@ -48,14 +48,33 @@ domains:
     status: active
     component_count: 3
 
+  - id: iscc:domain:employee-experience
+    code: ISCC-02
+    name: Employee Experience
+    path: components/employee-experience/
+    status: active
+    component_count: 3
+  - id: iscc:domain:partner-integration
+    code: ISCC-03
+    name: Partner Integration
+    path: components/partner-integration/
+    status: active
+    component_count: 4
+  - id: iscc:domain:observability
+    code: ISCC-08
+    name: Observability
+    path: components/observability/
+    status: active
+    component_count: 4
+
 # Catalog-level counts
-total_components: 18
+total_components: 30
 f_level_distribution:
   F0: 0
   F1: 0
-  F2: 5
+  F2: 8
   F3: 0
-  F4: 13
+  F4: 22
   F5: 0
 
 # Change history
@@ -64,3 +83,7 @@ change_history:
     date: 2026-10-18
     cr: CR-IS-CAT-02C
     note: "Initial catalog-level index after the P1 population. 5 component domains registered; 18 component records (5 F2 + 13 F4). The P2/P3 follow-on populations will further extend the catalog."
+  - version: "1.1"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C-P2
+    note: "P2 follow-on population. 3 component domains added (ISCC-02, ISCC-03, ISCC-08); 11 new component records (3 F2 + 8 F4). Total catalog: 30 records (8 F2 + 22 F4) across 8 of 10 domains."

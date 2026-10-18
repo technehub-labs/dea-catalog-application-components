@@ -1,0 +1,44 @@
+# Domain-level index :  observability
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# Observability domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:observability
+  code: ISCC-08
+  name: Observability
+
+components:
+  - id: dea:information-system-component-observability-platform
+    name: Observability Platform
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-observability-platform/
+  - id: dea:information-system-component-metrics-collector
+    name: Metrics Collector
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-metrics-collector/
+  - id: dea:information-system-component-log-aggregator
+    name: Log Aggregator
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-log-aggregator/
+  - id: dea:information-system-component-distributed-tracer
+    name: Distributed Tracer
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-distributed-tracer/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C-P2
+    note: "Initial P2 domain-level index. 3 components (1 F2 + 2-3 F4) per domain."

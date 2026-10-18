@@ -212,8 +212,77 @@ relationships:
     cr: CR-IS-CAT-02D
     note: "The API Gateway Router hosts the API Gateway Rate Limiter."
 
+
+  # P2 follow-on population (CR-IS-CAT-02C-P2)
+
+  - id: isc-rel-101
+    source_id: dea:information-system-component-employee-portal-platform
+    relationship: depends-on
+    target_id: dea:information-system-component-identity-broker
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P2
+    note: "The Employee Portal Platform depends on the Identity Broker for SSO authentication."
+
+  - id: isc-rel-102
+    source_id: dea:information-system-component-employee-portal-platform
+    relationship: exposes
+    target_id: dea:integration-interface-employee-portal-internal
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P2
+    note: "The Employee Portal exposes the internal employee integration interface."
+
+  - id: isc-rel-103
+    source_id: dea:information-system-component-partner-portal-platform
+    relationship: depends-on
+    target_id: dea:information-system-component-api-gateway
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P2
+    note: "The Partner Portal depends on the API Gateway for partner-facing endpoints."
+
+  - id: isc-rel-104
+    source_id: dea:information-system-component-partner-portal-data-exchange
+    relationship: consumes
+    target_id: dea:data-entity-partner-transactions
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P2
+    note: "The Partner Portal Data Exchange consumes the partner transactions data entity."
+
+  - id: isc-rel-105
+    source_id: dea:information-system-component-observability-platform
+    relationship: depends-on
+    target_id: dea:information-system-component-data-warehouse-platform
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P2
+    note: "The Observability Platform depends on the Data Warehouse Platform for long-term metrics storage."
+
+  - id: isc-rel-106
+    source_id: dea:information-system-component-observability-platform
+    relationship: measured_by
+    target_id: dea:metric-observability-data-freshness
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P2
+    note: "The Observability Platform is measured by the data freshness metric. This is an OpenDEAM v0.7.0 allocation declaration; the metric definition remains owned by the Metric catalogue (per G-11)."
+
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02D
-    note: "Initial cross-catalogue relationship registry. 16 relationship records across 8 integration domains. The P1 population (from 02C) provides the source records; the relationship kinds are anchored in the metamodel (CR-017..021) or OpenDEAM (CR-AR-FMWK-04). The measured_by kind is an OpenDEAM allocation declaration, NOT a metamodel relationship claim (per G-11). The 02C P2/P3 follow-on populations will further extend the registry."
+    note: "Cross-catalogue relationship registry after P2 follow-on. 22 relationship records across 8 integration domains. The P1 population (from 02C) provides the source records; the relationship kinds are anchored in the metamodel (CR-017..021) or OpenDEAM (CR-AR-FMWK-04). The measured_by kind is an OpenDEAM allocation declaration, NOT a metamodel relationship claim (per G-11). The 02C P2/P3 follow-on populations will further extend the registry."

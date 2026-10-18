@@ -1,14 +1,14 @@
 version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
-total_relationships: 16
+total_relationships: 22
 by_kind:
   executes: 5
   provides: 1
-  exposes: 2
-  depends-on: 3
-  measured_by: 1
-  consumes: 1
+  exposes: 3
+  depends-on: 6
+  measured_by: 2
+  consumes: 2
   produces: 1
   hosts: 2
 records:
@@ -91,4 +91,34 @@ records:
   kind: hosts
   source: information-system-component-api-gateway-router
   target: information-system-component-api-gateway-rate-limiter
+  status: active
+- id: isc-rel-101
+  kind: depends-on
+  source: information-system-component-employee-portal-platform
+  target: information-system-component-identity-broker
+  status: active
+- id: isc-rel-102
+  kind: exposes
+  source: information-system-component-employee-portal-platform
+  target: integration-interface-employee-portal-internal
+  status: active
+- id: isc-rel-103
+  kind: depends-on
+  source: information-system-component-partner-portal-platform
+  target: information-system-component-api-gateway
+  status: active
+- id: isc-rel-104
+  kind: consumes
+  source: information-system-component-partner-portal-data-exchange
+  target: data-entity-partner-transactions
+  status: active
+- id: isc-rel-105
+  kind: depends-on
+  source: information-system-component-observability-platform
+  target: information-system-component-data-warehouse-platform
+  status: active
+- id: isc-rel-106
+  kind: measured_by
+  source: information-system-component-observability-platform
+  target: metric-observability-data-freshness
   status: active

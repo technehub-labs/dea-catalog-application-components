@@ -1,11 +1,11 @@
 version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
-total_records: 19
-records_with_readme: 19
+total_records: 30
+records_with_readme: 30
 records_without_readme: 0
-records_with_change_history: 19
-records_with_parent_or_children: 19
+records_with_change_history: 30
+records_with_parent_or_children: 30
 records:
 - id: dea:information-system-component-api-gateway
   has_readme: true
@@ -55,6 +55,22 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-distributed-tracer
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-employee-portal-bff
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-employee-portal-frontend
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-employee-portal-platform
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-identity-broker
   has_readme: true
   has_change_history: true
@@ -64,6 +80,18 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-identity-broker-token-issuer
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-log-aggregator
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-metrics-collector
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-observability-platform
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -80,6 +108,22 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-order-management-system
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-partner-portal-data-exchange
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-partner-portal-onboarding
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-partner-portal-platform
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-partner-portal-settlement
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
