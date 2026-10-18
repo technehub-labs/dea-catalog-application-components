@@ -1,0 +1,174 @@
+# Orthogonal classification facets :  Information System Component
+# CR-IS-CAT-02A (2026-10-18). The 7 orthogonal classification facets that
+# apply to every ISC record independently of the primary component domain.
+# A component MUST have exactly one primary component-domain assignment;
+# it MAY have multiple orthogonal facet values.
+#
+# Governance:
+# - G-05: taxonomy nodes are catalogue classifications, not metamodel entities.
+# - G-06: classification (this directory) and component decomposition (02B)
+#   are separate structures.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02A
+parent_cr: CR-IS-CAT-02
+
+facets:
+  - id: iscc:facet:component-kind
+    code: "5.1"
+    name: Component kind
+    cardinality: one
+    type: facet
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    definition: |
+      The component kind: application (APC), integration (IGC), AI (AIC),
+      security, observability, data, workflow.
+    values:
+      - apc
+      - igc
+      - aic
+      - security
+      - observability
+      - data
+      - workflow
+    doctrine_reference: null
+
+  - id: iscc:facet:hosting-model
+    code: "5.2"
+    name: Hosting model
+    cardinality: many
+    type: facet
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    definition: |
+      The hosting model of the component: cloud, on-premises, hybrid, edge,
+      serverless, container, virtual-machine.
+    values:
+      - cloud
+      - on-premises
+      - hybrid
+      - edge
+      - serverless
+      - container
+      - virtual-machine
+    doctrine_reference: null
+
+  - id: iscc:facet:execution-characteristics
+    code: "5.3"
+    name: Execution characteristics
+    cardinality: many
+    type: facet
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    definition: |
+      The technical execution character of the component. This facet
+      captures implementation technology independently of component
+      identity (per principle 2.3 of the CR-IS-CAT-02A doc).
+    values:
+      - long-running
+      - batch
+      - event-driven
+      - streaming
+      - real-time
+      - scheduled
+      - on-demand
+    doctrine_reference: null
+
+  - id: iscc:facet:component-criticality
+    code: "5.4"
+    name: Component criticality
+    cardinality: one
+    type: facet
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    definition: |
+      The contextual criticality of the component. Criticality is contextual
+      and MUST NOT be treated as an intrinsic universal characteristic of
+      the component; the per-record value is captured in the component
+      record, not in the taxonomy.
+    values:
+      - mission-critical
+      - business-critical
+      - operationally-significant
+      - supporting
+      - convenience
+    doctrine_reference: null
+
+  - id: iscc:facet:deployment-pattern
+    code: "5.5"
+    name: Deployment pattern
+    cardinality: many
+    type: facet
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    definition: |
+      The deployment pattern of the component: singleton, replicated,
+      sharded, serverless, blue-green, canary, rolling.
+    values:
+      - singleton
+      - replicated
+      - sharded
+      - serverless
+      - blue-green
+      - canary
+      - rolling
+    doctrine_reference: null
+
+  - id: iscc:facet:security-posture
+    code: "5.6"
+    name: Security posture
+    cardinality: many
+    type: facet
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    definition: |
+      The security posture of the component: public-internet,
+      internal-network, restricted-network, isolated-network, air-gapped,
+      encrypted-at-rest, encrypted-in-transit.
+    values:
+      - public-internet
+      - internal-network
+      - restricted-network
+      - isolated-network
+      - air-gapped
+      - encrypted-at-rest
+      - encrypted-in-transit
+    doctrine_reference: null
+
+  - id: iscc:facet:automation-characteristics
+    code: "5.7"
+    name: Automation characteristics
+    cardinality: one
+    type: facet
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    definition: |
+      The level and mode of automation of the component. This facet is
+      the primary answer to the ISCC-10 vs all-other-domains overlap: an
+      AI-assisted component is classified under its primary domain (e.g.,
+      ISCC-01, ISCC-04) with this facet set to 'AI-assisted' or
+      'agent-orchestrated'; it is NOT classified under ISCC-10 unless the
+      primary behaviour is AI-native.
+    values:
+      - manual-deployment
+      - scripted-deployment
+      - ci-cd-automated
+      - gitops-automated
+      - ai-assisted-deployment
+      - agent-orchestrated
+    doctrine_reference: "DOCTRINE-ISC-CC-10 (ISCC-10 boundary)"
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02A
+    note: "Initial set of 7 orthogonal facets. Per the doctrine on ISCC-10 overlap, the 'automation characteristics' facet is the primary answer to the AI-vs-domain boundary question."

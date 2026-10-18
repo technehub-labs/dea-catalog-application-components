@@ -1,0 +1,286 @@
+# Component domains :  Information System Component classification
+# CR-IS-CAT-02A (2026-10-18). The 10 initial top-level component domains.
+# Each domain has a stable identifier, a name, a definition, scope, inclusion
+# criteria and exclusion criteria. The boundaries between overlapping domains
+# are established by the doctrine in section 3.1 of the CR-IS-CAT-02A doc.
+#
+# Governance:
+# - G-05: taxonomy nodes are catalogue classifications, not metamodel entities.
+# - G-09: catalogue completeness must be evidenced, not assumed; the 02C
+#   population exercise is the validation step.
+# - G-12: no implementation-specific component becomes canonical merely because
+#   it exists in an application.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02A
+author: Emmanuel A. Otchere
+parent_cr: CR-IS-CAT-02
+
+domains:
+  - id: iscc:domain:customer-experience
+    code: ISCC-01
+    name: Customer Experience
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies public-facing, customer-facing
+      web, mobile and desktop components. These components are the
+      primary interface between the enterprise and its customers.
+    scope: |
+      Public-facing web applications, mobile applications, customer
+      portals, marketing sites, customer-facing APIs and SDKs.
+    inclusion_criteria:
+      - "Components whose primary purpose is to expose functionality to external customers."
+      - "Components that handle customer authentication, customer data display, customer input."
+      - "Components that are exposed to the public internet (with appropriate security controls)."
+    exclusion_criteria:
+      - "Internal-facing employee components (those live in ISCC-02 Employee Experience)."
+      - "Partner-facing B2B components (those live in ISCC-03 Partner Integration)."
+      - "Back-office operations components (those live in ISCC-04 Core Operations)."
+    synonyms:
+      - CX
+      - Customer-Facing
+    doctrine_reference: null
+
+  - id: iscc:domain:employee-experience
+    code: ISCC-02
+    name: Employee Experience
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies internal-facing, employee-facing
+      components. These components are the primary interface between the
+      enterprise and its employees.
+    scope: |
+      Internal portals, productivity tools, HR systems, internal
+      collaboration tools, employee-facing dashboards.
+    inclusion_criteria:
+      - "Components whose primary purpose is to expose functionality to employees."
+      - "Components that handle employee authentication, employee data, internal workflows."
+    exclusion_criteria:
+      - "Customer-facing components (those live in ISCC-01 Customer Experience)."
+      - "Back-office operations components (those live in ISCC-04 Core Operations)."
+    synonyms:
+      - EX
+      - Employee-Facing
+      - Internal Tools
+    doctrine_reference: null
+
+  - id: iscc:domain:partner-integration
+    code: ISCC-03
+    name: Partner Integration
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies partner-facing, B2B components.
+      These components expose functionality to business partners, suppliers,
+      and other external-but-trusted entities.
+    scope: |
+      EDI gateways, partner portals, supplier interfaces, B2B APIs,
+      partner-facing data exchanges.
+    inclusion_criteria:
+      - "Components whose primary purpose is to exchange data with business partners."
+      - "Components that implement B2B protocols (EDI, AS2, RosettaNet)."
+    exclusion_criteria:
+      - "Public-facing customer components (those live in ISCC-01)."
+      - "Internal integration components (those live in ISCC-06 Integration)."
+    synonyms:
+      - B2B
+      - Partner-Facing
+    doctrine_reference: null
+
+  - id: iscc:domain:core-operations
+    code: ISCC-04
+    name: Core Operations
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies back-office operations components.
+      These components implement the core business operations: ERP, CRM,
+      finance, supply chain, HR.
+    scope: |
+      ERP systems, CRM systems, finance systems, supply chain management
+      systems, HR systems, payroll systems.
+    inclusion_criteria:
+      - "Components whose primary purpose is to implement core business operations."
+      - "Components that handle financial transactions, customer records, supply chain data, employee records."
+    exclusion_criteria:
+      - "Customer-facing components (those live in ISCC-01)."
+      - "Data platform components (those live in ISCC-05 Data and Analytics)."
+      - "Security infrastructure (those live in ISCC-07 Security)."
+    synonyms:
+      - ERP
+      - Back-Office
+      - Core Business Systems
+    doctrine_reference: "DOCTRINE-ISC-CC-04 (ISCC-05 vs ISCC-04 boundary: data storage/analytics vs business operations)"
+
+  - id: iscc:domain:data-and-analytics
+    code: ISCC-05
+    name: Data and Analytics
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies data platform components: data
+      warehouses, data lakes, business intelligence, analytics, and
+      machine learning training infrastructure.
+    scope: |
+      Data warehouses, data lakes, ETL/ELT pipelines, BI tools,
+      analytics platforms, ML training infrastructure, feature stores.
+    inclusion_criteria:
+      - "Components whose primary purpose is to store, transform, or analyze data at scale."
+      - "Components that implement data pipelines, batch processing, or stream processing."
+    exclusion_criteria:
+      - "Operational data stores (those live in ISCC-04 Core Operations)."
+      - "Real-time AI inference (those live in ISCC-10 AI Native)."
+    synonyms:
+      - Data Platform
+      - Analytics
+      - BI
+    doctrine_reference: "DOCTRINE-ISC-CC-05 (ISCC-05 vs ISCC-04 boundary)"
+
+  - id: iscc:domain:integration
+    code: ISCC-06
+    name: Integration
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies integration components: API
+      gateways, message brokers, ESBs, and other integration endpoints.
+      These are the concrete IGC (Integration Component) specializations.
+    scope: |
+      API gateways, message brokers, event buses, ESBs, service meshes,
+      API management platforms, integration platform as a service (iPaaS).
+    inclusion_criteria:
+      - "Components whose primary purpose is to mediate, transform, or route integration traffic."
+      - "Components that implement API management, message routing, or event distribution."
+    exclusion_criteria:
+      - "Components that own data (those live in ISCC-04 or ISCC-05)."
+      - "Partner-specific integration endpoints (those live in ISCC-03 Partner Integration)."
+    synonyms:
+      - IGC
+      - API Gateway
+      - Message Broker
+    doctrine_reference: null
+
+  - id: iscc:domain:security
+    code: ISCC-07
+    name: Security
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies security infrastructure
+      components: identity brokers, policy decision points, vaults,
+      secrets management, and security operations centers.
+    scope: |
+      Identity brokers, policy decision points, secrets vaults, key
+      management services, security information and event management
+      (SIEM), security orchestration (SOAR).
+    inclusion_criteria:
+      - "Components whose primary purpose is to enforce security policy or protect assets."
+      - "Components that handle authentication, authorization, secrets, or security monitoring."
+    exclusion_criteria:
+      - "Identity lifecycle (the lifecycle is in the ISF catalog; the components are here)."
+      - "Back-office operations components (those live in ISCC-04)."
+    synonyms:
+      - Security Infrastructure
+      - SecOps
+    doctrine_reference: "DOCTRINE-ISC-CC-07 (ISCC-07 vs ISCC-04 boundary: security infrastructure vs business operations)"
+
+  - id: iscc:domain:observability
+    code: ISCC-08
+    name: Observability
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies observability components:
+      monitoring, logging, tracing, alerting, and metrics platforms.
+    scope: |
+      Monitoring platforms, log aggregators, distributed tracing
+      systems, alerting systems, metrics platforms, dashboards.
+    inclusion_criteria:
+      - "Components whose primary purpose is to observe the behaviour of other components."
+      - "Components that collect, aggregate, or display telemetry."
+    exclusion_criteria:
+      - "Mutating control components (those live in ISCC-09 Development Platform for CI/CD, or ISCC-11 Configuration and Administration in the ISF catalog)."
+      - "Read-only operation of business systems (those live in ISCC-04)."
+    synonyms:
+      - Observability
+      - Monitoring
+      - Telemetry
+    doctrine_reference: "DOCTRINE-ISC-CC-08 (ISCC-08 vs ISCC-09 boundary: observation vs creation)"
+
+  - id: iscc:domain:development-platform
+    code: ISCC-09
+    name: Development Platform
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies development platform components:
+      CI/CD, build infrastructure, artifact repositories, source control
+      platforms, and developer tools.
+    scope: |
+      CI/CD pipelines, build servers, artifact repositories, source
+      control platforms, package managers, developer portals.
+    inclusion_criteria:
+      - "Components whose primary purpose is to support the development lifecycle."
+      - "Components that implement CI/CD, build, test, or deployment automation."
+    exclusion_criteria:
+      - "Production observability (those live in ISCC-08)."
+      - "Production security (those live in ISCC-07)."
+    synonyms:
+      - DevOps
+      - CI/CD
+      - Developer Tools
+    doctrine_reference: "DOCTRINE-ISC-CC-09 (ISCC-08 vs ISCC-09 boundary)"
+
+  - id: iscc:domain:ai-native
+    code: ISCC-10
+    name: AI Native
+    status: active
+    version: "1.0"
+    effective_date: "2026-10-18"
+    type: domain
+    definition: |
+      A component domain that classifies AI-native components: AI
+      inference, model training, model serving, agentic components, and
+      AI infrastructure. These are the concrete AIC (AI Component)
+      specializations.
+    scope: |
+      AI inference servers, model training platforms, model serving
+      infrastructure, vector databases (for RAG), agentic orchestration
+      platforms, prompt management systems.
+    inclusion_criteria:
+      - "Components whose primary behaviour is AI-native: model inference, training, agentic execution."
+      - "Components that implement the AI/ML lifecycle: training, serving, monitoring."
+    exclusion_criteria:
+      - "AI-assisted versions of other components; those live in the appropriate primary domain with the orthogonal facet 'automation characteristics' set to 'AI-assisted' or 'agent-orchestrated'."
+    synonyms:
+      - AI
+      - ML
+      - Agentic
+    doctrine_reference: "DOCTRINE-ISC-CC-10 (ISCC-10 vs all-other-domains boundary; AI-assisted routing through orthogonal facet 5.7)"
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02A
+    note: "Initial taxonomy baseline. The 10 component domains are a starting classification; the 02C population exercise is the validation step. Doctrine on overlapping domains per the CR-IS-CAT-02A doc section 3.1."
