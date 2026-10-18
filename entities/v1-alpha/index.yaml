@@ -1,0 +1,41 @@
+# Catalog-level index :  Information System Component v1-alpha
+# CR-IS-CAT-02B (2026-10-18). The catalog-level index aggregates the
+# component-domain-level indexes. Per CR-IS-CAT-02A, the catalog-level
+# index MUST list the registered component domains and the count of
+# component records per domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02B
+parent_cr: CR-IS-CAT-02
+cr_02a: CR-IS-CAT-02A
+
+catalog: dea-catalog-information-system-components
+catalog_status: rename-pending-org-admin-transfer
+
+# The list of component domains registered in taxonomy/component-domains.yaml.
+# Each entry records the count of component records under that domain.
+domains:
+  - id: iscc:domain:identity-and-access
+    code: ISCC-07
+    name: Security
+    path: components/identity-and-access/
+    status: active
+    component_count: 2  # 1 F2 + 1 F4 (examples; will be populated by 02C)
+
+# Catalog-level counts
+total_components: 2
+f_level_distribution:
+  F0: 0
+  F1: 0
+  F2: 1
+  F3: 0
+  F4: 1
+  F5: 0
+
+# Change history
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02B
+    note: "Initial catalog-level index. The example domain (identity-and-access) is registered with 2 example components. The 02C population exercise replaces the example components with the P1 component inventory."

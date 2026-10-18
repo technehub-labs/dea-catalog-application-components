@@ -1,0 +1,35 @@
+id: dea:information-system-component-identity-broker
+type: IntegrationComponent
+name: Identity Broker
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F2
+
+component_domain: iscc:domain:security
+
+facets:
+  component_kind: igc
+  hosting_model:
+    - cloud
+    - on-premises
+  execution_characteristics:
+    - long-running
+  component_criticality: mission-critical
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-at-rest
+    - encrypted-in-transit
+  automation_characteristics: gitops-automated
+
+composition:
+  - target: dea:information-system-component-oidc-discovery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+
+readme: ./README.md

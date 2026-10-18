@@ -1,0 +1,44 @@
+# Component template :  Information System Component v2
+# CR-IS-CAT-02B (2026-10-18). The machine-readable template for an
+# Information System Component record. New records MUST use the v2 schema.
+# Existing v1 records continue to be valid until 02C supersedes them.
+
+id: dea:information-system-component-<slug>
+type: InformationSystemComponent
+name: "<Name>"
+status: active
+version: "1.0"
+effective_date: "<YYYY-MM-DD>"
+
+# F-level assignment (F0..F5; see docs/decomposition-guide.md)
+f_level: F2
+
+# Primary component-domain assignment (must reference a registered taxonomy id)
+component_domain: iscc:domain:<slug>
+
+# Optional orthogonal classification facets (must reference registered facet ids)
+facets:
+  component_kind: <apc | igc | aic | security | observability | data | workflow>
+  hosting_model:
+    - <cloud | on-premises | hybrid | edge | serverless | container | virtual-machine>
+  execution_characteristics:
+    - <long-running | batch | event-driven | streaming | real-time | scheduled | on-demand>
+  component_criticality: <mission-critical | business-critical | operationally-significant | supporting | convenience>
+  deployment_pattern:
+    - <singleton | replicated | sharded | serverless | blue-green | canary | rolling>
+  security_posture:
+    - <public-internet | internal-network | restricted-network | isolated-network | air-gapped | encrypted-at-rest | encrypted-in-transit>
+  automation_characteristics: <manual-deployment | scripted-deployment | ci-cd-automated | gitops-automated | ai-assisted-deployment | agent-orchestrated>
+
+# Composition (parent and children)
+parent: dea:information-system-component-<parent-slug>
+composition:
+  - target: dea:information-system-component-<child-slug>
+    kind: <contains | depends-on | hosts | orchestrates>
+    cardinality: <one | many | optional | required>
+    version: "1.0"
+    effective_date: "<YYYY-MM-DD>"
+    status: active
+
+# Documentation reference (link to the README)
+readme: ./README.md

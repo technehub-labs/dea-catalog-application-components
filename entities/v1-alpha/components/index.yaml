@@ -1,0 +1,26 @@
+# Component-level index :  Information System Component v1-alpha
+# CR-IS-CAT-02B (2026-10-18). The component-level index aggregates the
+# domain-level indexes. It exists for navigation convenience; the
+# catalog-level index at ../index.yaml is the source of truth for
+# count assertions.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02B
+
+catalog: dea-catalog-information-system-components
+
+# The list of domain-level indexes
+domains:
+  - id: iscc:domain:identity-and-access
+    code: ISCC-07
+    name: Security
+    path: identity-and-access/
+    status: active
+    component_count: 2
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02B
+    note: "Initial component-level index. 1 domain registered with 2 example components. 02C populates the P1 component inventory."

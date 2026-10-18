@@ -1,0 +1,138 @@
+name: validate-entities
+
+# CR-IS-CAT-02B (2026-10-18). Validates the Information System Component
+# catalogue records against the v2 schema (14 validation rules from
+# docs/decomposition-guide.md section 14).
+#
+# Governance: G-05 (taxonomy is classification, not metamodel), G-06
+# (classification and decomposition are separate), G-07 (every active
+# component has machine-readable content + README), G-09 (completeness
+# is evidenced, not assumed), G-12 (no implementation-specific component
+# becomes canonical).
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  entities:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml jsonschema
+      - name: Validate component record YAML syntax
+        run: |
+          python3 - <<'EOF'
+          import yaml, glob, sys
+          ok = True
+          files = glob.glob('entities/v1-alpha/components/**/component.yaml', recursive=True)
+          for f in files:
+            try:
+              with open(f) as fp:
+                yaml.safe_load(fp)
+              print(f'OK: {f}')
+            except yaml.YAMLError as e:
+              print(f'FAIL: {f}: {e}')
+              ok = False
+          if not files:
+            print('No component.yaml files found; this is OK for the 02B PR')
+          sys.exit(0 if ok else 1)
+          EOF
+      - name: Validate component record v2 schema
+        run: |
+          python3 - <<'EOF'
+          import yaml, json, jsonschema, glob, sys
+          with open('schemas/entities/information-system-component.v2.json') as fp:
+            schema = json.load(fp)
+          ok = True
+          files = glob.glob('entities/v1-alpha/components/**/component.yaml', recursive=True)
+          for f in files:
+            with open(f) as fp:
+              d = yaml.safe_load(fp)
+            try:
+              jsonschema.validate(d, schema)
+            except jsonschema.ValidationError as e:
+              print(f'FAIL: {f}: {e.message}')
+              ok = False
+            else:
+              print(f'OK: {f}')
+          sys.exit(0 if ok else 1)
+          EOF
+      - name: Validate README existence (rule 3)
+        run: |
+          python3 - <<'EOF'
+          import glob, os, sys
+          ok = True
+          files = glob.glob('entities/v1-alpha/components/**/component.yaml', recursive=True)
+          for f in files:
+            d = os.path.dirname(f)
+            readme = os.path.join(d, 'README.md')
+            if not os.path.exists(readme):
+              print(f'FAIL (rule 3): {f} has no README')
+              ok = False
+            else:
+              print(f'OK: {readme}')
+          sys.exit(0 if ok else 1)
+          EOF
+      - name: Validate F-level assignment (rule 1)
+        run: |
+          python3 - <<'EOF'
+          import yaml, glob, sys
+          valid = {'F0', 'F1', 'F2', 'F3', 'F4', 'F5'}
+          ok = True
+          files = glob.glob('entities/v1-alpha/components/**/component.yaml', recursive=True)
+          for f in files:
+            with open(f) as fp:
+              d = yaml.safe_load(fp)
+            fl = d.get('f_level')
+            if fl not in valid:
+              print(f'FAIL (rule 1): {f} f_level={fl} not in {valid}')
+              ok = False
+            else:
+              print(f'OK: {f} f_level={fl}')
+          sys.exit(0 if ok else 1)
+          EOF
+      - name: Validate composition edges (rules 4, 5)
+        run: |
+          python3 - <<'EOF'
+          import yaml, glob, sys
+          valid_kinds = {'contains', 'depends-on', 'hosts', 'orchestrates'}
+          ok = True
+          files = glob.glob('entities/v1-alpha/components/**/component.yaml', recursive=True)
+          for f in files:
+            with open(f) as fp:
+              d = yaml.safe_load(fp)
+            for e in d.get('composition', []):
+              kind = e.get('kind')
+              if kind not in valid_kinds:
+                print(f'FAIL (rule 5): {f} composition kind={kind} not in {valid_kinds}')
+                ok = False
+            if d.get('composition'):
+              print(f'OK: {f} composition edges valid')
+          sys.exit(0 if ok else 1)
+          EOF
+      - name: Validate taxonomy reference (rule 11 from 02A)
+        run: |
+          python3 - <<'EOF'
+          import yaml, sys
+          with open('taxonomy/component-domains.yaml') as fp:
+            domains = {d['id'] for d in yaml.safe_load(fp)['domains']}
+          import glob
+          ok = True
+          files = glob.glob('entities/v1-alpha/components/**/component.yaml', recursive=True)
+          for f in files:
+            with open(f) as fp:
+              d = yaml.safe_load(fp)
+            cd = d.get('component_domain')
+            if cd and cd not in domains:
+              print(f'FAIL (rule 11): {f} component_domain={cd} not registered')
+              ok = False
+            elif cd:
+              print(f'OK: {f} component_domain={cd}')
+          sys.exit(0 if ok else 1)
+          EOF
