@@ -1,0 +1,10 @@
+version: 1
+effective: '2026-10-18'
+cr: CR-IS-CAT-02D
+total_relationships: 16
+sources_resolved: 16
+sources_unresolved: 0
+targets_resolved: 16
+targets_unresolved: 0
+unresolved_sources: []
+unresolved_targets: []

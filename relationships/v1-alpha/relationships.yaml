@@ -1,0 +1,219 @@
+# Cross-catalogue relationship registry :  Information System Component v1-alpha
+# CR-IS-CAT-02D (2026-10-18). The cross-catalogue relationship registry
+# for the Information System Component catalogue. Each relationship
+# is a valid instance of a registered metamodel relationship
+# (CR-017..021) or an OpenDEAM allocation declaration (CR-AR-FMWK-04).
+#
+# Per the source doc section 4 (the standing matrix for the IS
+# catalogue cascade), the ISC relationships are:
+# - ISC executes ISF (component-to-function)
+# - ISC provides ISS (component-to-service)
+# - ISC depends-on ISC (component-to-component)
+# - ISC hosts ISC (deployment)
+# - ISC consumes DataEntity
+# - ISC produces DataEntity
+# - ISC exposes IF (component-to-integration-interface)
+# - ISC measured_by Metric (OpenDEAM allocation declaration; per G-11,
+#   metric definitions remain owned by the Metric catalogue)
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02D
+parent_cr: CR-IS-CAT-02
+cr_02c: CR-IS-CAT-02C
+
+catalog: dea-catalog-information-system-components
+
+# The 16 P1 cross-catalogue relationships
+relationships:
+
+  # ISC executes ISF (CR-018/019)
+  - id: isc-rel-001
+    source_id: dea:information-system-component-customer-facing-web-application-platform
+    relationship: executes
+    target_id: dea:information-system-function-customer-experience-management
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Customer-Facing Web Application Platform executes the customer experience management function."
+
+  - id: isc-rel-002
+    source_id: dea:information-system-component-order-management-system
+    relationship: executes
+    target_id: dea:information-system-function-order-capture
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Order Management System executes the order capture function."
+
+  - id: isc-rel-003
+    source_id: dea:information-system-component-order-management-system
+    relationship: executes
+    target_id: dea:information-system-function-order-fulfillment
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Order Management System executes the order fulfillment function."
+
+  - id: isc-rel-004
+    source_id: dea:information-system-component-data-warehouse-platform
+    relationship: executes
+    target_id: dea:information-system-function-data-ingestion
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Data Warehouse Platform executes the data ingestion function (loader)."
+
+  - id: isc-rel-005
+    source_id: dea:information-system-component-data-warehouse-platform
+    relationship: executes
+    target_id: dea:information-system-function-data-query
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Data Warehouse Platform executes the data query function."
+
+  # ISC provides ISS (CR-019/020)
+  - id: isc-rel-006
+    source_id: dea:information-system-component-api-gateway
+    relationship: provides
+    target_id: dea:information-system-service-api-gateway-service
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The API Gateway provides the API Gateway Service for consumption by client applications."
+
+  # ISC exposes IF (CR-021)
+  - id: isc-rel-007
+    source_id: dea:information-system-component-api-gateway
+    relationship: exposes
+    target_id: dea:integration-interface-api-gateway-public
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The API Gateway exposes the public API integration interface."
+
+  # ISC depends-on ISC (CR-019)
+  - id: isc-rel-008
+    source_id: dea:information-system-component-api-gateway
+    relationship: depends-on
+    target_id: dea:information-system-component-identity-broker
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The API Gateway depends on the Identity Broker for authentication."
+
+  - id: isc-rel-010
+    source_id: dea:information-system-component-order-management-system
+    relationship: depends-on
+    target_id: dea:information-system-component-identity-broker
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Order Management System depends on the Identity Broker for authentication."
+
+  - id: isc-rel-013
+    source_id: dea:information-system-component-customer-facing-web-application-platform
+    relationship: depends-on
+    target_id: dea:information-system-component-api-gateway
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Customer-Facing Web Application Platform depends on the API Gateway for backend access."
+
+  # ISC measured_by Metric (OpenDEAM v0.7.0 allocation declaration)
+  - id: isc-rel-009
+    source_id: dea:information-system-component-api-gateway
+    relationship: measured_by
+    target_id: dea:metric-api-gateway-p99-latency
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The API Gateway is measured by the p99 latency metric. This is an OpenDEAM v0.7.0 allocation declaration; the metric definition remains owned by the Metric catalogue (per G-11)."
+
+  # ISC consumes DataEntity
+  - id: isc-rel-011
+    source_id: dea:information-system-component-data-warehouse-platform
+    relationship: consumes
+    target_id: dea:data-entity-order-events
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Data Warehouse Platform consumes the order events data entity."
+
+  # ISC produces DataEntity
+  - id: isc-rel-012
+    source_id: dea:information-system-component-order-management-system
+    relationship: produces
+    target_id: dea:data-entity-order-events
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Order Management System produces the order events data entity."
+
+  # ISC exposes IF (additional)
+  - id: isc-rel-014
+    source_id: dea:information-system-component-identity-broker
+    relationship: exposes
+    target_id: dea:integration-interface-identity-broker-public
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Identity Broker exposes the public identity integration interface."
+
+  # ISC hosts ISC (deployment)
+  - id: isc-rel-015
+    source_id: dea:information-system-component-order-management-orchestrator
+    relationship: hosts
+    target_id: dea:information-system-component-order-fulfillment-worker
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The Order Management Orchestrator hosts the Order Fulfillment Worker."
+
+  - id: isc-rel-016
+    source_id: dea:information-system-component-api-gateway-router
+    relationship: hosts
+    target_id: dea:information-system-component-api-gateway-rate-limiter
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02D
+    note: "The API Gateway Router hosts the API Gateway Rate Limiter."
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02D
+    note: "Initial cross-catalogue relationship registry. 16 relationship records across 8 integration domains. The P1 population (from 02C) provides the source records; the relationship kinds are anchored in the metamodel (CR-017..021) or OpenDEAM (CR-AR-FMWK-04). The measured_by kind is an OpenDEAM allocation declaration, NOT a metamodel relationship claim (per G-11). The 02C P2/P3 follow-on populations will further extend the registry."
