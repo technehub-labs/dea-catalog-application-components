@@ -1,0 +1,44 @@
+# Domain-level index :  customer-experience
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# Customer Experience domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:customer-experience
+  code: ISCC-01
+  name: Customer Experience
+
+components:
+  - id: dea:information-system-component-customer-facing-web-application-platform
+    name: Customer-Facing Web Application Platform
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-facing-web-application-platform/
+  - id: dea:information-system-component-customer-web-frontend
+    name: Customer Web Frontend
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-customer-web-frontend/
+  - id: dea:information-system-component-customer-web-bff
+    name: Customer Web Backend-for-Frontend
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-customer-web-bff/
+  - id: dea:information-system-component-customer-web-cdn
+    name: Customer Web CDN
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-customer-web-cdn/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C
+    note: "Initial domain-level index for the P1 population."
