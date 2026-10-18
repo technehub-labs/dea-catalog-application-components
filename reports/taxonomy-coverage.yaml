@@ -1,0 +1,63 @@
+version: 1
+effective: '2026-10-18'
+cr: CR-IS-CAT-02D
+total_domains: 10
+domains_covered: 5
+domains_uncovered: 5
+by_domain:
+  iscc:domain:customer-experience:
+    code: ISCC-01
+    name: Customer Experience
+    component_count: 4
+    status: covered
+  iscc:domain:employee-experience:
+    code: ISCC-02
+    name: Employee Experience
+    component_count: 0
+    status: uncovered
+  iscc:domain:partner-integration:
+    code: ISCC-03
+    name: Partner Integration
+    component_count: 0
+    status: uncovered
+  iscc:domain:core-operations:
+    code: ISCC-04
+    name: Core Operations
+    component_count: 3
+    status: covered
+  iscc:domain:data-and-analytics:
+    code: ISCC-05
+    name: Data and Analytics
+    component_count: 4
+    status: covered
+  iscc:domain:integration:
+    code: ISCC-06
+    name: Integration
+    component_count: 4
+    status: covered
+  iscc:domain:security:
+    code: ISCC-07
+    name: Security
+    component_count: 4
+    status: covered
+  iscc:domain:observability:
+    code: ISCC-08
+    name: Observability
+    component_count: 0
+    status: uncovered
+  iscc:domain:development-platform:
+    code: ISCC-09
+    name: Development Platform
+    component_count: 0
+    status: uncovered
+  iscc:domain:ai-native:
+    code: ISCC-10
+    name: AI Native
+    component_count: 0
+    status: uncovered
+uncovered_domains:
+- iscc:domain:employee-experience
+- iscc:domain:partner-integration
+- iscc:domain:observability
+- iscc:domain:development-platform
+- iscc:domain:ai-native

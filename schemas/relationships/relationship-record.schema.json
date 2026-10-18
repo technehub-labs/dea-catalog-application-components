@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://technehub-labs.github.io/dea-catalog-information-system-components/schemas/relationships/relationship-record.schema.json",
+  "title": "InformationSystemComponentRelationshipRecord",
+  "description": "JSON Schema for a cross-catalogue relationship record in the Information System Component catalogue. CR-IS-CAT-02D (2026-10-18). Mirrors the ISF relationship schema from CR-IS-CAT-01D.",
+  "type": "object",
+  "required": [
+    "id",
+    "source_id",
+    "relationship",
+    "target_id",
+    "version",
+    "effective_date",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^isc-rel-[0-9]{3,}$",
+      "description": "Stable relationship identifier in the isc-rel-NNN namespace."
+    },
+    "source_id": {
+      "type": "string",
+      "pattern": "^dea:[a-z0-9-]+$",
+      "description": "Canonical entity identifier for the source. May be in this catalog (ISC) or another catalog (ISF, ISS, IF, DataEntity, Metric, etc.)."
+    },
+    "relationship": {
+      "type": "string",
+      "enum": [
+        "executes",
+        "provides",
+        "depends-on",
+        "hosts",
+        "consumes",
+        "produces",
+        "exposes",
+        "measured_by"
+      ],
+      "description": "The relationship kind. Anchored in a metamodel relationship (CR-017..021) or an OpenDEAM allocation declaration (CR-AR-FMWK-04). The `measured_by` kind is an OpenDEAM allocation declaration, NOT a metamodel relationship claim (per G-11)."
+    },
+    "target_id": {
+      "type": "string",
+      "pattern": "^dea:[a-z0-9-]+$",
+      "description": "Canonical entity identifier for the target. May be in this catalog (ISC) or another catalog (ISF, ISS, IF, DataEntity, Metric, etc.)."
+    },
+    "cardinality": {
+      "type": "string",
+      "enum": ["one", "many"],
+      "description": "The cardinality of the relationship from the source's perspective."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+(\\.\\d+)?$"
+    },
+    "effective_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "active", "deprecated", "retired"]
+    },
+    "cr": {
+      "type": "string",
+      "description": "The CR that introduced this relationship record."
+    },
+    "note": {
+      "type": "string"
+    }
+  }
+}
