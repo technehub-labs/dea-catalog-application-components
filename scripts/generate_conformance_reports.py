@@ -16,7 +16,7 @@ import json
 import os
 import pathlib
 
-REPO = pathlib.Path('/home/hermes/dea-work/dea-catalog-application-components')
+REPO = pathlib.Path(__file__).resolve().parent.parent
 REPORTS = REPO / 'reports'
 REPORTS.mkdir(exist_ok=True)
 
