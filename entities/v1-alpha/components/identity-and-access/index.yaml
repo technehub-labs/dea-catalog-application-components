@@ -1,0 +1,34 @@
+# Domain-level index :  identity-and-access
+# CR-IS-CAT-02B (2026-10-18). The domain-level index for the identity-and-access
+# domain. The 02C population exercise replaces the example components with
+# the P1 component inventory.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02B
+
+domain:
+  id: iscc:domain:identity-and-access
+  code: ISCC-07
+  name: Security
+
+components:
+  - id: dea:information-system-component-identity-broker
+    name: Identity Broker
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/dea-isc-identity-broker/
+
+  - id: dea:information-system-component-oidc-discovery
+    name: OIDC Discovery
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/dea-isc-oidc-discovery/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02B
+    note: "Initial domain-level index. 2 example components (F2 + F4). 02C populates the P1 component inventory."

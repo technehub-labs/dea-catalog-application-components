@@ -1,0 +1,147 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://technehub-labs.github.io/dea-catalog-information-system-components/schemas/entities/information-system-component.v2.json",
+  "title": "InformationSystemComponentV2",
+  "description": "JSON Schema for an Information System Component catalogue record (v2). CR-IS-CAT-02B (2026-10-18). Extends v1 with the F-level assignment, composition edges, orthogonal facets, and the 19-section README reference.",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "name",
+    "status",
+    "version",
+    "effective_date",
+    "f_level",
+    "component_domain",
+    "readme"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^dea:information-system-component-[a-z0-9-]+$",
+      "description": "Stable identifier for the component."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "InformationSystemComponent",
+        "ApplicationComponent",
+        "IntegrationComponent",
+        "AIComponent"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200
+    },
+    "status": {
+      "type": "string",
+      "enum": ["proposed", "active", "deprecated", "retired"]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+(\\.\\d+)?$"
+    },
+    "effective_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "f_level": {
+      "type": "string",
+      "enum": ["F0", "F1", "F2", "F3", "F4", "F5"]
+    },
+    "component_domain": {
+      "type": "string",
+      "pattern": "^iscc:domain:[a-z0-9-]+$"
+    },
+    "facets": {
+      "type": "object",
+      "properties": {
+        "component_kind": {
+          "type": "string",
+          "enum": ["apc", "igc", "aic", "security", "observability", "data", "workflow"]
+        },
+        "hosting_model": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["cloud", "on-premises", "hybrid", "edge", "serverless", "container", "virtual-machine"]
+          }
+        },
+        "execution_characteristics": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["long-running", "batch", "event-driven", "streaming", "real-time", "scheduled", "on-demand"]
+          }
+        },
+        "component_criticality": {
+          "type": "string",
+          "enum": ["mission-critical", "business-critical", "operationally-significant", "supporting", "convenience"]
+        },
+        "deployment_pattern": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["singleton", "replicated", "sharded", "serverless", "blue-green", "canary", "rolling"]
+          }
+        },
+        "security_posture": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["public-internet", "internal-network", "restricted-network", "isolated-network", "air-gapped", "encrypted-at-rest", "encrypted-in-transit"]
+          }
+        },
+        "automation_characteristics": {
+          "type": "string",
+          "enum": ["manual-deployment", "scripted-deployment", "ci-cd-automated", "gitops-automated", "ai-assisted-deployment", "agent-orchestrated"]
+        }
+      }
+    },
+    "parent": {
+      "type": "string",
+      "pattern": "^dea:information-system-component-[a-z0-9-]+$"
+    },
+    "composition": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["target", "kind", "cardinality", "version", "effective_date", "status"],
+        "properties": {
+          "target": {
+            "type": "string",
+            "pattern": "^dea:information-system-component-[a-z0-9-]+$"
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["contains", "depends-on", "hosts", "orchestrates"]
+          },
+          "cardinality": {
+            "type": "string",
+            "enum": ["one", "many", "optional", "required"]
+          },
+          "version": { "type": "string" },
+          "effective_date": { "type": "string", "format": "date" },
+          "status": {
+            "type": "string",
+            "enum": ["proposed", "active", "deprecated", "retired"]
+          }
+        }
+      }
+    },
+    "readme": {
+      "type": "string",
+      "description": "Relative path to the component's README file."
+    },
+    "supersedes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "additional_domain_rationale": {
+      "type": "object",
+      "description": "Per CR-IS-CAT-02A rule 2: when a component has additional component-domain associations, the rationale MUST be recorded."
+    }
+  }
+}
