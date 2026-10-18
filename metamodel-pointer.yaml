@@ -1,39 +1,74 @@
-# Metamodel Pointer — Application Component (+2 shared)
-# Auto-generated from OpenDEAM v0.2.1 (dea-architecture-framework, ADR-0002).
-# Do not edit manually — allocation changes go through the root model
+# Metamodel Pointer :  Information System Component
+# CR-IS-CAT-02 (2026-10-18). The catalog is the rename target of the legacy
+# dea-catalog-application-components (per CR-IS-CAT-02). The rename to
+# dea-catalog-information-system-components is performed by an org admin via
+# GitHub repository transfer; this pointer records the new canonical entity
+# and the migration path.
+#
+# Auto-generated from OpenDEAM v0.7.0 (dea-architecture-framework, CR-AR-FMWK-04).
+# Do not edit manually :  allocation changes go through the root model
 # (structural: ADR + minor bump; additive: PR + patch bump).
 metamodel:
-  version: v0.2.1
-  entity_id: dea:entity-application-component
-  class_alias: APC
+  version: v0.7.0
+  entity_id: dea:entity-information-system-component
+  class_alias: ISC
   layer: L5
   building_block: L5-systems
+  status: planned
+  abstract: true
   discriminator: component_type
-  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=APC"
-
-# Additional entities hosted in this repo (shared catalog_repo, ADR-0002 D6):
-entities:
-  - entity_id: dea:entity-infrastructure-component
-    class_alias: IFC
-    layer: L5
-    building_block: L5-infrastructure
-    discriminator: component_type
-  - entity_id: dea:entity-integration-component
-    class_alias: IGC
-    layer: L5
-    building_block: L5-integration
-    discriminator: component_type
+  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=ISC"
 
 catalog:
-  name: Application Component
-  repo: technehub-labs/dea-catalog-application-components
+  name: Information System Component
+  repo: technehub-labs/dea-catalog-information-system-components
+  legacy_repo: technehub-labs/dea-catalog-application-components
   status: planned
+  rename:
+    target: technehub-labs/dea-catalog-information-system-components
+    cr: CR-IS-CAT-02
+    status: pending-org-admin-transfer
+    note: "The GitHub repository rename is performed by an org admin. Until the rename is complete, the legacy repo URL (technehub-labs/dea-catalog-application-components) continues to resolve. The canonical reference in OpenDEAM model/opendeam-model.yaml is dea-catalog-information-system-components (v0.7.0)."
 
 description: |
-  A deployable unit of an application system. SubClass of SolutionComponent with component_type='application'.
+  An identifiable architectural constituent of an information system that
+  encapsulates a defined responsibility, structure or execution boundary.
+  CR-IS-CAT-02 (post-CR-AR-FMWK-04 merge 2026-10-16); introduced in
+  dea-metamodel CR-019 (D-2 disposition); specialises dea:SolutionComponent
+  (abstract in OpenDEAM v0.7.0; per ADR-0002 D3). The ISC is the abstract
+  parent; APC (Application Component) and IGC (Integration Component) are
+  concrete specializations that specialise ISC. IFC (Infrastructure Component)
+  stays under SolutionComponent per DRIFT-4 (broader than the IS concern).
+  OpenDEAM-local entity_id: dea:entity-information-system-component
+  Metamodel canonical id: dea:InformationSystemComponent.
+
+migration:
+  legacy_records:
+    - id: dea:entity-application-component
+      class_alias: APC
+      note: "Retained in OpenDEAM for EGV-004 identity continuity. The concrete APC records are migrated to specialise ISC (per CR-019). The component_type discriminator is retained."
+    - id: dea:entity-integration-component
+      class_alias: IGC
+      note: "Retained in OpenDEAM for EGV-004 identity continuity. The concrete IGC records are migrated to specialise ISC (per CR-019). The component_type discriminator is retained."
+    - id: dea:entity-infrastructure-component
+      class_alias: IFC
+      note: "Retained in OpenDEAM for EGV-004 identity continuity. IFC stays under SolutionComponent (per DRIFT-4). The catalog repo shared with APC and IGC is being split: the ISF catalog (this repo) covers APC + IGC (both IS-relevant); IFC moves to dea-catalog-infrastructure-components (a follow-on CR-IS-CAT-02-IFC)."
+  records_to_migrate:
+    - "All existing APC records in entities/v1-alpha/ are preserved as-is; their dea:entity-application-component reference is annotated with the specializes link to dea:InformationSystemComponent."
+    - "All existing IGC records in entities/v1-alpha/ are preserved as-is; their dea:entity-integration-component reference is annotated with the specializes link to dea:InformationSystemComponent."
+    - "All existing IFC records in entities/v1-alpha/ are preserved as-is; they are moved to dea-catalog-infrastructure-components in a follow-on CR."
+  disposition: "Conditional merge: existing APC/IGC records continue to be valid; new records are added as ISC-specialized APC or IGC. IFC records are migrated to dea-catalog-infrastructure-components."
+
+artifacts:
+  json_schema: schemas/entities/information-system-component.json
+  sqlite_table: information_system_components
+  pydantic_model: pydantic/information_system_component.py
+  ts_interface: typescript/src/interfaces.ts
+  note: "Artifact paths mirror the canonical metamodel source (dea-metamodel CR-022 closure 2026-10-16). The ISC schema is the abstract parent schema; the concrete APC and IGC schemas inherit from it."
 
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: "https://technehub-labs.github.io/metamodel/?entity=APC"
-  github: https://github.com/technehub-labs/dea-catalog-application-components
+  viewer: "https://technehub-labs.github.io/metamodel/?entity=ISC"
+  github_pending: https://github.com/technehub-labs/dea-catalog-information-system-components
+  github_legacy: https://github.com/technehub-labs/dea-catalog-application-components

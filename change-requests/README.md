@@ -1,0 +1,15 @@
+# Change Requests
+
+This directory tracks formal change requests (CRs) for `technehub-labs/dea-catalog-information-system-components` (legacy URL: `technehub-labs/dea-catalog-application-components` until org-admin transfer).
+
+## 5-CR programme (2026-10-18)
+
+The IS Semantic Architecture programme is delivered through the 5-CR programme for the ISC catalog. CR-IS-CAT-02 is the foundation (repo migration + identity + governance + CI). CR-IS-CAT-02A..02D are the four siblings (taxonomy, documentation, population, integration). G-01..G-12 governance rules from the 5-CR source doc section 7 apply to all CRs in this directory. The 5-CR programme template is the standing rule for the IS catalog cascade (per the user ratification on 2026-10-18).
+
+Source programme doc (for the ISF catalog; the ISC catalog follows the same template): `~/.hermes/profiles/coder/cache/cr-is-cat-01-programme/CR-IS-CAT-01-Programme.md`
+Reconciliation plan: `~/.hermes/profiles/coder/kanban/cr-is-cat-01-programme-plan-2026-10-18.md`
+Snapshot: `~/.hermes/profiles/coder/kanban/dea-metamodel-is-snapshot-2026-10-18.md`
+
+| CR | Title | Status | Notes |
+|---|---|---|---|
+| [CR-IS-CAT-02](CR-IS-CAT-02-information-system-components-rename.md) | Information System Components catalog rename and extension | Proposed (this PR) | Sibling 2 of 4 in the IS catalog cascade. Records the GitHub repository rename (dea-catalog-application-components -> dea-catalog-information-system-components) in the canonical metamodel pointer, the README, the OpenDEAM identifier map, and the artifacts. Pinned to OpenDEAM v0.7.0 (post-CR-AR-FMWK-04). The GitHub repository transfer is performed by an org admin; this CR records the rename as `pending-org-admin-transfer`. The legacy APC (Application Component) and IGC (Integration Component) identities are preserved under the legacy identity (EGV-004); they specialise ISC (per CR-019). The IFC (Infrastructure Component) identity stays under dea:SolutionComponent per DRIFT-4; the IFC records are migrated to dea-catalog-infrastructure-components in a follow-on CR-IS-CAT-02-IFC. The 5-CR programme template is applied: 02A (taxonomy), 02B (documentation), 02C (population), 02D (integration) are follow-on CRs. Consumed: dea-metamodel CR-019 (ISC introduction); CR-022 (artifact closure). dea-architecture-framework CR-AR-FMWK-04 (OpenDEAM extension; v0.6.0 -> v0.7.0). Cardinal rule compliance: Author: Emmanuel A. Otchere. D-004 / D-005 / embargo clean. |

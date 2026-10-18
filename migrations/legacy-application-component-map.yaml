@@ -1,0 +1,69 @@
+# Migration map :  legacy Application Component identities
+# CR-IS-CAT-02 (2026-10-18). The machine-readable migration map from the
+# legacy catalog identities to the canonical identities.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02
+parent_cr: CR-IS-CAT-01
+
+mapping:
+  # Metamodel entities (canonical namespace)
+  - legacy: dea:ApplicationComponent
+    canonical: dea:InformationSystemComponent
+    note: "dea:ApplicationComponent specialises dea:InformationSystemComponent (CR-019); the canonical parent is ISC."
+    relationship: specializes
+
+  - legacy: dea:IntegrationComponent
+    canonical: dea:InformationSystemComponent
+    note: "dea:IntegrationComponent specialises dea:InformationSystemComponent (CR-019); the canonical parent is ISC."
+    relationship: specializes
+
+  - legacy: dea:InfrastructureComponent
+    canonical: dea:InfrastructureComponent
+    note: "dea:InfrastructureComponent stays under dea:SolutionComponent per DRIFT-4 (broader than the IS concern); the IFC records are migrated to a separate catalog (dea-catalog-infrastructure-components) in a follow-on CR-IS-CAT-02-IFC."
+    relationship: stays_at_legacy_parent
+
+  # OpenDEAM-local entities
+  - legacy: dea:entity-application-component
+    canonical: dea:entity-information-system-component
+    note: "OpenDEAM-local alias."
+    relationship: specializes
+
+  - legacy: dea:entity-integration-component
+    canonical: dea:entity-information-system-component
+    note: "OpenDEAM-local alias."
+    relationship: specializes
+
+  - legacy: dea:entity-infrastructure-component
+    canonical: dea:entity-infrastructure-component
+    note: "OpenDEAM-local alias; stays at legacy parent (dea:entity-solution-component)."
+    relationship: stays_at_legacy_parent
+
+  # Class aliases
+  - legacy: APC
+    canonical: ISC
+    note: "APC is the legacy class alias for the application component; ISC is the canonical abstract kind."
+    relationship: specializes
+
+  - legacy: IGC
+    canonical: ISC
+    note: "IGC is the legacy class alias for the integration component; ISC is the canonical abstract kind."
+    relationship: specializes
+
+  - legacy: IFC
+    canonical: IFC
+    note: "IFC is retained as-is; the IFC records are migrated to a separate catalog in a follow-on CR."
+    relationship: stays_at_legacy_parent
+
+  # Repository
+  - legacy: technehub-labs/dea-catalog-application-components
+    canonical: technehub-labs/dea-catalog-information-system-components
+    note: "The GitHub repository rename is performed by an org admin. Until the rename is complete, the legacy URL continues to resolve."
+    relationship: repository_rename
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02
+    note: "Initial migration map. The APC and IGC records are migrated to specialise ISC. The IFC records are migrated to a separate catalog in a follow-on CR-IS-CAT-02-IFC."
