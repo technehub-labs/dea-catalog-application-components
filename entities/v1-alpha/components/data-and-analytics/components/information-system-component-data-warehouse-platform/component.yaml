@@ -1,0 +1,46 @@
+id: dea:information-system-component-data-warehouse-platform
+type: ApplicationComponent
+name: Data Warehouse Platform
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F2
+
+component_domain: iscc:domain:data-and-analytics
+
+facets:
+  component_kind: apc
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - long-running
+  component_criticality: business-critical
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-at-rest
+    - encrypted-in-transit
+  automation_characteristics: gitops-automated
+
+composition:
+  - target: dea:information-system-component-data-warehouse-loader
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-data-warehouse-query
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-data-warehouse-catalog
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+
+readme: ./README.md

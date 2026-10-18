@@ -1,0 +1,38 @@
+# Domain-level index :  core-operations
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# Core Operations domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:core-operations
+  code: ISCC-04
+  name: Core Operations
+
+components:
+  - id: dea:information-system-component-order-management-system
+    name: Order Management System
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-order-management-system/
+  - id: dea:information-system-component-order-management-orchestrator
+    name: Order Management Orchestrator
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-order-management-orchestrator/
+  - id: dea:information-system-component-order-fulfillment-worker
+    name: Order Fulfillment Worker
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-order-fulfillment-worker/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C
+    note: "Initial domain-level index for the P1 population."

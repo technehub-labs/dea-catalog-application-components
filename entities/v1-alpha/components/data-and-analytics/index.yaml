@@ -1,0 +1,44 @@
+# Domain-level index :  data-and-analytics
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# Data and Analytics domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:data-and-analytics
+  code: ISCC-05
+  name: Data and Analytics
+
+components:
+  - id: dea:information-system-component-data-warehouse-platform
+    name: Data Warehouse Platform
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-data-warehouse-platform/
+  - id: dea:information-system-component-data-warehouse-loader
+    name: Data Warehouse Loader
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-data-warehouse-loader/
+  - id: dea:information-system-component-data-warehouse-query
+    name: Data Warehouse Query
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-data-warehouse-query/
+  - id: dea:information-system-component-data-warehouse-catalog
+    name: Data Warehouse Catalog
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-data-warehouse-catalog/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C
+    note: "Initial domain-level index for the P1 population."

@@ -1,0 +1,41 @@
+id: dea:information-system-component-order-management-system
+type: ApplicationComponent
+name: Order Management System
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - long-running
+  component_criticality: mission-critical
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-at-rest
+    - encrypted-in-transit
+    - internal-network
+  automation_characteristics: gitops-automated
+
+composition:
+  - target: dea:information-system-component-order-management-orchestrator
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-order-fulfillment-worker
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+
+readme: ./README.md

@@ -21,7 +21,7 @@ F4 (Sub-Component)
 
 # 7. Orthogonal classification facets
 - Component kind: igc
-- Hosting model: cloud, on-premises
+- Hosting model: cloud
 - Execution characteristics: on-demand
 - Component criticality: business-critical
 - Deployment pattern: replicated
@@ -60,10 +60,10 @@ The OIDC Discovery is compliant with the OIDC Discovery 1.0 specification. The m
 Identity Platform team (DEA-Identity@example.com)
 
 # 18. Change history
-- 1.0: 2026-10-18: Initial F4 example record (CR-IS-CAT-02B). The 02C population exercise may supersede this with the P1 component inventory.
+- 1.0: 2026-10-18: Initial P1 record (CR-IS-CAT-02C).
 
 # 19. References
-- `change-requests/CR-IS-CAT-02B-documentation.md` (the CR doc that establishes this standard)
-- `docs/decomposition-guide.md` (the F0-F5 model)
-- `../dea-isc-identity-broker/component.yaml` (the parent F2)
-- `../dea-isc-identity-broker/README.md` (the parent F2 README)
+- `change-requests/CR-IS-CAT-02C-population.md` (the CR doc)
+- `docs/coverage-reports/p1-coverage-report.md` (the P1 coverage report)
+- `../information-system-component-identity-broker/component.yaml` (the parent F2)
+- `../information-system-component-identity-broker/README.md` (the parent F2 README)

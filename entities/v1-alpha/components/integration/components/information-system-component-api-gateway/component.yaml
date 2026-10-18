@@ -1,0 +1,47 @@
+id: dea:information-system-component-api-gateway
+type: IntegrationComponent
+name: API Gateway
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F2
+
+component_domain: iscc:domain:integration
+
+facets:
+  component_kind: igc
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - long-running
+  component_criticality: mission-critical
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-at-rest
+    - encrypted-in-transit
+    - internal-network
+  automation_characteristics: gitops-automated
+
+composition:
+  - target: dea:information-system-component-api-gateway-router
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-api-gateway-rate-limiter
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-api-gateway-authenticator
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+
+readme: ./README.md

@@ -1,0 +1,44 @@
+# Domain-level index :  integration
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# Integration domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:integration
+  code: ISCC-06
+  name: Integration
+
+components:
+  - id: dea:information-system-component-api-gateway
+    name: API Gateway
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-api-gateway/
+  - id: dea:information-system-component-api-gateway-router
+    name: API Gateway Router
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-api-gateway-router/
+  - id: dea:information-system-component-api-gateway-rate-limiter
+    name: API Gateway Rate Limiter
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-api-gateway-rate-limiter/
+  - id: dea:information-system-component-api-gateway-authenticator
+    name: API Gateway Authenticator
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-api-gateway-authenticator/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C
+    note: "Initial domain-level index for the P1 population."

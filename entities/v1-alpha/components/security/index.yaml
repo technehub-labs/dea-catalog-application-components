@@ -1,0 +1,44 @@
+# Domain-level index :  security
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# Security domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:security
+  code: ISCC-07
+  name: Security
+
+components:
+  - id: dea:information-system-component-identity-broker
+    name: Identity Broker
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-identity-broker/
+  - id: dea:information-system-component-oidc-discovery
+    name: OIDC Discovery
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-oidc-discovery/
+  - id: dea:information-system-component-identity-broker-token-issuer
+    name: Identity Broker Token Issuer
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-identity-broker-token-issuer/
+  - id: dea:information-system-component-identity-broker-session-store
+    name: Identity Broker Session Store
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-identity-broker-session-store/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C
+    note: "Initial domain-level index for the P1 population."
