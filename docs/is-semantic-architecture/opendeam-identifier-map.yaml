@@ -1,0 +1,43 @@
+# dea-catalog-information-system-components :  OpenDEAM Identifier Map
+# CR-IS-CAT-02 closure artefact. Local copy of the OpenDEAM-to-metamodel
+# identifier map for the IS sub-tree. The canonical map is in
+# dea-architecture-framework/docs/is-semantic-architecture/opendeam-identifier-map.yaml.
+
+profile:
+  id: dea:is-semantic-architecture
+  cr: CR-IS-CAT-02
+  effective: 2026-10-18
+  catalog: dea-catalog-information-system-components
+  catalog_status: rename-pending-org-admin-transfer
+  legacy_catalog: dea-catalog-application-components
+
+covered_entities:
+  - id: dea:InformationSystemComponent
+    legacy_id: dea:entity-application-component
+    class_alias: ISC
+    legacy_class_alias: APC
+    cr: CR-019
+    disposition: D-2
+    note: "The ISC abstract kind; APC specialises ISC (CR-019). Existing APC records are preserved under the legacy identity."
+
+  - id: dea:InformationSystemComponent
+    legacy_id: dea:entity-integration-component
+    class_alias: ISC
+    legacy_class_alias: IGC
+    cr: CR-019
+    disposition: D-2
+    note: "The ISC abstract kind; IGC specialises ISC (CR-019). Existing IGC records are preserved under the legacy identity."
+
+  - id: dea:InformationSystemComponent
+    legacy_id: dea:entity-infrastructure-component
+    class_alias: ISC
+    legacy_class_alias: IFC
+    cr: CR-019
+    disposition: D-2
+    note: "IFC is NOT specialised under ISC; IFC stays under dea:SolutionComponent per DRIFT-4 (broader than the IS concern). The IFC records are migrated to a separate catalog (dea-catalog-infrastructure-components) in a follow-on CR-IS-CAT-02-IFC."
+
+related_documents:
+  - "technehub-labs/dea-metamodel/change-requests/CR-019-information-system-component.md (introduces the canonical entity)"
+  - "technehub-labs/dea-metamodel/change-requests/CR-022-metamodel-artifact-and-conformance-closure.md (artifact closure)"
+  - "technehub-labs/dea-architecture-framework/change-requests/CR-AR-FMWK-04-information-system-entity-allocation.md (OpenDEAM extension; v0.6.0 -> v0.7.0)"
+  - "technehub-labs/dea-architecture-framework/docs/is-semantic-architecture/opendeam-identifier-map.yaml (canonical map)"
