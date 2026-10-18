@@ -66,3 +66,5 @@ Enterprise Architecture team (DEA-Architecture@example.com)
 - `taxonomy/` (the classification layer)
 - `schemas/entities/information-system-component.v2.json` (the v2 schema)
 
+# 9. Composition edges
+- (none; the parent is recorded in the `parent` field)

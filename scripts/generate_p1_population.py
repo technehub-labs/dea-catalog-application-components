@@ -257,6 +257,8 @@ def render_readme(comp, kind, parent_id=None, f_level=None):
             f"- `dea:information-system-component-{sc['id']}`: contains (required)"
             for sc in comp['subcomponents']
         )
+    else:
+        composition_lines = "\n# 9. Composition edges\n- (none; the parent is recorded in the `parent` field)"
     return f"""# {comp['name']}
 
 # 1. Component name and identifier
