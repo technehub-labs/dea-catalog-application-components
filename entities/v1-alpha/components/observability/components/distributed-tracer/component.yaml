@@ -1,0 +1,27 @@
+id: dea:information-system-component-distributed-tracer
+type: IntegrationComponent
+name: Distributed Tracer
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F4
+
+component_domain: iscc:domain:observability
+
+facets:
+  component_kind: igc
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - on-demand
+  component_criticality: business-critical
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-in-transit
+  automation_characteristics: gitops-automated
+
+parent: dea:information-system-component-observability-platform
+
+readme: ./README.md

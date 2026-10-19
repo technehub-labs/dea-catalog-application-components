@@ -1,0 +1,44 @@
+# Domain-level index :  partner-integration
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# Partner Integration domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:partner-integration
+  code: ISCC-03
+  name: Partner Integration
+
+components:
+  - id: dea:information-system-component-partner-portal-platform
+    name: Partner Portal Platform
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-partner-portal-platform/
+  - id: dea:information-system-component-partner-portal-onboarding
+    name: Partner Portal Onboarding
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-partner-portal-onboarding/
+  - id: dea:information-system-component-partner-portal-data-exchange
+    name: Partner Portal Data Exchange
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-partner-portal-data-exchange/
+  - id: dea:information-system-component-partner-portal-settlement
+    name: Partner Portal Settlement
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-partner-portal-settlement/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C-P2
+    note: "Initial P2 domain-level index. 3 components (1 F2 + 2-3 F4) per domain."

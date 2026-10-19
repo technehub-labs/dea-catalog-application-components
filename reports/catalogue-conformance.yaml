@@ -2,16 +2,16 @@ version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
 catalog: dea-catalog-information-system-components
-total_records: 19
+total_records: 30
 conformance_summary:
-  structural_pass: 19
+  structural_pass: 30
   structural_fail: 0
-  semantic_pass: 19
+  semantic_pass: 30
   semantic_fail: 0
-  cross_catalogue_pass: 9
-  cross_catalogue_fail: 10
-  governance_pass: 6
-  governance_fail: 13
+  cross_catalogue_pass: 13
+  cross_catalogue_fail: 17
+  governance_pass: 9
+  governance_fail: 21
 records:
 - id: dea:information-system-component-api-gateway
   name: API Gateway
@@ -109,6 +109,38 @@ records:
   semantic: pass
   cross_catalogue: partial
   governance: fail
+- id: dea:information-system-component-distributed-tracer
+  name: Distributed Tracer
+  f_level: F4
+  component_domain: iscc:domain:observability
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-employee-portal-bff
+  name: Employee Portal Backend-for-Frontend
+  f_level: F4
+  component_domain: iscc:domain:employee-experience
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-employee-portal-frontend
+  name: Employee Portal Frontend
+  f_level: F4
+  component_domain: iscc:domain:employee-experience
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-employee-portal-platform
+  name: Employee Portal Platform
+  f_level: F2
+  component_domain: iscc:domain:employee-experience
+  structural: pass
+  semantic: pass
+  cross_catalogue: pass
+  governance: pass
 - id: dea:information-system-component-identity-broker
   name: Identity Broker
   f_level: F2
@@ -133,6 +165,30 @@ records:
   semantic: pass
   cross_catalogue: partial
   governance: fail
+- id: dea:information-system-component-log-aggregator
+  name: Log Aggregator
+  f_level: F4
+  component_domain: iscc:domain:observability
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-metrics-collector
+  name: Metrics Collector
+  f_level: F4
+  component_domain: iscc:domain:observability
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-observability-platform
+  name: Observability Platform
+  f_level: F2
+  component_domain: iscc:domain:observability
+  structural: pass
+  semantic: pass
+  cross_catalogue: pass
+  governance: pass
 - id: dea:information-system-component-oidc-discovery
   name: OIDC Discovery
   f_level: F4
@@ -165,3 +221,35 @@ records:
   semantic: pass
   cross_catalogue: pass
   governance: pass
+- id: dea:information-system-component-partner-portal-data-exchange
+  name: Partner Portal Data Exchange
+  f_level: F4
+  component_domain: iscc:domain:partner-integration
+  structural: pass
+  semantic: pass
+  cross_catalogue: pass
+  governance: fail
+- id: dea:information-system-component-partner-portal-onboarding
+  name: Partner Portal Onboarding
+  f_level: F4
+  component_domain: iscc:domain:partner-integration
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-partner-portal-platform
+  name: Partner Portal Platform
+  f_level: F2
+  component_domain: iscc:domain:partner-integration
+  structural: pass
+  semantic: pass
+  cross_catalogue: pass
+  governance: pass
+- id: dea:information-system-component-partner-portal-settlement
+  name: Partner Portal Settlement
+  f_level: F4
+  component_domain: iscc:domain:partner-integration
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail

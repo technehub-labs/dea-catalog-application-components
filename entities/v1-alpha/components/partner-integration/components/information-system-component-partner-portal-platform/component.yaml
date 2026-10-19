@@ -1,0 +1,46 @@
+id: dea:information-system-component-partner-portal-platform
+type: ApplicationComponent
+name: Partner Portal Platform
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F2
+
+component_domain: iscc:domain:partner-integration
+
+facets:
+  component_kind: apc
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - long-running
+  component_criticality: business-critical
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-at-rest
+    - encrypted-in-transit
+  automation_characteristics: gitops-automated
+
+composition:
+  - target: dea:information-system-component-partner-portal-onboarding
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-partner-portal-data-exchange
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-partner-portal-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+
+readme: ./README.md
