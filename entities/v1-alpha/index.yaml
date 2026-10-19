@@ -67,14 +67,40 @@ domains:
     status: active
     component_count: 4
 
+  - id: iscc:domain:development-platform
+    code: ISCC-09
+    name: Development Platform
+    path: components/development-platform/
+    status: active
+    component_count: 4
+  - id: iscc:domain:ai-native
+    code: ISCC-10
+    name: AI Native
+    path: components/ai-native/
+    status: active
+    component_count: 4
+
+  - id: iscc:domain:development-platform
+    code: ISCC-09
+    name: Development Platform
+    path: components/development-platform/
+    status: active
+    component_count: 4
+  - id: iscc:domain:ai-native
+    code: ISCC-10
+    name: AI Native
+    path: components/ai-native/
+    status: active
+    component_count: 4
+
 # Catalog-level counts
-total_components: 30
+total_components: 38
 f_level_distribution:
   F0: 0
   F1: 0
-  F2: 8
+  F2: 10
   F3: 0
-  F4: 22
+  F4: 28
   F5: 0
 
 # Change history
@@ -87,3 +113,11 @@ change_history:
     date: 2026-10-18
     cr: CR-IS-CAT-02C-P2
     note: "P2 follow-on population. 3 component domains added (ISCC-02, ISCC-03, ISCC-08); 11 new component records (3 F2 + 8 F4). Total catalog: 30 records (8 F2 + 22 F4) across 8 of 10 domains."
+  - version: "1.2"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C-P3
+    note: "P3 follow-on population. 2 component domains added (ISCC-09, ISCC-10); 8 new component records (2 F2 + 6 F4). Total catalog: 38 records (10 F2 + 28 F4) across 10 of 10 ISCC domains. The ISC catalogue domain coverage is COMPLETE."
+  - version: "1.2"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C-P3
+    note: "P3 follow-on population. 2 component domains added (ISCC-09, ISCC-10); 8 new component records (2 F2 + 6 F4). Total catalog: 38 records (10 F2 + 28 F4) across 10 of 10 ISCC domains. The ISC catalogue domain coverage is COMPLETE."

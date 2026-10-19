@@ -281,8 +281,66 @@ relationships:
     cr: CR-IS-CAT-02C-P2
     note: "The Observability Platform is measured by the data freshness metric. This is an OpenDEAM v0.7.0 allocation declaration; the metric definition remains owned by the Metric catalogue (per G-11)."
 
+
+  # P3 follow-on population (CR-IS-CAT-02C-P3)
+
+  - id: isc-rel-201
+    source_id: dea:information-system-component-development-platform
+    relationship: depends-on
+    target_id: dea:information-system-component-data-warehouse-platform
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P3
+    note: "The Development Platform depends on the Data Warehouse Platform for build telemetry storage."
+
+  - id: isc-rel-202
+    source_id: dea:information-system-component-ai-inference-platform
+    relationship: depends-on
+    target_id: dea:information-system-component-observability-platform
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P3
+    note: "The AI Inference Platform depends on the Observability Platform for inference telemetry."
+
+  - id: isc-rel-203
+    source_id: dea:information-system-component-agent-orchestrator
+    relationship: exposes
+    target_id: dea:integration-interface-agent-orchestrator-internal
+    cardinality: one
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P3
+    note: "The Agent Orchestrator exposes the internal agentic execution integration interface."
+
+  - id: isc-rel-204
+    source_id: dea:information-system-component-ai-inference-platform
+    relationship: measured_by
+    target_id: dea:metric-inference-latency-p99
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P3
+    note: "The AI Inference Platform is measured by the inference latency metric. This is an OpenDEAM v0.7.0 allocation declaration; the metric definition remains owned by the Metric catalogue (per G-11)."
+
+  - id: isc-rel-205
+    source_id: dea:information-system-component-ai-inference-platform
+    relationship: consumes
+    target_id: dea:data-entity-model-artifacts
+    cardinality: many
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+    cr: CR-IS-CAT-02C-P3
+    note: "The AI Inference Platform consumes the model artifacts data entity."
+
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02D
-    note: "Cross-catalogue relationship registry after P2 follow-on. 22 relationship records across 8 integration domains. The P1 population (from 02C) provides the source records; the relationship kinds are anchored in the metamodel (CR-017..021) or OpenDEAM (CR-AR-FMWK-04). The measured_by kind is an OpenDEAM allocation declaration, NOT a metamodel relationship claim (per G-11). The 02C P2/P3 follow-on populations will further extend the registry."
+    note: "Cross-catalogue relationship registry after P3 follow-on. 27 relationship records across 8 integration domains. The P1 population (from 02C) provides the source records; the relationship kinds are anchored in the metamodel (CR-017..021) or OpenDEAM (CR-AR-FMWK-04). The measured_by kind is an OpenDEAM allocation declaration, NOT a metamodel relationship claim (per G-11). The 02C P2/P3 follow-on populations will further extend the registry."

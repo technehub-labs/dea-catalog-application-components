@@ -1,0 +1,46 @@
+id: dea:information-system-component-development-platform
+type: ApplicationComponent
+name: Development Platform
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F2
+
+component_domain: iscc:domain:development-platform
+
+facets:
+  component_kind: apc
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - long-running
+  component_criticality: supporting
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-at-rest
+    - encrypted-in-transit
+  automation_characteristics: gitops-automated
+
+composition:
+  - target: dea:information-system-component-ci-cd-pipeline
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-artifact-repository
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-build-service
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+
+readme: ./README.md

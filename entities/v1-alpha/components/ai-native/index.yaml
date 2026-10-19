@@ -1,0 +1,44 @@
+# Domain-level index :  ai-native
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# AI Native domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:ai-native
+  code: ISCC-10
+  name: AI Native
+
+components:
+  - id: dea:information-system-component-ai-inference-platform
+    name: AI Inference Platform
+    f_level: F2
+    type: AIComponent
+    status: active
+    path: components/information-system-component-ai-inference-platform/
+  - id: dea:information-system-component-model-serving-runtime
+    name: Model Serving Runtime
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-model-serving-runtime/
+  - id: dea:information-system-component-model-registry
+    name: Model Registry
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-model-registry/
+  - id: dea:information-system-component-agent-orchestrator
+    name: Agent Orchestrator
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-agent-orchestrator/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C-P3
+    note: "Initial P3 domain-level index. 1 F2 + 3 F4 per domain."

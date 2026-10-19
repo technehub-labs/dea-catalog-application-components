@@ -2,8 +2,8 @@ version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
 total_domains: 10
-domains_covered: 8
-domains_uncovered: 2
+domains_covered: 10
+domains_uncovered: 0
 by_domain:
   iscc:domain:customer-experience:
     code: ISCC-01
@@ -48,13 +48,11 @@ by_domain:
   iscc:domain:development-platform:
     code: ISCC-09
     name: Development Platform
-    component_count: 0
-    status: uncovered
+    component_count: 4
+    status: covered
   iscc:domain:ai-native:
     code: ISCC-10
     name: AI Native
-    component_count: 0
-    status: uncovered
-uncovered_domains:
-- iscc:domain:development-platform
-- iscc:domain:ai-native
+    component_count: 4
+    status: covered
+uncovered_domains: []

@@ -2,17 +2,33 @@ version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
 catalog: dea-catalog-information-system-components
-total_records: 30
+total_records: 38
 conformance_summary:
-  structural_pass: 30
+  structural_pass: 38
   structural_fail: 0
-  semantic_pass: 30
+  semantic_pass: 38
   semantic_fail: 0
-  cross_catalogue_pass: 13
-  cross_catalogue_fail: 17
-  governance_pass: 9
-  governance_fail: 21
+  cross_catalogue_pass: 16
+  cross_catalogue_fail: 22
+  governance_pass: 11
+  governance_fail: 27
 records:
+- id: dea:information-system-component-agent-orchestrator
+  name: Agent Orchestrator
+  f_level: F4
+  component_domain: iscc:domain:ai-native
+  structural: pass
+  semantic: pass
+  cross_catalogue: pass
+  governance: fail
+- id: dea:information-system-component-ai-inference-platform
+  name: AI Inference Platform
+  f_level: F2
+  component_domain: iscc:domain:ai-native
+  structural: pass
+  semantic: pass
+  cross_catalogue: pass
+  governance: pass
 - id: dea:information-system-component-api-gateway
   name: API Gateway
   f_level: F2
@@ -44,6 +60,30 @@ records:
   structural: pass
   semantic: pass
   cross_catalogue: pass
+  governance: fail
+- id: dea:information-system-component-artifact-repository
+  name: Artifact Repository
+  f_level: F4
+  component_domain: iscc:domain:development-platform
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-build-service
+  name: Build Service
+  f_level: F4
+  component_domain: iscc:domain:development-platform
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-ci-cd-pipeline
+  name: CI/CD Pipeline
+  f_level: F4
+  component_domain: iscc:domain:development-platform
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
   governance: fail
 - id: dea:information-system-component-customer-facing-web-application-platform
   name: Customer-Facing Web Application Platform
@@ -109,6 +149,14 @@ records:
   semantic: pass
   cross_catalogue: partial
   governance: fail
+- id: dea:information-system-component-development-platform
+  name: Development Platform
+  f_level: F2
+  component_domain: iscc:domain:development-platform
+  structural: pass
+  semantic: pass
+  cross_catalogue: pass
+  governance: pass
 - id: dea:information-system-component-distributed-tracer
   name: Distributed Tracer
   f_level: F4
@@ -177,6 +225,22 @@ records:
   name: Metrics Collector
   f_level: F4
   component_domain: iscc:domain:observability
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-model-registry
+  name: Model Registry
+  f_level: F4
+  component_domain: iscc:domain:ai-native
+  structural: pass
+  semantic: pass
+  cross_catalogue: partial
+  governance: fail
+- id: dea:information-system-component-model-serving-runtime
+  name: Model Serving Runtime
+  f_level: F4
+  component_domain: iscc:domain:ai-native
   structural: pass
   semantic: pass
   cross_catalogue: partial

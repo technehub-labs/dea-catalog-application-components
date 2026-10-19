@@ -1,0 +1,27 @@
+id: dea:information-system-component-model-serving-runtime
+type: AIComponent
+name: Model Serving Runtime
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F4
+
+component_domain: iscc:domain:ai-native
+
+facets:
+  component_kind: aic
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - on-demand
+  component_criticality: business-critical
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-in-transit
+  automation_characteristics: agent-orchestrated
+
+parent: dea:information-system-component-ai-inference-platform
+
+readme: ./README.md
