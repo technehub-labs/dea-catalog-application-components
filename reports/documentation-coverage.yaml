@@ -1,12 +1,20 @@
 version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
-total_records: 30
-records_with_readme: 30
+total_records: 38
+records_with_readme: 38
 records_without_readme: 0
-records_with_change_history: 30
-records_with_parent_or_children: 30
+records_with_change_history: 38
+records_with_parent_or_children: 38
 records:
+- id: dea:information-system-component-agent-orchestrator
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-ai-inference-platform
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-api-gateway
   has_readme: true
   has_change_history: true
@@ -20,6 +28,18 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-api-gateway-router
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-artifact-repository
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-build-service
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-ci-cd-pipeline
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -52,6 +72,10 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-data-warehouse-query
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-development-platform
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -88,6 +112,14 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-metrics-collector
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-model-registry
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-model-serving-runtime
   has_readme: true
   has_change_history: true
   has_parent_or_children: true

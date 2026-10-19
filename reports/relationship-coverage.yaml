@@ -1,14 +1,14 @@
 version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
-total_relationships: 22
+total_relationships: 27
 by_kind:
   executes: 5
   provides: 1
-  exposes: 3
-  depends-on: 6
-  measured_by: 2
-  consumes: 2
+  exposes: 4
+  depends-on: 8
+  measured_by: 3
+  consumes: 3
   produces: 1
   hosts: 2
 records:
@@ -121,4 +121,29 @@ records:
   kind: measured_by
   source: information-system-component-observability-platform
   target: metric-observability-data-freshness
+  status: active
+- id: isc-rel-201
+  kind: depends-on
+  source: information-system-component-development-platform
+  target: information-system-component-data-warehouse-platform
+  status: active
+- id: isc-rel-202
+  kind: depends-on
+  source: information-system-component-ai-inference-platform
+  target: information-system-component-observability-platform
+  status: active
+- id: isc-rel-203
+  kind: exposes
+  source: information-system-component-agent-orchestrator
+  target: integration-interface-agent-orchestrator-internal
+  status: active
+- id: isc-rel-204
+  kind: measured_by
+  source: information-system-component-ai-inference-platform
+  target: metric-inference-latency-p99
+  status: active
+- id: isc-rel-205
+  kind: consumes
+  source: information-system-component-ai-inference-platform
+  target: data-entity-model-artifacts
   status: active

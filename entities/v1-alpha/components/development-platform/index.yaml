@@ -1,0 +1,44 @@
+# Domain-level index :  development-platform
+# CR-IS-CAT-02C (2026-10-18). The domain-level index for the
+# Development Platform domain.
+
+version: 1
+effective: 2026-10-18
+cr: CR-IS-CAT-02C
+
+domain:
+  id: iscc:domain:development-platform
+  code: ISCC-09
+  name: Development Platform
+
+components:
+  - id: dea:information-system-component-development-platform
+    name: Development Platform
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-development-platform/
+  - id: dea:information-system-component-ci-cd-pipeline
+    name: CI/CD Pipeline
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-ci-cd-pipeline/
+  - id: dea:information-system-component-artifact-repository
+    name: Artifact Repository
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-artifact-repository/
+  - id: dea:information-system-component-build-service
+    name: Build Service
+    f_level: F4
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-build-service/
+
+change_history:
+  - version: "1.0"
+    date: 2026-10-18
+    cr: CR-IS-CAT-02C-P3
+    note: "Initial P3 domain-level index. 1 F2 + 3 F4 per domain."

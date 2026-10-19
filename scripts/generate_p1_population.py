@@ -167,7 +167,7 @@ def write_file(path, content):
 def render_component_yaml(comp):
     """Render a component.yaml for a given component dict."""
     facets = {
-        'component_kind': 'igc' if comp['type'] == 'IntegrationComponent' else 'apc',
+        'component_kind': {'ApplicationComponent': 'apc', 'IntegrationComponent': 'igc', 'AIComponent': 'aic'}.get(comp.get('type'), 'apc'),
         'hosting_model': ['cloud'],
         'execution_characteristics': ['long-running'],
         'component_criticality': comp.get('criticality', 'business-critical'),
@@ -209,7 +209,7 @@ def render_subcomponent_yaml(f2_id, f4):
     """Render a sub-component (F4) component.yaml."""
     sub_id = f"dea:information-system-component-{f4['id']}"
     return f"""id: {sub_id}
-type: IntegrationComponent
+type: {f4.get('type', 'IntegrationComponent')}
 name: {f4['name']}
 status: active
 version: "1.0"
@@ -220,7 +220,7 @@ f_level: F4
 component_domain: {f4.get('domain', '')}
 
 facets:
-  component_kind: igc
+  component_kind: {f4.get('component_kind', 'igc')}
   hosting_model:
     - cloud
   execution_characteristics:
@@ -230,7 +230,7 @@ facets:
     - replicated
   security_posture:
     - encrypted-in-transit
-  automation_characteristics: gitops-automated
+  automation_characteristics: {f4.get('automation', 'gitops-automated')}
 
 parent: {f2_id}
 
@@ -281,13 +281,13 @@ This is a P1 component populated by the 02C population exercise (per the 5-CR pr
 `{comp.get('domain', '')}`
 
 # 7. Orthogonal classification facets
-- Component kind: {('igc' if comp.get('type') == 'IntegrationComponent' else 'apc')}
+- Component kind: {comp.get('component_kind', {'ApplicationComponent': 'apc', 'IntegrationComponent': 'igc', 'AIComponent': 'aic'}.get(comp.get('type'), 'apc'))}
 - Hosting model: cloud
 - Execution characteristics: {('on-demand' if f_level == 'F4' else 'long-running')}
 - Component criticality: {comp.get('criticality', 'business-critical')}
 - Deployment pattern: replicated
 - Security posture: encrypted-at-rest, encrypted-in-transit
-- Automation characteristics: gitops-automated
+- Automation characteristics: {comp.get('automation', 'gitops-automated')}
 
 # 8. Composition (parent, children)
 {parent_line}
@@ -334,7 +334,7 @@ def render_subcomponent_readme(f2, f4):
     """Render a 19-section README for a sub-component (F4)."""
     sub_id = f"dea:information-system-component-{f4['id']}"
     return render_readme(
-        {'id': sub_id, 'name': f4['name'], 'description': f"A sub-component (F4) of the {f2['name']}. {f4.get('kind', '')}.", 'type': 'IntegrationComponent', 'criticality': 'business-critical', 'domain': f4.get('domain', '')},
+        {'id': sub_id, 'name': f4['name'], 'description': f"A sub-component (F4) of the {f2['name']}. {f4.get('kind', '')}.", 'type': f4.get('type', 'IntegrationComponent'), 'criticality': 'business-critical', 'domain': f4.get('domain', ''), 'automation': f4.get('automation', 'gitops-automated'), 'component_kind': f4.get('component_kind', 'igc')},
         kind='subcomponent',
         parent_id=f2['id'],
         f_level='F4',
@@ -344,13 +344,13 @@ def render_subcomponent_readme(f2, f4):
 def render_f2_with_children(f2):
     """Render the F2 component.yaml with composition children."""
     facets = {
-        'component_kind': 'igc' if f2['type'] == 'IntegrationComponent' else 'apc',
+        'component_kind': {'ApplicationComponent': 'apc', 'IntegrationComponent': 'igc', 'AIComponent': 'aic'}[f2['type']],
         'hosting_model': ['cloud'],
         'execution_characteristics': ['long-running'],
         'component_criticality': f2.get('criticality', 'business-critical'),
         'deployment_pattern': ['replicated'],
         'security_posture': ['encrypted-at-rest', 'encrypted-in-transit'],
-        'automation_characteristics': 'gitops-automated',
+        'automation_characteristics': f2.get('automation', 'gitops-automated'),
     }
     if f2.get('criticality') == 'mission-critical':
         facets['security_posture'].append('internal-network')

@@ -1,0 +1,46 @@
+id: dea:information-system-component-ai-inference-platform
+type: AIComponent
+name: AI Inference Platform
+status: active
+version: "1.0"
+effective_date: "2026-10-18"
+
+f_level: F2
+
+component_domain: iscc:domain:ai-native
+
+facets:
+  component_kind: aic
+  hosting_model:
+    - cloud
+  execution_characteristics:
+    - long-running
+  component_criticality: business-critical
+  deployment_pattern:
+    - replicated
+  security_posture:
+    - encrypted-at-rest
+    - encrypted-in-transit
+  automation_characteristics: agent-orchestrated
+
+composition:
+  - target: dea:information-system-component-model-serving-runtime
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-model-registry
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+  - target: dea:information-system-component-agent-orchestrator
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-10-18"
+    status: active
+
+readme: ./README.md
