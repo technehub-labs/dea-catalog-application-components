@@ -20,22 +20,22 @@ records:
 - id: isc-rel-002
   kind: executes
   source: information-system-component-order-management-system
-  target: information-system-function-order-capture
+  target: information-system-function-transaction-initiation
   status: active
 - id: isc-rel-003
   kind: executes
   source: information-system-component-order-management-system
-  target: information-system-function-order-fulfillment
+  target: information-system-function-transaction-execution
   status: active
 - id: isc-rel-004
   kind: executes
   source: information-system-component-data-warehouse-platform
-  target: information-system-function-data-ingestion
+  target: information-system-function-data-acquisition
   status: active
 - id: isc-rel-005
   kind: executes
   source: information-system-component-data-warehouse-platform
-  target: information-system-function-data-query
+  target: information-system-function-data-retrieval
   status: active
 - id: isc-rel-006
   kind: provides

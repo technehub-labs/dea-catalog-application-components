@@ -1,0 +1,70 @@
+schema: dea.is.cross-catalogue-reference-map.v1
+catalog: dea-catalog-information-system-components
+generated_by: CR-IS-CAT-02E
+governance_basis:
+- EGV-006 (references resolve to valid entities within the declared identity scope).
+- CR-012 (cross-catalog references resolve to authoritative entities).
+- 'Programme control: evidence before assertion.'
+target_repo_pinning:
+  dea-catalog-system-functions: 9faff32aefae
+  dea-catalog-information-system-services: pending (CR-IS-CAT-03)
+  dea-catalog-integration-interfaces: pending (CR-IS-CAT-04)
+  dea-catalog-business-objects: pending (data-entity CR)
+  dea-catalog-metrics: pending (metric CR)
+rebased_references:
+- legacy: dea:information-system-function-data-ingestion
+  canonical: dea:information-system-function-data-acquisition
+  target_repo: dea-catalog-system-functions
+  rationale: 'Rebased: data-ingestion -> data-acquisition. The actual ISF function acquired the data; ingestion-as-a-verb = acquisition-as-a-function. ISF catalogue @ commit 9faff32.'
+- legacy: dea:information-system-function-data-query
+  canonical: dea:information-system-function-data-retrieval
+  target_repo: dea-catalog-system-functions
+  rationale: 'Rebased: data-query -> data-retrieval. The actual ISF function reads; query-as-a-verb = retrieval-as-a-function. ISF catalogue @ commit 9faff32.'
+- legacy: dea:information-system-function-order-capture
+  canonical: dea:information-system-function-transaction-initiation
+  target_repo: dea-catalog-system-functions
+  rationale: 'Rebased: order-capture -> transaction-initiation. The canonical ISF function for the entry of a transaction lifecycle. ISF catalogue @ commit 9faff32.'
+- legacy: dea:information-system-function-order-fulfillment
+  canonical: dea:information-system-function-transaction-execution
+  target_repo: dea-catalog-system-functions
+  rationale: 'Rebased: order-fulfillment -> transaction-execution. The canonical ISF function for executing a transaction. ISF catalogue @ commit 9faff32.'
+forward_references:
+- legacy: dea:information-system-function-customer-experience-management
+  target_repo: dea-catalog-system-functions
+  rationale: CR-IS-CAT-01C-P3 (ISF P3 population); the ISF function will be admitted with this id when P3 lands.
+- legacy: dea:information-system-service-api-gateway-service
+  target_repo: dea-catalog-information-system-services
+  rationale: CR-IS-CAT-03 (ISS 5-CR programme).
+- legacy: dea:integration-interface-agent-orchestrator-internal
+  target_repo: dea-catalog-integration-interfaces
+  rationale: CR-IS-CAT-04 (II 5-CR programme).
+- legacy: dea:integration-interface-api-gateway-public
+  target_repo: dea-catalog-integration-interfaces
+  rationale: CR-IS-CAT-04 (II 5-CR programme).
+- legacy: dea:integration-interface-employee-portal-internal
+  target_repo: dea-catalog-integration-interfaces
+  rationale: CR-IS-CAT-04 (II 5-CR programme).
+- legacy: dea:integration-interface-identity-broker-public
+  target_repo: dea-catalog-integration-interfaces
+  rationale: CR-IS-CAT-04 (II 5-CR programme).
+- legacy: dea:data-entity-order-events
+  target_repo: dea-catalog-business-objects
+  rationale: Data entity catalogue CR (deferred).
+- legacy: dea:data-entity-partner-transactions
+  target_repo: dea-catalog-business-objects
+  rationale: Data entity catalogue CR (deferred).
+- legacy: dea:data-entity-model-artifacts
+  target_repo: dea-catalog-business-objects
+  rationale: Data entity catalogue CR (deferred).
+- legacy: dea:metric-api-gateway-p99-latency
+  target_repo: dea-catalog-metrics
+  rationale: Metric catalogue CR (deferred).
+- legacy: dea:metric-inference-latency-p99
+  target_repo: dea-catalog-metrics
+  rationale: Metric catalogue CR (deferred).
+- legacy: dea:metric-observability-data-freshness
+  target_repo: dea-catalog-metrics
+  rationale: Metric catalogue CR (deferred).
+counts:
+  rebased: 4
+  forward: 12
