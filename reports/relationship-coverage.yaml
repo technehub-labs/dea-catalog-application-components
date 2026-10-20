@@ -15,7 +15,7 @@ records:
 - id: isc-rel-001
   kind: executes
   source: information-system-component-customer-facing-web-application-platform
-  target: information-system-function-customer-experience-management
+  target: information-system-function-experience-and-interaction
   status: active
 - id: isc-rel-002
   kind: executes

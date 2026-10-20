@@ -1,57 +1,244 @@
 schema: dea.is.target-id-snapshots.v1
-generated_by: CR-IS-CAT-02E
-generated_for: CR-IS-CAT-02E reference integrity resolution (hardened validator)
+generated_by: CR-IS-CAT-02F
+generated_for: CR-IS-CAT-02F forward-reference resolution against the completed ISF catalogue (15/15 domains)
 pinned_commits:
-  dea-catalog-system-functions: 9faff32aefae
+  dea-catalog-system-functions: 635f1cae2582
   dea-catalog-information-system-services: (empty; populated by CR-IS-CAT-03)
   dea-catalog-integration-interfaces: (empty; populated by CR-IS-CAT-04)
-  dea-catalog-business-objects: (empty; data-entity CR deferred)
-  dea-catalog-metrics: (empty; metric CR deferred)
+  dea-catalog-business-objects: b752a211a9c1 (catalogue scaffold only; no data-entity records admitted)
+  dea-catalog-metrics: 3e4c72a87785 (5 metric records admitted; none match the declared targets)
 snapshots:
   dea-catalog-system-functions:
+    dea:information-system-function-ai-and-intelligent-processing:
+      name: AI and Intelligent Processing
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/ai-and-intelligent-processing/functions/dea-isf-ai-and-intelligent-processing/function.yaml
+    dea:information-system-function-inference-execution:
+      name: Inference Execution
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/ai-and-intelligent-processing/functions/dea-isf-inference-execution/function.yaml
+    dea:information-system-function-model-management:
+      name: Model Management
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/ai-and-intelligent-processing/functions/dea-isf-model-management/function.yaml
+    dea:information-system-function-analytics-and-decision-support:
+      name: Analytics and Decision Support
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/analytics-and-decision-support/functions/dea-isf-analytics-and-decision-support/function.yaml
+    dea:information-system-function-data-analysis:
+      name: Data Analysis
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/analytics-and-decision-support/functions/dea-isf-data-analysis/function.yaml
+    dea:information-system-function-insight-generation:
+      name: Insight Generation
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/analytics-and-decision-support/functions/dea-isf-insight-generation/function.yaml
+    dea:information-system-function-collaboration-coordination:
+      name: Collaboration Coordination
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/communication-and-collaboration/functions/dea-isf-collaboration-coordination/function.yaml
+    dea:information-system-function-communication-and-collaboration:
+      name: Communication and Collaboration
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/communication-and-collaboration/functions/dea-isf-communication-and-collaboration/function.yaml
+    dea:information-system-function-notification-dispatch:
+      name: Notification Dispatch
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/communication-and-collaboration/functions/dea-isf-notification-dispatch/function.yaml
+    dea:information-system-function-configuration-and-administration:
+      name: Configuration and Administration
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/configuration-and-administration/functions/dea-isf-configuration-and-administration/function.yaml
+    dea:information-system-function-configuration-deployment:
+      name: Configuration Deployment
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/configuration-and-administration/functions/dea-isf-configuration-deployment/function.yaml
+    dea:information-system-function-configuration-validation:
+      name: Configuration Validation
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/configuration-and-administration/functions/dea-isf-configuration-validation/function.yaml
+    dea:information-system-function-content-and-knowledge-management:
+      name: Content and Knowledge Management
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/content-and-knowledge-management/functions/dea-isf-content-and-knowledge-management/function.yaml
+    dea:information-system-function-content-management:
+      name: Content Management
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/content-and-knowledge-management/functions/dea-isf-content-management/function.yaml
+    dea:information-system-function-knowledge-retrieval:
+      name: Knowledge Retrieval
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/content-and-knowledge-management/functions/dea-isf-knowledge-retrieval/function.yaml
+    dea:information-system-function-experience-and-interaction:
+      name: Experience and Interaction
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/experience-and-interaction/functions/dea-isf-experience-and-interaction/function.yaml
+    dea:information-system-function-experience-delivery:
+      name: Experience Delivery
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/experience-and-interaction/functions/dea-isf-experience-delivery/function.yaml
+    dea:information-system-function-interaction-management:
+      name: Interaction Management
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/experience-and-interaction/functions/dea-isf-interaction-management/function.yaml
+    dea:information-system-function-access-policy-evaluation:
+      name: Access Policy Evaluation
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/identity-and-access/functions/dea-isf-access-policy-evaluation/function.yaml
+    dea:information-system-function-authentication:
+      name: Authentication
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/identity-and-access/functions/dea-isf-authentication/function.yaml
+    dea:information-system-function-identity-and-access-management:
+      name: Identity and Access Management
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/identity-and-access/functions/dea-isf-identity-and-access-management/function.yaml
+    dea:information-system-function-identity-registration:
+      name: Identity Registration
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/identity-and-access/functions/dea-isf-identity-registration/function.yaml
+    dea:information-system-function-identity-verification:
+      name: Identity Verification
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/identity-and-access/functions/dea-isf-identity-verification/function.yaml
     dea:information-system-function-data-acquisition:
       name: Data Acquisition
-      definition_or_outcome: ''
+      decomposition_level: F4
       source_file: entities/v1-alpha/domains/information-and-data-management/functions/dea-isf-data-acquisition/function.yaml
+    dea:information-system-function-data-management:
+      name: Data Management
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/information-and-data-management/functions/dea-isf-data-management/function.yaml
     dea:information-system-function-data-retrieval:
       name: Data Retrieval
-      definition_or_outcome: ''
+      decomposition_level: F4
       source_file: entities/v1-alpha/domains/information-and-data-management/functions/dea-isf-data-retrieval/function.yaml
+    dea:information-system-function-data-transformation:
+      name: Data Transformation
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/information-and-data-management/functions/dea-isf-data-transformation/function.yaml
+    dea:information-system-function-api-request-handling:
+      name: API Request Handling
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/integration-and-interoperability/functions/dea-isf-api-request-handling/function.yaml
+    dea:information-system-function-event-publication:
+      name: Event Publication
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/integration-and-interoperability/functions/dea-isf-event-publication/function.yaml
+    dea:information-system-function-integration-and-interoperability:
+      name: Integration and Interoperability
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/integration-and-interoperability/functions/dea-isf-integration-and-interoperability/function.yaml
+    dea:information-system-function-interface-validation:
+      name: Interface Validation
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/integration-and-interoperability/functions/dea-isf-interface-validation/function.yaml
+    dea:information-system-function-log-aggregation:
+      name: Log Aggregation
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/monitoring-and-observability/functions/dea-isf-log-aggregation/function.yaml
+    dea:information-system-function-metric-collection:
+      name: Metric Collection
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/monitoring-and-observability/functions/dea-isf-metric-collection/function.yaml
+    dea:information-system-function-monitoring-and-observability:
+      name: Monitoring and Observability
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/monitoring-and-observability/functions/dea-isf-monitoring-and-observability/function.yaml
+    dea:information-system-function-capacity-planning:
+      name: Capacity Planning
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/resource-and-capacity-management/functions/dea-isf-capacity-planning/function.yaml
+    dea:information-system-function-resource-and-capacity-management:
+      name: Resource and Capacity Management
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/resource-and-capacity-management/functions/dea-isf-resource-and-capacity-management/function.yaml
+    dea:information-system-function-resource-provisioning:
+      name: Resource Provisioning
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/resource-and-capacity-management/functions/dea-isf-resource-provisioning/function.yaml
+    dea:information-system-function-index-management:
+      name: Index Management
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/search-and-discovery/functions/dea-isf-index-management/function.yaml
+    dea:information-system-function-query-dispatch:
+      name: Query Dispatch
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/search-and-discovery/functions/dea-isf-query-dispatch/function.yaml
+    dea:information-system-function-search-and-discovery:
+      name: Search and Discovery
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/search-and-discovery/functions/dea-isf-search-and-discovery/function.yaml
+    dea:information-system-function-security-monitoring:
+      name: Security Monitoring
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/security-privacy-and-trust/functions/dea-isf-security-monitoring/function.yaml
+    dea:information-system-function-security-privacy-and-trust:
+      name: Security, Privacy and Trust
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/security-privacy-and-trust/functions/dea-isf-security-privacy-and-trust/function.yaml
+    dea:information-system-function-threat-detection:
+      name: Threat Detection
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/security-privacy-and-trust/functions/dea-isf-threat-detection/function.yaml
     dea:information-system-function-transaction-execution:
       name: Transaction Execution
-      definition_or_outcome: ''
+      decomposition_level: F4
       source_file: entities/v1-alpha/domains/transaction-processing/functions/dea-isf-transaction-execution/function.yaml
     dea:information-system-function-transaction-initiation:
       name: Transaction Initiation
-      definition_or_outcome: ''
+      decomposition_level: F4
       source_file: entities/v1-alpha/domains/transaction-processing/functions/dea-isf-transaction-initiation/function.yaml
+    dea:information-system-function-transaction-processing:
+      name: Transaction Processing
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/transaction-processing/functions/dea-isf-transaction-processing/function.yaml
+    dea:information-system-function-transaction-reconciliation:
+      name: Transaction Reconciliation
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/transaction-processing/functions/dea-isf-transaction-reconciliation/function.yaml
+    dea:information-system-function-task-routing:
+      name: Task Routing
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/workflow-and-orchestration/functions/dea-isf-task-routing/function.yaml
+    dea:information-system-function-workflow-execution:
+      name: Workflow Execution
+      decomposition_level: F4
+      source_file: entities/v1-alpha/domains/workflow-and-orchestration/functions/dea-isf-workflow-execution/function.yaml
+    dea:information-system-function-workflow-orchestration:
+      name: Workflow Orchestration
+      decomposition_level: F2
+      source_file: entities/v1-alpha/domains/workflow-and-orchestration/functions/dea-isf-workflow-orchestration/function.yaml
   dea-catalog-information-system-services:
-    declared-empty: true
-    forward-references-acknowledged:
+    declared_empty: true
+    forward_references_acknowledged:
     - isc-rel-006
   dea-catalog-integration-interfaces:
-    declared-empty: true
-    forward-references-acknowledged:
+    declared_empty: true
+    forward_references_acknowledged:
     - isc-rel-007
     - isc-rel-014
     - isc-rel-102
     - isc-rel-203
   dea-catalog-business-objects:
-    declared-empty: true
-    forward-references-acknowledged:
+    declared_empty_of_data_entities: true
+    catalogue_ids_present:
+    - dea:catalog-business-objects
+    note: The catalogue is scaffolded but no data-entity records are admitted. All three declared data-entity targets remain forward.
+    forward_references_acknowledged:
     - isc-rel-011
     - isc-rel-012
     - isc-rel-104
     - isc-rel-205
   dea-catalog-metrics:
-    declared-empty: true
-    forward-references-acknowledged:
+    catalogue_ids_present:
+    - dea:metric-control-effectiveness-rate
+    - dea:metric-customer-retention-rate
+    - dea:metric-data-completeness
+    - dea:metric-mean-time-to-recovery
+    - dea:metric-operating-margin
+    note: The catalogue admits 5 metrics. None of the three declared ISC-side metric targets match an admitted id, so all three remain forward.
+    forward_references_acknowledged:
     - isc-rel-009
     - isc-rel-106
     - isc-rel-204
-counts:
-  isf_resolved: 4
-  iss_forward: 1
-  ii_forward: 4
-  bo_forward: 3
-  metric_forward: 3

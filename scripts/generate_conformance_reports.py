@@ -74,10 +74,11 @@ def report_reference_integrity(rels, components, isc_f2_id, isc_f4_id):
                 if not found:
                     buckets['unresolved'].append({'target_id': tid, 'record_id': r.get('id')})
     return {
-        'version': '2.0',
-        'effective': '2026-10-19',
-        'cr': 'CR-IS-CAT-02E',
+        'version': '2.1',
+        'effective': '2026-10-20',
+        'cr': 'CR-IS-CAT-02F',
         'check': 'real resolution against vendored target-id snapshots; rebased via cross-catalogue reference map',
+        'supersedes': 'CR-IS-CAT-02E (v2.0): forward refs re-verified against live target repos at pinned commits; isc-rel-001 resolved to the canonical ISF-14 F2',
         'target_repo_pinning': snap_pinned,
         'total_relationships': len(rels),
         'resolved_count':   len(buckets['resolved']),
