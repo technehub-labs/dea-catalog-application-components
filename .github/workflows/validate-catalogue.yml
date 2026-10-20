@@ -62,49 +62,29 @@ jobs:
           print(f'Step 2 (relationship-type authorization): {"PASS" if ok else "FAIL"} ({len(rels)} records)')
           sys.exit(0 if ok else 1)
           EOF
-      - name: "Step 3: Cross-reference resolution (relationship endpoints)"
+      - name: "Step 3: Cross-reference resolution (CR-IS-CAT-02E hardened validator)"
         run: |
-          python3 - <<'EOF'
-          import yaml, glob, sys
-          with open('relationships/v1-alpha/relationships.yaml') as f:
-            rels = yaml.safe_load(f)['relationships']
-          # Build the set of canonical ISC entity ids from this catalog
-          isc_ids = set()
-          for f in glob.glob('entities/v1-alpha/components/**/component.yaml', recursive=True):
-            with open(f) as fp:
-              d = yaml.safe_load(fp)
-            isc_ids.add(d['id'])
-          # Valid prefixes for cross-catalog targets
-          valid_prefixes = (
-            'dea:information-system-component-',
-            'dea:information-system-function-',
-            'dea:information-system-service-',
-            'dea:integration-interface-',
-            'dea:data-entity-',
-            'dea:event-',
-            'dea:metric-',
-            'dea:business-capability-',
-            'dea:business-process-',
-          )
-          ok = True
-          for r in rels:
-            src = r['source_id']
-            tgt = r['target_id']
-            # The source must have a canonical prefix
-            if not any(src.startswith(p) for p in valid_prefixes):
-              print(f'FAIL: {r["id"]} source {src} has non-canonical prefix')
-              ok = False
-            # The target must have a canonical prefix
-            if not any(tgt.startswith(p) for p in valid_prefixes):
-              print(f'FAIL: {r["id"]} target {tgt} has non-canonical prefix')
-              ok = False
-            # ISC sources must exist in this catalog
-            if src.startswith('dea:information-system-component-') and src not in isc_ids:
-              print(f'FAIL: {r["id"]} ISC source {src} not in this catalog')
-              ok = False
-          print(f'Step 3 (cross-reference resolution): {"PASS" if ok else "FAIL"}')
-          sys.exit(0 if ok else 1)
-          EOF
+          set -euo pipefail
+          # 1. Regenerate the reference-integrity report locally.
+          python3 scripts/generate_conformance_reports.py
+          # 2. Hard check: unresolved_count MUST be 0. Forward refs allowed.
+          yr() { python3 -c "import yaml,sys; print(yaml.safe_load(open(sys.argv[1])).get(sys.argv[2], 0))" "$1" "$2"; }
+          ri=$(yr reports/reference-integrity.yaml unresolved_count)
+          fwd=$(yr reports/reference-integrity.yaml forward_count)
+          res=$(yr reports/reference-integrity.yaml resolved_count)
+          total=$(yr reports/reference-integrity.yaml total_relationships)
+          echo "Reference-integrity classification:"
+          echo "  total     = $total"
+          echo "  resolved  = $res"
+          echo "  forward   = $fwd  (target catalogue unpopulated; requires an owning CR)"
+          echo "  unresolved= $ri"
+          if [ "$ri" != "0" ]; then
+            echo "ERROR: unresolved cross-catalogue references (hard check)."
+            yq '.unresolved' reports/reference-integrity.yaml || true
+            exit 1
+          fi
+          echo "OK: cross-catalogue reference integrity holds."
+
       - name: "Step 4: OpenDEAM allocation declaration check (measured_by)"
         run: |
           python3 - <<'EOF'

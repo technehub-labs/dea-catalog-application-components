@@ -1,0 +1,57 @@
+schema: dea.is.target-id-snapshots.v1
+generated_by: CR-IS-CAT-02E
+generated_for: CR-IS-CAT-02E reference integrity resolution (hardened validator)
+pinned_commits:
+  dea-catalog-system-functions: 9faff32aefae
+  dea-catalog-information-system-services: (empty; populated by CR-IS-CAT-03)
+  dea-catalog-integration-interfaces: (empty; populated by CR-IS-CAT-04)
+  dea-catalog-business-objects: (empty; data-entity CR deferred)
+  dea-catalog-metrics: (empty; metric CR deferred)
+snapshots:
+  dea-catalog-system-functions:
+    dea:information-system-function-data-acquisition:
+      name: Data Acquisition
+      definition_or_outcome: ''
+      source_file: entities/v1-alpha/domains/information-and-data-management/functions/dea-isf-data-acquisition/function.yaml
+    dea:information-system-function-data-retrieval:
+      name: Data Retrieval
+      definition_or_outcome: ''
+      source_file: entities/v1-alpha/domains/information-and-data-management/functions/dea-isf-data-retrieval/function.yaml
+    dea:information-system-function-transaction-execution:
+      name: Transaction Execution
+      definition_or_outcome: ''
+      source_file: entities/v1-alpha/domains/transaction-processing/functions/dea-isf-transaction-execution/function.yaml
+    dea:information-system-function-transaction-initiation:
+      name: Transaction Initiation
+      definition_or_outcome: ''
+      source_file: entities/v1-alpha/domains/transaction-processing/functions/dea-isf-transaction-initiation/function.yaml
+  dea-catalog-information-system-services:
+    declared-empty: true
+    forward-references-acknowledged:
+    - isc-rel-006
+  dea-catalog-integration-interfaces:
+    declared-empty: true
+    forward-references-acknowledged:
+    - isc-rel-007
+    - isc-rel-014
+    - isc-rel-102
+    - isc-rel-203
+  dea-catalog-business-objects:
+    declared-empty: true
+    forward-references-acknowledged:
+    - isc-rel-011
+    - isc-rel-012
+    - isc-rel-104
+    - isc-rel-205
+  dea-catalog-metrics:
+    declared-empty: true
+    forward-references-acknowledged:
+    - isc-rel-009
+    - isc-rel-106
+    - isc-rel-204
+counts:
+  isf_resolved: 4
+  iss_forward: 1
+  ii_forward: 4
+  bo_forward: 3
+  metric_forward: 3

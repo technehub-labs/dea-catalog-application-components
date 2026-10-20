@@ -1,10 +1,130 @@
-version: 1
-effective: '2026-10-18'
-cr: CR-IS-CAT-02D
+version: '2.0'
+effective: '2026-10-19'
+cr: CR-IS-CAT-02E
+check: real resolution against vendored target-id snapshots; rebased via cross-catalogue reference map
+target_repo_pinning:
+  dea-catalog-system-functions: 9faff32aefae
+  dea-catalog-information-system-services: (empty; populated by CR-IS-CAT-03)
+  dea-catalog-integration-interfaces: (empty; populated by CR-IS-CAT-04)
+  dea-catalog-business-objects: (empty; data-entity CR deferred)
+  dea-catalog-metrics: (empty; metric CR deferred)
 total_relationships: 27
-sources_resolved: 27
-sources_unresolved: 0
-targets_resolved: 27
-targets_unresolved: 0
-unresolved_sources: []
-unresolved_targets: []
+resolved_count: 14
+forward_count: 13
+unresolved_count: 0
+unresolved: []
+forward:
+- target_id: dea:information-system-function-customer-experience-management
+  record_id: isc-rel-001
+  target_repo: dea-catalog-system-functions
+  rationale: CR-IS-CAT-01C-P3 (ISF P3 population); the ISF function will be admitted with this id when P3 lands.
+- target_id: dea:information-system-service-api-gateway-service
+  record_id: isc-rel-006
+  target_repo: dea-catalog-information-system-services
+  rationale: CR-IS-CAT-03 (ISS 5-CR programme).
+- target_id: dea:integration-interface-api-gateway-public
+  record_id: isc-rel-007
+  target_repo: dea-catalog-integration-interfaces
+  rationale: CR-IS-CAT-04 (II 5-CR programme).
+- target_id: dea:metric-api-gateway-p99-latency
+  record_id: isc-rel-009
+  target_repo: dea-catalog-metrics
+  rationale: Metric catalogue CR (deferred).
+- target_id: dea:data-entity-order-events
+  record_id: isc-rel-011
+  target_repo: dea-catalog-business-objects
+  rationale: Data entity catalogue CR (deferred).
+- target_id: dea:data-entity-order-events
+  record_id: isc-rel-012
+  target_repo: dea-catalog-business-objects
+  rationale: Data entity catalogue CR (deferred).
+- target_id: dea:integration-interface-identity-broker-public
+  record_id: isc-rel-014
+  target_repo: dea-catalog-integration-interfaces
+  rationale: CR-IS-CAT-04 (II 5-CR programme).
+- target_id: dea:integration-interface-employee-portal-internal
+  record_id: isc-rel-102
+  target_repo: dea-catalog-integration-interfaces
+  rationale: CR-IS-CAT-04 (II 5-CR programme).
+- target_id: dea:data-entity-partner-transactions
+  record_id: isc-rel-104
+  target_repo: dea-catalog-business-objects
+  rationale: Data entity catalogue CR (deferred).
+- target_id: dea:metric-observability-data-freshness
+  record_id: isc-rel-106
+  target_repo: dea-catalog-metrics
+  rationale: Metric catalogue CR (deferred).
+- target_id: dea:integration-interface-agent-orchestrator-internal
+  record_id: isc-rel-203
+  target_repo: dea-catalog-integration-interfaces
+  rationale: CR-IS-CAT-04 (II 5-CR programme).
+- target_id: dea:metric-inference-latency-p99
+  record_id: isc-rel-204
+  target_repo: dea-catalog-metrics
+  rationale: Metric catalogue CR (deferred).
+- target_id: dea:data-entity-model-artifacts
+  record_id: isc-rel-205
+  target_repo: dea-catalog-business-objects
+  rationale: Data entity catalogue CR (deferred).
+resolved:
+- target_id: dea:information-system-function-transaction-initiation
+  record_id: isc-rel-002
+  kind: external
+  target_repo: dea-catalog-system-functions
+  role: target
+- target_id: dea:information-system-function-transaction-execution
+  record_id: isc-rel-003
+  kind: external
+  target_repo: dea-catalog-system-functions
+  role: target
+- target_id: dea:information-system-function-data-acquisition
+  record_id: isc-rel-004
+  kind: external
+  target_repo: dea-catalog-system-functions
+  role: target
+- target_id: dea:information-system-function-data-retrieval
+  record_id: isc-rel-005
+  kind: external
+  target_repo: dea-catalog-system-functions
+  role: target
+- target_id: dea:information-system-component-identity-broker
+  record_id: isc-rel-008
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-identity-broker
+  record_id: isc-rel-010
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-api-gateway
+  record_id: isc-rel-013
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-order-fulfillment-worker
+  record_id: isc-rel-015
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-api-gateway-rate-limiter
+  record_id: isc-rel-016
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-identity-broker
+  record_id: isc-rel-101
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-api-gateway
+  record_id: isc-rel-103
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-data-warehouse-platform
+  record_id: isc-rel-105
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-data-warehouse-platform
+  record_id: isc-rel-201
+  kind: internal
+  role: target
+- target_id: dea:information-system-component-observability-platform
+  record_id: isc-rel-202
+  kind: internal
+  role: target
+passes_when: unresolved_count == 0
