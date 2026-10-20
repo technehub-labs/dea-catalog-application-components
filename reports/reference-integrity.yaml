@@ -1,23 +1,20 @@
-version: '2.0'
-effective: '2026-10-19'
-cr: CR-IS-CAT-02E
+version: '2.1'
+effective: '2026-10-20'
+cr: CR-IS-CAT-02F
 check: real resolution against vendored target-id snapshots; rebased via cross-catalogue reference map
+supersedes: 'CR-IS-CAT-02E (v2.0): forward refs re-verified against live target repos at pinned commits; isc-rel-001 resolved to the canonical ISF-14 F2'
 target_repo_pinning:
-  dea-catalog-system-functions: 9faff32aefae
+  dea-catalog-system-functions: 635f1cae2582
   dea-catalog-information-system-services: (empty; populated by CR-IS-CAT-03)
   dea-catalog-integration-interfaces: (empty; populated by CR-IS-CAT-04)
-  dea-catalog-business-objects: (empty; data-entity CR deferred)
-  dea-catalog-metrics: (empty; metric CR deferred)
+  dea-catalog-business-objects: b752a211a9c1 (catalogue scaffold only; no data-entity records admitted)
+  dea-catalog-metrics: 3e4c72a87785 (5 metric records admitted; none match the declared targets)
 total_relationships: 27
-resolved_count: 14
-forward_count: 13
+resolved_count: 15
+forward_count: 12
 unresolved_count: 0
 unresolved: []
 forward:
-- target_id: dea:information-system-function-customer-experience-management
-  record_id: isc-rel-001
-  target_repo: dea-catalog-system-functions
-  rationale: CR-IS-CAT-01C-P3 (ISF P3 population); the ISF function will be admitted with this id when P3 lands.
 - target_id: dea:information-system-service-api-gateway-service
   record_id: isc-rel-006
   target_repo: dea-catalog-information-system-services
@@ -67,6 +64,11 @@ forward:
   target_repo: dea-catalog-business-objects
   rationale: Data entity catalogue CR (deferred).
 resolved:
+- target_id: dea:information-system-function-experience-and-interaction
+  record_id: isc-rel-001
+  kind: external
+  target_repo: dea-catalog-system-functions
+  role: target
 - target_id: dea:information-system-function-transaction-initiation
   record_id: isc-rel-002
   kind: external

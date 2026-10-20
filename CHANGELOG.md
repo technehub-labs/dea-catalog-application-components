@@ -30,3 +30,13 @@
 - 13 forward refs declared (1 ISF-P3, 1 ISS, 4 II, 4 DataEntity, 3 Metric).
 - Reference-integrity report upgraded to real resolution: 14 resolved + 13 forward + 0 unresolved.
 - CI step 3 hardened: hard-fail on unresolved_count > 0.
+
+
+## CR-IS-CAT-02F (2026-10-20)
+
+- ISC forward-reference resolution against the completed ISF catalogue.
+- `isc-rel-001` rebased: `dea:information-system-function-customer-experience-management` (never admitted, not canonical) to `dea:information-system-function-experience-and-interaction` (canonical ISF-14 F2). Provenance now `resolved`.
+- Conformance: 15 resolved / 12 forward / 0 unresolved (was 14 / 13 / 0).
+- Re-verified all 12 remaining forward refs against live target repos at pinned commits; all correctly remain forward.
+- Corrected two incorrect `declared-empty` snapshot claims: `dea-catalog-metrics` admits 5 metric records, `dea-catalog-business-objects` is scaffolded. Neither contains any declared ISC-side target.
+- ISF target snapshot pin advanced `9faff32aefae` to `635f1cae2582`; snapshot expanded from 4 hand-listed ids to all 50 canonical ISF ids.

@@ -24,3 +24,8 @@ Snapshot: `~/.hermes/profiles/coder/kanban/dea-metamodel-is-snapshot-2026-10-18.
 ## CR-IS-CAT-02E
 
 - **CR-IS-CAT-02E -- cross-catalogue reference integrity remediation (ISC)** (`docs/is-semantic-architecture/cross-catalogue-reference-map.yaml`, hardened validator). See [CR-IS-CAT-02E](./CR-IS-CAT-02E-cross-catalogue-reference-integrity-remediation.md).
+
+
+## CR-IS-CAT-02F
+
+- **CR-IS-CAT-02F -- ISC forward-reference resolution** (`isc-rel-001` rebased to the canonical ISF-14 F2; 12 remaining forward refs re-verified at pinned commits; ISF target snapshot expanded from 4 hand-listed ids to all 50). See [CR-IS-CAT-02F](./CR-IS-CAT-02F-forward-reference-resolution.md).

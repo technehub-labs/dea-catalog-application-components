@@ -1,6 +1,6 @@
 version: 1
 effective: 2026-10-18
-cr: CR-IS-CAT-02D
+cr: CR-IS-CAT-02F
 parent_cr: CR-IS-CAT-02
 cr_02c: CR-IS-CAT-02C
 catalog: dea-catalog-information-system-components
@@ -8,19 +8,25 @@ relationships:
 - id: isc-rel-001
   source_id: dea:information-system-component-customer-facing-web-application-platform
   relationship: executes
-  target_id: dea:information-system-function-customer-experience-management
+  target_id: dea:information-system-function-experience-and-interaction
   cardinality: many
   version: '1.0'
   effective_date: '2026-10-18'
   status: active
   cr: CR-IS-CAT-02D
-  note: The Customer-Facing Web Application Platform executes the customer experience management function.
+  note: The Customer-Facing Web Application Platform executes the Experience and Interaction function. Reconciled from the legacy id customer-experience-management by CR-IS-CAT-02F, which resolved the CR-IS-CAT-02E
+    forward declaration against the canonical ISF-14 F2 record admitted by CR-IS-CAT-01C-P3 (ISF catalogue @ commit 635f1cae2582). The ISF-14 F2 record lists this component in its executing_components,
+    so the assertion is corroborated by the ISF record itself.
   provenance:
-    reference_status: forward
+    reference_status: resolved
     rebased_from: dea:information-system-function-customer-experience-management
-    rationale: 'Forward: customer-experience-management lives in ISF-14 Experience and Interaction (P3). ISF P3 will admit this record.'
+    rebased_to: dea:information-system-function-experience-and-interaction
+    resolved_by: CR-IS-CAT-02F
     target_repo: dea-catalog-system-functions
-    owning_cr: CR-IS-CAT-01C-P3 (ISF P3 population)
+    target_pinned_commit: 635f1cae2582
+    rationale: 'Resolved: CR-IS-CAT-02E declared this forward against CR-IS-CAT-01C-P3, which was to admit an ISF function with the legacy id customer-experience-management. ISF P3 instead admitted the
+      ISF-14 Experience and Interaction domain as dea:information-system-function-experience-and-interaction (F2 parent), composing the F4 atomics experience-delivery and interaction-management. customer-experience-management
+      was never admitted and is not a canonical ISF id.'
 - id: isc-rel-002
   source_id: dea:information-system-component-order-management-system
   relationship: executes
@@ -364,3 +370,8 @@ change_history:
   note: Cross-catalogue relationship registry after P3 follow-on. 27 relationship records across 8 integration domains. The P1 population (from 02C) provides the source records; the relationship kinds are
     anchored in the metamodel (CR-017..021) or OpenDEAM (CR-AR-FMWK-04). The measured_by kind is an OpenDEAM allocation declaration, NOT a metamodel relationship claim (per G-11). The 02C P2/P3 follow-on
     populations will further extend the registry.
+- version: 1
+  date: '2026-10-19'
+  cr: CR-IS-CAT-02F
+  note: Forward-reference resolution. isc-rel-001 rebased from the never-admitted legacy id customer-experience-management to the canonical ISF-14 F2 dea:information-system-function-experience-and-interaction.
+    The remaining 12 forward references were re-verified against live target repositories at pinned commits and correctly remain forward-declared.
