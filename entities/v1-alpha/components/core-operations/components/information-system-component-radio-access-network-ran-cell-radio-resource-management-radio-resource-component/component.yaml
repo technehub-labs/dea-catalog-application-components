@@ -1,0 +1,17 @@
+id: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component
+type: ApplicationComponent
+name: Radio Resource Component (Cell & Radio Resource Management, Radio Access Network (RAN))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management
+
+readme: ./README.md
