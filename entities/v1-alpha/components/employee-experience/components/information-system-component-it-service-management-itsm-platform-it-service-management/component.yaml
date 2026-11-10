@@ -1,0 +1,43 @@
+id: dea:information-system-component-it-service-management-itsm-platform-it-service-management
+type: ApplicationComponent
+name: IT Service Management (IT Service Management (ITSM) Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:employee-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-it-service-management-itsm-platform
+
+composition:
+  - target: dea:information-system-component-it-service-management-itsm-platform-it-service-management-approval-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

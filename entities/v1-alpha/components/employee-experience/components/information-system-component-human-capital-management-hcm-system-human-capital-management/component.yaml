@@ -1,0 +1,67 @@
+id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management
+type: ApplicationComponent
+name: Human Capital Management (Human Capital Management (HCM) System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:employee-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-human-capital-management-hcm-system
+
+composition:
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-position-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

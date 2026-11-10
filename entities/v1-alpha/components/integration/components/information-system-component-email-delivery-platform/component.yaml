@@ -1,0 +1,23 @@
+id: dea:information-system-component-email-delivery-platform
+type: IntegrationComponent
+name: Email Delivery Platform
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:integration
+
+facets:
+  component_kind: igc
+
+composition:
+  - target: dea:information-system-component-email-delivery-platform-email-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md
