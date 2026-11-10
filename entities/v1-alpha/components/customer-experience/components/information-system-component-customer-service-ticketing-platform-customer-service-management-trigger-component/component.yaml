@@ -1,0 +1,17 @@
+id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component
+type: ApplicationComponent
+name: Trigger Component (Customer Service Management, Customer Service Ticketing Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-customer-service-ticketing-platform-customer-service-management
+
+readme: ./README.md

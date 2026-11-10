@@ -1,0 +1,25 @@
+id: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code
+type: IntegrationComponent
+name: Infrastructure as Code (Infrastructure as Code (IaC) Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:development-platform
+
+facets:
+  component_kind: igc
+
+parent: dea:information-system-component-infrastructure-as-code-iac-platform
+
+composition:
+  - target: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

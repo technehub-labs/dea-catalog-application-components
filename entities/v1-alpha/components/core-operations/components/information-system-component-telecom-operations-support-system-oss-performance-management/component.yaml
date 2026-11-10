@@ -1,0 +1,25 @@
+id: dea:information-system-component-telecom-operations-support-system-oss-performance-management
+type: ApplicationComponent
+name: Performance Management (Telecom Operations Support System (OSS))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-telecom-operations-support-system-oss
+
+composition:
+  - target: dea:information-system-component-telecom-operations-support-system-oss-performance-management-counter-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

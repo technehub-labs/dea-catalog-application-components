@@ -1,0 +1,43 @@
+id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads
+type: IntegrationComponent
+name: Cluster Control Plane & Workloads (Container Orchestration Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:development-platform
+
+facets:
+  component_kind: igc
+
+parent: dea:information-system-component-container-orchestration-platform
+
+composition:
+  - target: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-controller-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-node-agent-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-state-store-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

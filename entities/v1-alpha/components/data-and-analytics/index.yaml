@@ -36,9 +36,67 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-data-warehouse-catalog/
+  - id: dea:information-system-component-cloud-data-warehouse
+    name: Cloud Data Warehouse
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-cloud-data-warehouse/
+  - id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse
+    name: Cloud Data Warehouse (Cloud Data Warehouse)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-cloud-data-warehouse-cloud-data-warehouse/
+  - id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component
+    name: Virtual Warehouse Component (Cloud Data Warehouse, Cloud Data Warehouse)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component/
+  - id: dea:information-system-component-data-lakehouse-platform
+    name: Data Lakehouse Platform
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-data-lakehouse-platform/
+  - id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform
+    name: Lakehouse Platform (Data Lakehouse Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-data-lakehouse-platform-lakehouse-platform/
+  - id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component
+    name: Cluster Component (Lakehouse Platform, Data Lakehouse Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component/
+  - id: dea:information-system-component-workflow-orchestration-platform
+    name: Workflow Orchestration Platform
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-workflow-orchestration-platform/
+  - id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration
+    name: Workflow Orchestration (Workflow Orchestration Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-workflow-orchestration-platform-workflow-orchestration/
+  - id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component
+    name: Executor Component (Workflow Orchestration, Workflow Orchestration Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component/
 
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C
     note: "Initial domain-level index for the P1 population."
+  - version: "1.1"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 9 records added. Total domain records: 13."

@@ -1,0 +1,35 @@
+id: dea:information-system-component-payment-processing-platform
+type: ApplicationComponent
+name: Payment Processing Platform
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-payment-processing-platform-checkout-wallet
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-payment-processing-platform-payments
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-payment-processing-platform-subscription-billing-payouts
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

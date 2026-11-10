@@ -1,0 +1,17 @@
+id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component
+type: ApplicationComponent
+name: SAML Component (Identity & Access Services, Identity and Access Management (IAM) Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:security
+
+facets:
+  component_kind: security
+
+parent: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services
+
+readme: ./README.md

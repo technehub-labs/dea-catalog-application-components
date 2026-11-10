@@ -1,0 +1,41 @@
+id: dea:information-system-component-customer-relationship-management-crm-system
+type: ApplicationComponent
+name: Customer Relationship Management (CRM) System
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

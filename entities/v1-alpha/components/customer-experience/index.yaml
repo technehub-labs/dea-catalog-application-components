@@ -36,9 +36,187 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-customer-web-cdn/
+  - id: dea:information-system-component-customer-relationship-management-crm-system
+    name: Customer Relationship Management (CRM) System
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management
+    name: Customer Service Management (Customer Relationship Management (CRM) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component
+    name: Case Component (Customer Service Management, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component
+    name: Entitlement Component (Customer Service Management, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-knowledge-component
+    name: Knowledge Component (Customer Service Management, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-knowledge-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component
+    name: Work Order Component (Customer Service Management, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing
+    name: Customer Service & Marketing (Customer Relationship Management (CRM) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component
+    name: Cross-Application Sync Component (Customer Service & Marketing, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component
+    name: Entitlement Component (Customer Service & Marketing, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component
+    name: Routing Component (Customer Service & Marketing, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component
+    name: Survey Component (Customer Service & Marketing, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services
+    name: Platform Automation Services (Customer Relationship Management (CRM) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-api-component
+    name: API Component (Platform Automation Services, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-api-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component
+    name: Event Bus Component (Platform Automation Services, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component
+    name: Flow Component (Platform Automation Services, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-sandbox-component
+    name: Sandbox Component (Platform Automation Services, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-sandbox-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation
+    name: Sales Force Automation (Customer Relationship Management (CRM) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component
+    name: Lead Component (Sales Force Automation, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component
+    name: Opportunity Component (Sales Force Automation, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component
+    name: Price Book Component (Sales Force Automation, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component
+    name: Quote Component (Sales Force Automation, Customer Relationship Management (CRM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component/
+  - id: dea:information-system-component-customer-service-ticketing-platform
+    name: Customer Service Ticketing Platform
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform/
+  - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management
+    name: Customer Service Management (Customer Service Ticketing Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform-customer-service-management/
+  - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component
+    name: Trigger Component (Customer Service Management, Customer Service Ticketing Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component/
+  - id: dea:information-system-component-e-commerce-platform
+    name: E-Commerce Platform
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders
+    name: Commerce & Orders (E-Commerce Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component
+    name: Catalog Component (Commerce & Orders, E-Commerce Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component/
+  - id: dea:information-system-component-e-commerce-platform-composable-commerce-api
+    name: Composable Commerce API (E-Commerce Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-composable-commerce-api/
+  - id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component
+    name: Projection Component (Composable Commerce API, E-Commerce Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-composable-commerce-api-projection-component/
 
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C
     note: "Initial domain-level index for the P1 population."
+  - version: "1.1"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 29 records added. Total domain records: 33."

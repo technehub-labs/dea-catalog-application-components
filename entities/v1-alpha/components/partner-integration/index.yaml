@@ -36,9 +36,49 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-partner-portal-settlement/
+  - id: dea:information-system-component-financial-messaging-network
+    name: Financial Messaging Network
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity
+    name: Messaging & Connectivity (Financial Messaging Network)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component
+    name: Standards Component (Messaging & Connectivity, Financial Messaging Network)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity-standards-component/
+  - id: dea:information-system-component-supply-chain-visibility-platform
+    name: Supply Chain Visibility Platform
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-supply-chain-visibility-platform/
+  - id: dea:information-system-component-supply-chain-visibility-platform-visibility-network
+    name: Visibility Network (Supply Chain Visibility Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-supply-chain-visibility-platform-visibility-network/
+  - id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component
+    name: Milestone Component (Visibility Network, Supply Chain Visibility Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component/
 
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C-P2
     note: "Initial P2 domain-level index. 3 components (1 F2 + 2-3 F4) per domain."
+  - version: "1.1"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 6 records added. Total domain records: 10."

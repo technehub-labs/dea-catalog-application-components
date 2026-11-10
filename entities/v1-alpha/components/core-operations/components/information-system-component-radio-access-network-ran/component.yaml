@@ -1,0 +1,35 @@
+id: dea:information-system-component-radio-access-network-ran
+type: ApplicationComponent
+name: Radio Access Network (RAN)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-radio-access-network-ran-handover-mobility-optimization
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-radio-access-network-ran-self-organizing-network
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

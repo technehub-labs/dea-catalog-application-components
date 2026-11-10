@@ -1,0 +1,17 @@
+id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component
+type: ApplicationComponent
+name: Access & Mobility Component (Mobility & Session Management, Mobile Core Network (EPC/5GC))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management
+
+readme: ./README.md

@@ -1,0 +1,17 @@
+id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component
+type: ApplicationComponent
+name: Mediation Component (Mediation & Charging, Telecom Business Support System (BSS))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-telecom-business-support-system-bss-mediation-charging
+
+readme: ./README.md

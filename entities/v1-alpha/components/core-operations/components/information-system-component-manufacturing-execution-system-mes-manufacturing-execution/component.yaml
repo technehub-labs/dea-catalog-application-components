@@ -1,0 +1,25 @@
+id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution
+type: ApplicationComponent
+name: Manufacturing Execution (Manufacturing Execution System (MES))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-manufacturing-execution-system-mes
+
+composition:
+  - target: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

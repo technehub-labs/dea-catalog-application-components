@@ -1,0 +1,59 @@
+id: dea:information-system-component-enterprise-resource-planning-erp-system
+type: ApplicationComponent
+name: Enterprise Resource Planning (ERP) System
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-project-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

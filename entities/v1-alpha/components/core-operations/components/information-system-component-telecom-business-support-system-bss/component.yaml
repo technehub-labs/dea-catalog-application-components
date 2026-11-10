@@ -1,0 +1,41 @@
+id: dea:information-system-component-telecom-business-support-system-bss
+type: ApplicationComponent
+name: Telecom Business Support System (BSS)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-telecom-business-support-system-bss-mediation-charging
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-telecom-business-support-system-bss-rating-billing
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

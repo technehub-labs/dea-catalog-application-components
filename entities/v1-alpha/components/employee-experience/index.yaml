@@ -30,9 +30,109 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-employee-portal-bff/
+  - id: dea:information-system-component-human-capital-management-hcm-system
+    name: Human Capital Management (HCM) System
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management
+    name: Human Capital Management (Human Capital Management (HCM) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component
+    name: Absence Plan Component (Human Capital Management, Human Capital Management (HCM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component
+    name: Business Process Component (Human Capital Management, Human Capital Management (HCM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component
+    name: Compensation Component (Human Capital Management, Human Capital Management (HCM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component
+    name: Payroll Flow Component (Human Capital Management, Human Capital Management (HCM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component
+    name: Performance Component (Human Capital Management, Human Capital Management (HCM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-position-component
+    name: Position Component (Human Capital Management, Human Capital Management (HCM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-position-component/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component
+    name: Skills Component (Human Capital Management, Human Capital Management (HCM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component
+    name: Worker Component (Human Capital Management, Human Capital Management (HCM) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component/
+  - id: dea:information-system-component-it-service-management-itsm-platform
+    name: IT Service Management (ITSM) Platform
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management
+    name: IT Service Management (IT Service Management (ITSM) Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-approval-component
+    name: Approval Component (IT Service Management, IT Service Management (ITSM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-approval-component/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component
+    name: CMDB Component (IT Service Management, IT Service Management (ITSM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component
+    name: Knowledge Component (IT Service Management, IT Service Management (ITSM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component
+    name: SLA Component (IT Service Management, IT Service Management (ITSM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-sla-component/
 
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C-P2
     note: "Initial P2 domain-level index. 3 components (1 F2 + 2-3 F4) per domain."
+  - version: "1.1"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 16 records added. Total domain records: 19."

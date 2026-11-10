@@ -1,0 +1,25 @@
+id: dea:information-system-component-transportation-management-system-tms-transportation-freight
+type: ApplicationComponent
+name: Transportation & Freight (Transportation Management System (TMS))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-transportation-management-system-tms
+
+composition:
+  - target: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

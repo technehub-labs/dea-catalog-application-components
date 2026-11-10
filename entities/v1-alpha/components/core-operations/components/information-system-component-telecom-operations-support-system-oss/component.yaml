@@ -1,0 +1,41 @@
+id: dea:information-system-component-telecom-operations-support-system-oss
+type: ApplicationComponent
+name: Telecom Operations Support System (OSS)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-telecom-operations-support-system-oss-performance-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

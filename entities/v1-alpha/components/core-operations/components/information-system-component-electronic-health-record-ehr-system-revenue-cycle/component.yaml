@@ -1,0 +1,43 @@
+id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle
+type: ApplicationComponent
+name: Revenue Cycle (Electronic Health Record (EHR) System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-electronic-health-record-ehr-system
+
+composition:
+  - target: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-charge-router-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

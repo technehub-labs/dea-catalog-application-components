@@ -1,0 +1,23 @@
+id: dea:information-system-component-workflow-orchestration-platform
+type: ApplicationComponent
+name: Workflow Orchestration Platform
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:data-and-analytics
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

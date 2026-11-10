@@ -1,0 +1,17 @@
+id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component
+type: ApplicationComponent
+name: Order Settlement Component (Production Planning, Enterprise Resource Planning (ERP) System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning
+
+readme: ./README.md

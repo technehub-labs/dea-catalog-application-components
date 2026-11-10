@@ -1,0 +1,23 @@
+id: dea:information-system-component-iot-device-management-platform
+type: IntegrationComponent
+name: IoT Device Management Platform
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:integration
+
+facets:
+  component_kind: igc
+
+composition:
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

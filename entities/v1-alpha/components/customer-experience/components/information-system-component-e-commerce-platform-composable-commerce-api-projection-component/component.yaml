@@ -1,0 +1,17 @@
+id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component
+type: ApplicationComponent
+name: Projection Component (Composable Commerce API, E-Commerce Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-e-commerce-platform-composable-commerce-api
+
+readme: ./README.md

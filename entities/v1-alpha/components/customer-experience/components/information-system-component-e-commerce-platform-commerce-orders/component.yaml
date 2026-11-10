@@ -1,0 +1,25 @@
+id: dea:information-system-component-e-commerce-platform-commerce-orders
+type: ApplicationComponent
+name: Commerce & Orders (E-Commerce Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-e-commerce-platform
+
+composition:
+  - target: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

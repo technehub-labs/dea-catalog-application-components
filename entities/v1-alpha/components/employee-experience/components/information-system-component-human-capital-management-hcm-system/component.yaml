@@ -1,0 +1,23 @@
+id: dea:information-system-component-human-capital-management-hcm-system
+type: ApplicationComponent
+name: Human Capital Management (HCM) System
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:employee-experience
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

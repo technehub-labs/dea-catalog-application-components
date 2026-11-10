@@ -1,0 +1,17 @@
+id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component
+type: IntegrationComponent
+name: SMS Component (Programmable Communications, Communications Platform (CPaaS))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:integration
+
+facets:
+  component_kind: igc
+
+parent: dea:information-system-component-communications-platform-cpaas-programmable-communications
+
+readme: ./README.md

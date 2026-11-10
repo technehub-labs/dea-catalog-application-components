@@ -1,0 +1,17 @@
+id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component
+type: ApplicationComponent
+name: Milestone Component (Visibility Network, Supply Chain Visibility Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:partner-integration
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-supply-chain-visibility-platform-visibility-network
+
+readme: ./README.md

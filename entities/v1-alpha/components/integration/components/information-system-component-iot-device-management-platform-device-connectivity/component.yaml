@@ -1,0 +1,31 @@
+id: dea:information-system-component-iot-device-management-platform-device-connectivity
+type: IntegrationComponent
+name: Device Connectivity (IoT Device Management Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:integration
+
+facets:
+  component_kind: igc
+
+parent: dea:information-system-component-iot-device-management-platform
+
+composition:
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

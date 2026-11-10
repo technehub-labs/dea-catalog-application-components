@@ -1,0 +1,17 @@
+id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-identity-authorization-component
+type: IntegrationComponent
+name: Identity Authorization Component (Compute, Storage & Networking Services, Cloud Infrastructure Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:development-platform
+
+facets:
+  component_kind: igc
+
+parent: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services
+
+readme: ./README.md

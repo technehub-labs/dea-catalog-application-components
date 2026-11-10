@@ -36,9 +36,139 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-build-service/
+  - id: dea:information-system-component-cloud-infrastructure-platform
+    name: Cloud Infrastructure Platform
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-cloud-infrastructure-platform/
+  - id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services
+    name: Compute, Storage & Networking Services (Cloud Infrastructure Platform)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-cloud-infrastructure-platform-compute-storage-networking-services/
+  - id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-auto-scaling-component
+    name: Auto Scaling Component (Compute, Storage & Networking Services, Cloud Infrastructure Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-auto-scaling-component/
+  - id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-identity-authorization-component
+    name: Identity Authorization Component (Compute, Storage & Networking Services, Cloud Infrastructure Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-identity-authorization-component/
+  - id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-lifecycle-component
+    name: Lifecycle Component (Compute, Storage & Networking Services, Cloud Infrastructure Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-lifecycle-component/
+  - id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component
+    name: Monitoring Component (Compute, Storage & Networking Services, Cloud Infrastructure Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component/
+  - id: dea:information-system-component-container-orchestration-platform
+    name: Container Orchestration Platform
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-container-orchestration-platform/
+  - id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads
+    name: Cluster Control Plane & Workloads (Container Orchestration Platform)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-container-orchestration-platform-cluster-control-plane-workloads/
+  - id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-controller-component
+    name: Controller Component (Cluster Control Plane & Workloads, Container Orchestration Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-container-orchestration-platform-cluster-control-plane-workloads-controller-component/
+  - id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-node-agent-component
+    name: Node Agent Component (Cluster Control Plane & Workloads, Container Orchestration Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-container-orchestration-platform-cluster-control-plane-workloads-node-agent-component/
+  - id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component
+    name: Scheduler Component (Cluster Control Plane & Workloads, Container Orchestration Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component/
+  - id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-state-store-component
+    name: State Store Component (Cluster Control Plane & Workloads, Container Orchestration Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-container-orchestration-platform-cluster-control-plane-workloads-state-store-component/
+  - id: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform
+    name: Continuous Integration / Continuous Delivery (CI/CD) Platform
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-continuous-integration-continuous-delivery-ci-cd-platform/
+  - id: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows
+    name: CI/CD Workflows (Continuous Integration / Continuous Delivery (CI/CD) Platform)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows/
+  - id: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component
+    name: Matrix Component (CI/CD Workflows, Continuous Integration / Continuous Delivery (CI/CD) Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component/
+  - id: dea:information-system-component-infrastructure-as-code-iac-platform
+    name: Infrastructure as Code (IaC) Platform
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-infrastructure-as-code-iac-platform/
+  - id: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code
+    name: Infrastructure as Code (Infrastructure as Code (IaC) Platform)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code/
+  - id: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component
+    name: Plan Component (Infrastructure as Code, Infrastructure as Code (IaC) Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component/
+  - id: dea:information-system-component-issue-tracking-platform
+    name: Issue Tracking Platform
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-issue-tracking-platform/
+  - id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning
+    name: Issue Tracking & Planning (Issue Tracking Platform)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-issue-tracking-platform-issue-tracking-planning/
+  - id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component
+    name: Field Scheme Component (Issue Tracking & Planning, Issue Tracking Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component/
 
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C-P3
     note: "Initial P3 domain-level index. 1 F2 + 3 F4 per domain."
+  - version: "1.1"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 21 records added. Total domain records: 25."

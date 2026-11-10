@@ -1,0 +1,25 @@
+id: dea:information-system-component-core-banking-system-trade-finance-treasury
+type: ApplicationComponent
+name: Trade Finance & Treasury (Core Banking System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-core-banking-system
+
+composition:
+  - target: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

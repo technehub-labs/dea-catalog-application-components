@@ -1,0 +1,115 @@
+id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting
+type: ApplicationComponent
+name: Financial Accounting (Enterprise Resource Planning (ERP) System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-enterprise-resource-planning-erp-system
+
+composition:
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-billing-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-collections-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-settlement-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-tax-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md
