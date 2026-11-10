@@ -1,0 +1,31 @@
+id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health
+type: ApplicationComponent
+name: Patient Engagement & Population Health (Electronic Health Record (EHR) System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-electronic-health-record-ehr-system
+
+composition:
+  - target: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-registry-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

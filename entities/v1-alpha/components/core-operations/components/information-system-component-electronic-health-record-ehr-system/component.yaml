@@ -1,0 +1,35 @@
+id: dea:information-system-component-electronic-health-record-ehr-system
+type: ApplicationComponent
+name: Electronic Health Record (EHR) System
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-electronic-health-record-ehr-system-clinical-management
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

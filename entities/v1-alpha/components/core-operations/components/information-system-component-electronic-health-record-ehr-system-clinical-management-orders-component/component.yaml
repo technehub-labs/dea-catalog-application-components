@@ -1,0 +1,17 @@
+id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component
+type: ApplicationComponent
+name: Orders Component (Clinical Management, Electronic Health Record (EHR) System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-electronic-health-record-ehr-system-clinical-management
+
+readme: ./README.md
