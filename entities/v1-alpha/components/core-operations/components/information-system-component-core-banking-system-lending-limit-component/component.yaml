@@ -1,0 +1,17 @@
+id: dea:information-system-component-core-banking-system-lending-limit-component
+type: ApplicationComponent
+name: Limit Component (Lending, Core Banking System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-core-banking-system-lending
+
+readme: ./README.md
