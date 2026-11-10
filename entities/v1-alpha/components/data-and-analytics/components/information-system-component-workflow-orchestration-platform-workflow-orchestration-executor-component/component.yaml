@@ -1,0 +1,17 @@
+id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component
+type: ApplicationComponent
+name: Executor Component (Workflow Orchestration, Workflow Orchestration Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:data-and-analytics
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration
+
+readme: ./README.md

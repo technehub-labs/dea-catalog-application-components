@@ -1,0 +1,29 @@
+id: dea:information-system-component-e-commerce-platform
+type: ApplicationComponent
+name: E-Commerce Platform
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+composition:
+  - target: dea:information-system-component-e-commerce-platform-commerce-orders
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-e-commerce-platform-composable-commerce-api
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

@@ -1,0 +1,17 @@
+id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component
+type: ApplicationComponent
+name: Virtual Warehouse Component (Cloud Data Warehouse, Cloud Data Warehouse)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:data-and-analytics
+
+facets:
+  component_kind: data
+
+parent: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse
+
+readme: ./README.md
