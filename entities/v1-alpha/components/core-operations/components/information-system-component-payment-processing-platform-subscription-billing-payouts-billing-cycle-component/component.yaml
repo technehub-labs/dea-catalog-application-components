@@ -1,0 +1,19 @@
+id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component
+type: ApplicationComponent
+name: Billing Cycle Component (Subscription Billing & Payouts, Payment Processing Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-payment-processing-platform-subscription-billing-payouts
+
+readme: ./README.md
+
+@@__P4_END__@@
