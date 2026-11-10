@@ -1,0 +1,17 @@
+id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component
+type: ApplicationComponent
+name: Resource Model Component (Network Inventory & Topology, Telecom Operations Support System (OSS))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology
+
+readme: ./README.md

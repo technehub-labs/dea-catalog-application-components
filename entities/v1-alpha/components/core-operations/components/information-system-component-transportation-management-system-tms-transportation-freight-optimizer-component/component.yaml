@@ -1,0 +1,17 @@
+id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component
+type: ApplicationComponent
+name: Optimizer Component (Transportation & Freight, Transportation Management System (TMS))
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F2
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-transportation-management-system-tms-transportation-freight
+
+readme: ./README.md
