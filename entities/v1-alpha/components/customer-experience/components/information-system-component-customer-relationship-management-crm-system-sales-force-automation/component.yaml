@@ -1,0 +1,43 @@
+id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation
+type: ApplicationComponent
+name: Sales Force Automation (Customer Relationship Management (CRM) System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-customer-relationship-management-crm-system
+
+composition:
+  - target: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

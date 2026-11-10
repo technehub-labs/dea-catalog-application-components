@@ -1,0 +1,43 @@
+id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing
+type: ApplicationComponent
+name: Customer Service & Marketing (Customer Relationship Management (CRM) System)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-customer-relationship-management-crm-system
+
+composition:
+  - target: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md
