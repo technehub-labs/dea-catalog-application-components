@@ -1,0 +1,25 @@
+id: dea:information-system-component-supply-chain-visibility-platform-visibility-network
+type: ApplicationComponent
+name: Visibility Network (Supply Chain Visibility Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:partner-integration
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-supply-chain-visibility-platform
+
+composition:
+  - target: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

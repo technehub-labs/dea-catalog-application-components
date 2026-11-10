@@ -1,0 +1,25 @@
+id: dea:information-system-component-financial-messaging-network-messaging-connectivity
+type: IntegrationComponent
+name: Messaging & Connectivity (Financial Messaging Network)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:partner-integration
+
+facets:
+  component_kind: igc
+
+parent: dea:information-system-component-financial-messaging-network
+
+composition:
+  - target: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

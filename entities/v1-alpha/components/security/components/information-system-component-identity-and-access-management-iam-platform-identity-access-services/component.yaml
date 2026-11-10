@@ -1,0 +1,55 @@
+id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services
+type: ApplicationComponent
+name: Identity & Access Services (Identity and Access Management (IAM) Platform)
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F1
+
+component_domain: iscc:domain:security
+
+facets:
+  component_kind: security
+
+parent: dea:information-system-component-identity-and-access-management-iam-platform
+
+composition:
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md

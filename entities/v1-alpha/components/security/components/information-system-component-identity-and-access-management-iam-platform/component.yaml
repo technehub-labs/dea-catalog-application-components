@@ -1,0 +1,25 @@
+id: dea:information-system-component-identity-and-access-management-iam-platform
+type: ApplicationComponent
+name: Identity and Access Management (IAM) Platform
+status: active
+version: "1.0"
+effective_date: "2026-11-10"
+
+f_level: F0
+
+component_domain: iscc:domain:security
+
+facets:
+  component_kind: security
+
+composition:
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-10"
+    status: active
+
+readme: ./README.md
+
+@@__P4_END__@@
