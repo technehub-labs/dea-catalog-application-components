@@ -8,37 +8,37 @@ by_domain:
   iscc:domain:customer-experience:
     code: ISCC-01
     name: Customer Experience
-    component_count: 4
+    component_count: 33
     status: covered
   iscc:domain:employee-experience:
     code: ISCC-02
     name: Employee Experience
-    component_count: 3
+    component_count: 19
     status: covered
   iscc:domain:partner-integration:
     code: ISCC-03
     name: Partner Integration
-    component_count: 4
+    component_count: 10
     status: covered
   iscc:domain:core-operations:
     code: ISCC-04
     name: Core Operations
-    component_count: 3
+    component_count: 139
     status: covered
   iscc:domain:data-and-analytics:
     code: ISCC-05
     name: Data and Analytics
-    component_count: 4
+    component_count: 13
     status: covered
   iscc:domain:integration:
     code: ISCC-06
     name: Integration
-    component_count: 4
+    component_count: 17
     status: covered
   iscc:domain:security:
     code: ISCC-07
     name: Security
-    component_count: 4
+    component_count: 12
     status: covered
   iscc:domain:observability:
     code: ISCC-08
@@ -48,7 +48,7 @@ by_domain:
   iscc:domain:development-platform:
     code: ISCC-09
     name: Development Platform
-    component_count: 4
+    component_count: 25
     status: covered
   iscc:domain:ai-native:
     code: ISCC-10

@@ -36,9 +36,61 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-identity-broker-session-store/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform
+    name: Identity and Access Management (IAM) Platform
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services
+    name: Identity & Access Services (Identity and Access Management (IAM) Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component
+    name: Conditional Access Component (Identity & Access Services, Identity and Access Management (IAM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component
+    name: MFA Component (Identity & Access Services, Identity and Access Management (IAM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component
+    name: PIM Component (Identity & Access Services, Identity and Access Management (IAM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component
+    name: Realm Component (Identity & Access Services, Identity and Access Management (IAM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component
+    name: SAML Component (Identity & Access Services, Identity and Access Management (IAM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component
+    name: Sync Component (Identity & Access Services, Identity and Access Management (IAM) Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component/
 
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C
     note: "Initial domain-level index for the P1 population."
+  - version: "1.1"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 8 records added. Total domain records: 12."

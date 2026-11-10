@@ -29,3 +29,7 @@ Snapshot: `~/.hermes/profiles/coder/kanban/dea-metamodel-is-snapshot-2026-10-18.
 ## CR-IS-CAT-02F
 
 - **CR-IS-CAT-02F -- ISC forward-reference resolution** (`isc-rel-001` rebased to the canonical ISF-14 F2; 12 remaining forward refs re-verified at pinned commits; ISF target snapshot expanded from 4 hand-listed ids to all 50). See [CR-IS-CAT-02F](./CR-IS-CAT-02F-forward-reference-resolution.md).
+
+## CR-IS-CAT-02C-P4
+
+- **CR-IS-CAT-02C-P4 -- P4 vendor-neutral component population** (34 F0 system classes + 63 F1 component groups + 141 F2 composite components across 8 of 10 ISCC domains; vendor products are evidence only per G-12). See [CR-IS-CAT-02C-P4](./CR-IS-CAT-02C-P4-vendor-neutral-component-population.md).

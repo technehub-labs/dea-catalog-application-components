@@ -36,9 +36,91 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-api-gateway-authenticator/
+  - id: dea:information-system-component-communications-platform-cpaas
+    name: Communications Platform (CPaaS)
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-communications-platform-cpaas/
+  - id: dea:information-system-component-communications-platform-cpaas-programmable-communications
+    name: Programmable Communications (Communications Platform (CPaaS))
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-communications-platform-cpaas-programmable-communications/
+  - id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component
+    name: SMS Component (Programmable Communications, Communications Platform (CPaaS))
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-communications-platform-cpaas-programmable-communications-sms-component/
+  - id: dea:information-system-component-email-delivery-platform
+    name: Email Delivery Platform
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-email-delivery-platform/
+  - id: dea:information-system-component-email-delivery-platform-email-delivery
+    name: Email Delivery (Email Delivery Platform)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-email-delivery-platform-email-delivery/
+  - id: dea:information-system-component-email-delivery-platform-email-delivery-template-component
+    name: Template Component (Email Delivery, Email Delivery Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-email-delivery-platform-email-delivery-template-component/
+  - id: dea:information-system-component-event-streaming-platform
+    name: Event Streaming Platform
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform
+    name: Event Streaming Platform (Event Streaming Platform)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component
+    name: Partition Component (Event Streaming Platform, Event Streaming Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform-partition-component/
+  - id: dea:information-system-component-iot-device-management-platform
+    name: IoT Device Management Platform
+    f_level: F0
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity
+    name: Device Connectivity (IoT Device Management Platform)
+    f_level: F1
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component
+    name: Device Twin Component (Device Connectivity, IoT Device Management Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-device-twin-component/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component
+    name: Rules Engine Component (Device Connectivity, IoT Device Management Platform)
+    f_level: F2
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component/
 
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C
     note: "Initial domain-level index for the P1 population."
+  - version: "1.1"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 13 records added. Total domain records: 17."

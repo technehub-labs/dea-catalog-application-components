@@ -30,9 +30,829 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-order-fulfillment-worker/
+  - id: dea:information-system-component-card-payment-network
+    name: Card Payment Network
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement
+    name: Authorization, Clearing & Settlement (Card Payment Network)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component
+    name: Auth Component (Authorization, Clearing & Settlement, Card Payment Network)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement-auth-component/
+  - id: dea:information-system-component-claims-management-system
+    name: Claims Management System
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-claims-management-system/
+  - id: dea:information-system-component-claims-management-system-claims-intake-adjudication
+    name: Claims Intake & Adjudication (Claims Management System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-claims-management-system-claims-intake-adjudication/
+  - id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component
+    name: Exposure Component (Claims Intake & Adjudication, Claims Management System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-claims-management-system-claims-intake-adjudication-exposure-component/
+  - id: dea:information-system-component-core-banking-system
+    name: Core Banking System
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts
+    name: Customer & Deposit Accounts (Core Banking System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component
+    name: Account Component (Customer & Deposit Accounts, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-account-component/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component
+    name: Dormancy Component (Customer & Deposit Accounts, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-posting-engine-component
+    name: Posting Engine Component (Customer & Deposit Accounts, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-posting-engine-component/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-teller-component
+    name: Teller Component (Customer & Deposit Accounts, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-teller-component/
+  - id: dea:information-system-component-core-banking-system-deposits-payments
+    name: Deposits & Payments (Core Banking System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-deposits-payments/
+  - id: dea:information-system-component-core-banking-system-deposits-payments-account-component
+    name: Account Component (Deposits & Payments, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-deposits-payments-account-component/
+  - id: dea:information-system-component-core-banking-system-lending
+    name: Lending (Core Banking System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending/
+  - id: dea:information-system-component-core-banking-system-lending-disbursement-component
+    name: Disbursement Component (Lending, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-disbursement-component/
+  - id: dea:information-system-component-core-banking-system-lending-limit-component
+    name: Limit Component (Lending, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-limit-component/
+  - id: dea:information-system-component-core-banking-system-lending-schedule-component
+    name: Schedule Component (Lending, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-schedule-component/
+  - id: dea:information-system-component-core-banking-system-lending-scoring-component
+    name: Scoring Component (Lending, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-scoring-component/
+  - id: dea:information-system-component-core-banking-system-payments-financial-messaging
+    name: Payments & Financial Messaging (Core Banking System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-payments-financial-messaging/
+  - id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component
+    name: SEPA Component (Payments & Financial Messaging, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-payments-financial-messaging-sepa-component/
+  - id: dea:information-system-component-core-banking-system-trade-finance-treasury
+    name: Trade Finance & Treasury (Core Banking System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-trade-finance-treasury/
+  - id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component
+    name: LC Component (Trade Finance & Treasury, Core Banking System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-trade-finance-treasury-lc-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system
+    name: Electronic Health Record (EHR) System
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management
+    name: Clinical Management (Electronic Health Record (EHR) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-bcma-component
+    name: BCMA Component (Clinical Management, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-bcma-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component
+    name: CPOE Component (Clinical Management, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component
+    name: Orders Component (Clinical Management, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component
+    name: Registration Component (Clinical Management, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-results-component
+    name: Results Component (Clinical Management, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-results-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health
+    name: Patient Engagement & Population Health (Electronic Health Record (EHR) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component
+    name: Patient Portal Component (Patient Engagement & Population Health, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-registry-component
+    name: Registry Component (Patient Engagement & Population Health, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-registry-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle
+    name: Revenue Cycle (Electronic Health Record (EHR) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-charge-router-component
+    name: Charge Router Component (Revenue Cycle, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-charge-router-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component
+    name: Claim Scrubbing Component (Revenue Cycle, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component
+    name: Eligibility Component (Revenue Cycle, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component
+    name: Remittance Component (Revenue Cycle, Electronic Health Record (EHR) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system
+    name: Enterprise Resource Planning (ERP) System
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting
+    name: Financial Accounting (Enterprise Resource Planning (ERP) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-billing-component
+    name: Billing Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-billing-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-collections-component
+    name: Collections Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-collections-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component
+    name: Cost Center Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-component
+    name: Invoice Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component
+    name: Invoice Processing Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component
+    name: Journal Entry Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component
+    name: Journal Import Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component
+    name: Ledger Accounting Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component
+    name: Payment Engine Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component
+    name: Payment Format Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component
+    name: Payment Proposal Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component
+    name: Reconciliation Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component
+    name: Requisition Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-settlement-component
+    name: Settlement Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-settlement-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-tax-component
+    name: Tax Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-tax-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component
+    name: Voucher Component (Financial Accounting, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management
+    name: Human Capital Management (Enterprise Resource Planning (ERP) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-employee-master-component
+    name: Employee Master Component (Human Capital Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-employee-master-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component
+    name: Payroll Engine Component (Human Capital Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-time-evaluation-component
+    name: Time Evaluation Component (Human Capital Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-time-evaluation-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component
+    name: Wage Type Component (Human Capital Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management
+    name: Materials Management (Enterprise Resource Planning (ERP) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component
+    name: Goods Movement Component (Materials Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component
+    name: Material Master Component (Materials Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component
+    name: Purchase Order Component (Materials Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component
+    name: Valuation Component (Materials Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning
+    name: Production Planning (Enterprise Resource Planning (ERP) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component
+    name: BOM Component (Production Planning, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component
+    name: Capacity Planning Component (Production Planning, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component
+    name: Order Settlement Component (Production Planning, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component
+    name: Production Order Component (Production Planning, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management
+    name: Project Management (Enterprise Resource Planning (ERP) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-project-management/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component
+    name: WBS Component (Project Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management
+    name: Sales Order Management (Enterprise Resource Planning (ERP) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component
+    name: Availability Check Component (Sales Order Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component
+    name: Billing Document Component (Sales Order Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component
+    name: Delivery Component (Sales Order Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component
+    name: Sales Order Component (Sales Order Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management
+    name: Supply Chain Management (Enterprise Resource Planning (ERP) System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-fulfillment-component
+    name: Fulfillment Component (Supply Chain Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-fulfillment-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-lot-genealogy-component
+    name: Lot Genealogy Component (Supply Chain Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-lot-genealogy-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-reservations-component
+    name: Reservations Component (Supply Chain Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-reservations-component/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-shipping-component
+    name: Shipping Component (Supply Chain Management, Enterprise Resource Planning (ERP) System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-shipping-component/
+  - id: dea:information-system-component-manufacturing-execution-system-mes
+    name: Manufacturing Execution System (MES)
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution
+    name: Manufacturing Execution (Manufacturing Execution System (MES))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component
+    name: Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc
+    name: Mobile Core Network (EPC/5GC)
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-charging-function
+    name: Charging Function (Mobile Core Network (EPC/5GC))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-charging-function/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component
+    name: Online Charging Component (Charging Function, Mobile Core Network (EPC/5GC))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management
+    name: Mobility & Session Management (Mobile Core Network (EPC/5GC))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-mobility-session-management/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component
+    name: Access & Mobility Component (Mobility & Session Management, Mobile Core Network (EPC/5GC))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control
+    name: Policy Control (Mobile Core Network (EPC/5GC))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-policy-control/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component
+    name: Policy Engine Component (Policy Control, Mobile Core Network (EPC/5GC))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management
+    name: Subscriber Data Management (Mobile Core Network (EPC/5GC))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-subscriber-data-management/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component
+    name: Subscriber Repository Component (Subscriber Data Management, Mobile Core Network (EPC/5GC))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component/
+  - id: dea:information-system-component-payment-processing-platform
+    name: Payment Processing Platform
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform/
+  - id: dea:information-system-component-payment-processing-platform-checkout-wallet
+    name: Checkout & Wallet (Payment Processing Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-checkout-wallet/
+  - id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component
+    name: Authorization Component (Checkout & Wallet, Payment Processing Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-checkout-wallet-authorization-component/
+  - id: dea:information-system-component-payment-processing-platform-payments
+    name: Payments (Payment Processing Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-payments/
+  - id: dea:information-system-component-payment-processing-platform-payments-tokenization-component
+    name: Tokenization Component (Payments, Payment Processing Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-payments-tokenization-component/
+  - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts
+    name: Subscription Billing & Payouts (Payment Processing Platform)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-subscription-billing-payouts/
+  - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component
+    name: Billing Cycle Component (Subscription Billing & Payouts, Payment Processing Platform)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component/
+  - id: dea:information-system-component-policy-administration-system
+    name: Policy Administration System
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-policy-administration-system/
+  - id: dea:information-system-component-policy-administration-system-policy-origination-administration
+    name: Policy Origination & Administration (Policy Administration System)
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-policy-administration-system-policy-origination-administration/
+  - id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component
+    name: Rating Component (Policy Origination & Administration, Policy Administration System)
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-policy-administration-system-policy-origination-administration-rating-component/
+  - id: dea:information-system-component-radio-access-network-ran
+    name: Radio Access Network (RAN)
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran/
+  - id: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management
+    name: Cell & Radio Resource Management (Radio Access Network (RAN))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-cell-radio-resource-management/
+  - id: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component
+    name: Radio Resource Component (Cell & Radio Resource Management, Radio Access Network (RAN))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component/
+  - id: dea:information-system-component-radio-access-network-ran-handover-mobility-optimization
+    name: Handover & Mobility Optimization (Radio Access Network (RAN))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-handover-mobility-optimization/
+  - id: dea:information-system-component-radio-access-network-ran-handover-mobility-optimization-mobility-component
+    name: Mobility Component (Handover & Mobility Optimization, Radio Access Network (RAN))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-handover-mobility-optimization-mobility-component/
+  - id: dea:information-system-component-radio-access-network-ran-self-organizing-network
+    name: Self-Organizing Network (Radio Access Network (RAN))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-self-organizing-network/
+  - id: dea:information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component
+    name: SON Engine Component (Self-Organizing Network, Radio Access Network (RAN))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component/
+  - id: dea:information-system-component-telecom-business-support-system-bss
+    name: Telecom Business Support System (BSS)
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss/
+  - id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging
+    name: Mediation & Charging (Telecom Business Support System (BSS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-mediation-charging/
+  - id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component
+    name: Mediation Component (Mediation & Charging, Telecom Business Support System (BSS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component/
+  - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration
+    name: Order Management & Orchestration (Telecom Business Support System (BSS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-order-management-orchestration/
+  - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component
+    name: Order Component (Order Management & Orchestration, Telecom Business Support System (BSS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component/
+  - id: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management
+    name: Product & Offer Catalog Management (Telecom Business Support System (BSS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-product-offer-catalog-management/
+  - id: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component
+    name: Catalog Model Component (Product & Offer Catalog Management, Telecom Business Support System (BSS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component/
+  - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing
+    name: Rating & Billing (Telecom Business Support System (BSS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-rating-billing/
+  - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component
+    name: Rating Engine Component (Rating & Billing, Telecom Business Support System (BSS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component/
+  - id: dea:information-system-component-telecom-operations-support-system-oss
+    name: Telecom Operations Support System (OSS)
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance
+    name: Fault Management & Service Assurance (Telecom Operations Support System (OSS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component
+    name: Event Correlation Component (Fault Management & Service Assurance, Telecom Operations Support System (OSS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology
+    name: Network Inventory & Topology (Telecom Operations Support System (OSS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-network-inventory-topology/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component
+    name: Resource Model Component (Network Inventory & Topology, Telecom Operations Support System (OSS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-performance-management
+    name: Performance Management (Telecom Operations Support System (OSS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-performance-management/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-performance-management-counter-component
+    name: Counter Component (Performance Management, Telecom Operations Support System (OSS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-performance-management-counter-component/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation
+    name: Service Provisioning & Activation (Telecom Operations Support System (OSS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-service-provisioning-activation/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component
+    name: Activation Engine Component (Service Provisioning & Activation, Telecom Operations Support System (OSS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component/
+  - id: dea:information-system-component-transportation-management-system-tms
+    name: Transportation Management System (TMS)
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight
+    name: Transportation & Freight (Transportation Management System (TMS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component
+    name: Optimizer Component (Transportation & Freight, Transportation Management System (TMS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component/
+  - id: dea:information-system-component-warehouse-management-system-wms
+    name: Warehouse Management System (WMS)
+    f_level: F0
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms/
+  - id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations
+    name: Warehouse Operations (Warehouse Management System (WMS))
+    f_level: F1
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms-warehouse-operations/
+  - id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component
+    name: Task Allocation Component (Warehouse Operations, Warehouse Management System (WMS))
+    f_level: F2
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component/
 
 change_history:
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C
     note: "Initial domain-level index for the P1 population."
+  - version: "1.1"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 136 records added. Total domain records: 139."

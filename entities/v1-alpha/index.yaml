@@ -22,44 +22,44 @@ domains:
     name: Customer Experience
     path: components/customer-experience/
     status: active
-    component_count: 4
+    component_count: 33
   - id: iscc:domain:core-operations
     code: ISCC-04
     name: Core Operations
     path: components/core-operations/
     status: active
-    component_count: 3
+    component_count: 139
   - id: iscc:domain:data-and-analytics
     code: ISCC-05
     name: Data and Analytics
     path: components/data-and-analytics/
     status: active
-    component_count: 4
+    component_count: 13
   - id: iscc:domain:integration
     code: ISCC-06
     name: Integration
     path: components/integration/
     status: active
-    component_count: 4
+    component_count: 17
   - id: iscc:domain:security
     code: ISCC-07
     name: Security
     path: components/security/
     status: active
-    component_count: 3
+    component_count: 11
 
   - id: iscc:domain:employee-experience
     code: ISCC-02
     name: Employee Experience
     path: components/employee-experience/
     status: active
-    component_count: 3
+    component_count: 19
   - id: iscc:domain:partner-integration
     code: ISCC-03
     name: Partner Integration
     path: components/partner-integration/
     status: active
-    component_count: 4
+    component_count: 10
   - id: iscc:domain:observability
     code: ISCC-08
     name: Observability
@@ -72,7 +72,7 @@ domains:
     name: Development Platform
     path: components/development-platform/
     status: active
-    component_count: 4
+    component_count: 25
   - id: iscc:domain:ai-native
     code: ISCC-10
     name: AI Native
@@ -94,17 +94,21 @@ domains:
     component_count: 4
 
 # Catalog-level counts
-total_components: 38
+total_components: 276
 f_level_distribution:
-  F0: 0
-  F1: 0
-  F2: 10
+  F0: 34
+  F1: 63
+  F2: 151
   F3: 0
   F4: 28
   F5: 0
 
 # Change history
 change_history:
+  - version: "1.3"
+    date: 2026-11-10
+    cr: CR-IS-CAT-02C-P4
+    note: "P4 vendor-neutral component population. 238 generic component records added (34 F0 system classes + 63 F1 component groups + 141 F2 composite components) across 8 of 10 ISCC domains. Vendor products are evidence only per G-12. Total catalog: 276 records."
   - version: "1.0"
     date: 2026-10-18
     cr: CR-IS-CAT-02C

@@ -40,3 +40,11 @@
 - Re-verified all 12 remaining forward refs against live target repos at pinned commits; all correctly remain forward.
 - Corrected two incorrect `declared-empty` snapshot claims: `dea-catalog-metrics` admits 5 metric records, `dea-catalog-business-objects` is scaffolded. Neither contains any declared ISC-side target.
 - ISF target snapshot pin advanced `9faff32aefae` to `635f1cae2582`; snapshot expanded from 4 hand-listed ids to all 50 canonical ISF ids.
+
+## CR-IS-CAT-02C-P4 (2026-11-10)
+
+- ISC P4 population: 238 vendor-neutral component records (34 F0 system classes + 63 F1 component groups + 141 F2 composite components) across 8 of 10 ISCC domains.
+- F0-F5 model applied per docs/decomposition-guide.md: F0 contains F1, F1 contains F2; composition edges kind=contains, cardinality=required.
+- Vendor products are evidence only per G-12; the component_kind facet is asserted (apc/igc/data/security); deployment-specific facets are deferred to per-deployment CRs.
+- New scripts/generate_p4_population.py + scripts/p4_component_data.json (deterministic and idempotent; per G-10).
+- Total catalog: 276 records. Executed-function crawl: CR-IS-CAT-01C-P4 in the ISF catalogue.
