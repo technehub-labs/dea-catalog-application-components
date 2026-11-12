@@ -14,4 +14,42 @@ facets:
 
 parent: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services
 
+composition:
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-analysis-evaluation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-provisioning-lifecycle
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
