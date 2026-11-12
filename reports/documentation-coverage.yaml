@@ -1,11 +1,11 @@
 version: 1
 effective: '2026-10-18'
 cr: CR-IS-CAT-02D
-total_records: 276
-records_with_readme: 276
+total_records: 735
+records_with_readme: 735
 records_without_readme: 0
-records_with_change_history: 276
-records_with_parent_or_children: 276
+records_with_change_history: 735
+records_with_parent_or_children: 735
 records:
 - id: dea:information-system-component-agent-orchestrator
   has_readme: true
@@ -51,6 +51,34 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-resolution-response
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-ci-cd-pipeline
   has_readme: true
   has_change_history: true
@@ -67,6 +95,26 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-cloud-data-warehouse
   has_readme: true
   has_change_history: true
@@ -76,6 +124,34 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-storage-persistence
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -91,7 +167,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-auto-scaling-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-auto-scaling-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-auto-scaling-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-identity-authorization-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-identity-authorization-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-identity-authorization-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -99,7 +195,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-lifecycle-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-lifecycle-component-storage-persistence
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component-resolution-response
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component-storage-persistence
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -115,6 +231,26 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-container-orchestration-platform
   has_readme: true
   has_change_history: true
@@ -127,7 +263,35 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-controller-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-controller-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-controller-component-resolution-response
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-node-agent-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-node-agent-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-node-agent-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-node-agent-component-storage-persistence
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-node-agent-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -135,7 +299,31 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component-storage-persistence
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-state-store-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-state-store-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-state-store-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-state-store-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -151,6 +339,22 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-core-banking-system
   has_readme: true
   has_change_history: true
@@ -163,7 +367,31 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-posting-application
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -171,7 +399,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-posting-engine-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-posting-engine-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-teller-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-teller-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-customer-deposit-accounts-teller-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -183,6 +427,22 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-deposits-payments-account-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-deposits-payments-account-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-deposits-payments-account-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-deposits-payments-account-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-core-banking-system-lending
   has_readme: true
   has_change_history: true
@@ -191,7 +451,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-lending-disbursement-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-lending-disbursement-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-core-banking-system-lending-limit-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-lending-limit-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-lending-limit-component-intake-capture
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -199,7 +475,19 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-lending-schedule-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-core-banking-system-lending-scoring-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-lending-scoring-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-lending-scoring-component-integration-transformation
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -211,11 +499,51 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-core-banking-system-trade-finance-treasury
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -235,7 +563,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -243,7 +591,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-knowledge-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-knowledge-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -255,7 +623,31 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -263,7 +655,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -275,7 +687,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-api-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-api-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -283,7 +715,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-sandbox-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-sandbox-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -295,7 +743,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -303,7 +767,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -316,6 +800,30 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -340,6 +848,30 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-provisioning-lifecycle
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -379,11 +911,71 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-storage-persistence
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-e-commerce-platform-composable-commerce-api
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -399,7 +991,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-bcma-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-bcma-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-storage-persistence
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -407,11 +1019,55 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-results-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-results-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-results-component-intake-capture
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -423,7 +1079,19 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-registry-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-registry-component-administration
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -435,7 +1103,19 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-charge-router-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -443,7 +1123,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -456,6 +1152,22 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-email-delivery-platform-email-delivery-template-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-email-delivery-platform-email-delivery-template-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-email-delivery-platform-email-delivery-template-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-email-delivery-platform-email-delivery-template-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-email-delivery-platform-email-delivery-template-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -483,7 +1195,15 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-billing-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-collections-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-collections-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -491,7 +1211,19 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -499,7 +1231,39 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -507,7 +1271,39 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-storage-persistence
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -515,7 +1311,31 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-intake-capture
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -523,7 +1343,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component-creation-authoring
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -531,7 +1371,19 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-settlement-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-settlement-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -539,7 +1391,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-tax-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-posting-application
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -551,7 +1419,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-employee-master-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-employee-master-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component-intake-capture
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -559,7 +1443,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-time-evaluation-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-time-evaluation-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -571,7 +1471,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component-posting-application
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -579,7 +1499,31 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-integration-transformation
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -591,7 +1535,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -599,7 +1563,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -611,6 +1591,22 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management
   has_readme: true
   has_change_history: true
@@ -619,7 +1615,35 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -627,7 +1651,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component-intake-capture
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -639,7 +1683,19 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-fulfillment-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-fulfillment-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-lot-genealogy-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-lot-genealogy-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -647,7 +1703,15 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-reservations-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-shipping-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-shipping-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -663,6 +1727,34 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-financial-messaging-network
   has_readme: true
   has_change_history: true
@@ -672,6 +1764,34 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-resolution-response
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -687,7 +1807,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -695,7 +1831,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -703,7 +1859,23 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-position-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-position-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-position-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -711,7 +1883,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component-execution
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -727,7 +1919,31 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -735,7 +1951,35 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -743,7 +1987,43 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-provisioning-lifecycle
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -771,6 +2051,18 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-iot-device-management-platform
   has_readme: true
   has_change_history: true
@@ -783,7 +2075,55 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-storage-persistence
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -799,6 +2139,34 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-storage-persistence
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-it-service-management-itsm-platform
   has_readme: true
   has_change_history: true
@@ -811,7 +2179,31 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-approval-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-approval-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-resolution-response
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -819,7 +2211,39 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-resolution-response
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -839,6 +2263,38 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-metrics-collector
   has_readme: true
   has_change_history: true
@@ -855,11 +2311,39 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -871,11 +2355,35 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-posting-application
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-integration-transformation
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -935,6 +2443,26 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-payment-processing-platform-payments
   has_readme: true
   has_change_history: true
@@ -943,11 +2471,59 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-resolution-response
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-storage-persistence
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -963,6 +2539,26 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-radio-access-network-ran
   has_readme: true
   has_change_history: true
@@ -975,6 +2571,14 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-radio-access-network-ran-handover-mobility-optimization
   has_readme: true
   has_change_history: true
@@ -983,11 +2587,27 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-radio-access-network-ran-handover-mobility-optimization-mobility-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-radio-access-network-ran-handover-mobility-optimization-mobility-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-radio-access-network-ran-self-organizing-network
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component-detection-observation
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -1003,6 +2623,26 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-telecom-business-support-system-bss
   has_readme: true
   has_change_history: true
@@ -1015,11 +2655,47 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-integration-transformation
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -1031,11 +2707,43 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-posting-application
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -1051,11 +2759,39 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-analysis-evaluation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-integration-transformation
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -1067,11 +2803,39 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-detection-observation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-provisioning-lifecycle
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-validation-gating
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
@@ -1087,6 +2851,34 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-integration-transformation
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-routing-delivery
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-validation-gating
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-warehouse-management-system-wms
   has_readme: true
   has_change_history: true
@@ -1099,6 +2891,30 @@ records:
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
+- id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-calculation-settlement
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-creation-authoring
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-reporting-publication
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
 - id: dea:information-system-component-workflow-orchestration-platform
   has_readme: true
   has_change_history: true
@@ -1108,6 +2924,26 @@ records:
   has_change_history: true
   has_parent_or_children: true
 - id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component-administration
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component-execution
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component-intake-capture
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component-resolution-response
+  has_readme: true
+  has_change_history: true
+  has_parent_or_children: true
+- id: dea:information-system-component-workflow-orchestration-platform-workflow-orchestration-executor-component-routing-delivery
   has_readme: true
   has_change_history: true
   has_parent_or_children: true
