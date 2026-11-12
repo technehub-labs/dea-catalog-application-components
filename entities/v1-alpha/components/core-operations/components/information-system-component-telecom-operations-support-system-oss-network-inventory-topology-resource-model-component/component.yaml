@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology
 
+composition:
+  - target: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-detection-observation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

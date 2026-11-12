@@ -14,4 +14,30 @@ facets:
 
 parent: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance
 
+composition:
+  - target: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-analysis-evaluation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-detection-observation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
