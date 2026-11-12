@@ -14,4 +14,30 @@ facets:
 
 parent: dea:information-system-component-enterprise-resource-planning-erp-system-project-management
 
+composition:
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
