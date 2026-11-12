@@ -14,4 +14,18 @@ facets:
 
 parent: dea:information-system-component-core-banking-system-customer-deposit-accounts
 
+composition:
+  - target: dea:information-system-component-core-banking-system-customer-deposit-accounts-teller-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-core-banking-system-customer-deposit-accounts-teller-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
