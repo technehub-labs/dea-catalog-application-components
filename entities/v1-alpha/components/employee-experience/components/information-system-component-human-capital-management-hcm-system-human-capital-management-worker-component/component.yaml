@@ -14,4 +14,18 @@ facets:
 
 parent: dea:information-system-component-human-capital-management-hcm-system-human-capital-management
 
+composition:
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

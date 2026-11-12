@@ -14,4 +14,30 @@ facets:
 
 parent: dea:information-system-component-it-service-management-itsm-platform-it-service-management
 
+composition:
+  - target: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-resolution-response
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
