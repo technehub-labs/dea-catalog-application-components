@@ -14,4 +14,42 @@ facets:
 
 parent: dea:information-system-component-data-lakehouse-platform-lakehouse-platform
 
+composition:
+  - target: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-calculation-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-provisioning-lifecycle
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

@@ -1,0 +1,17 @@
+id: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component-intake-capture
+type: ApplicationComponent
+name: Intake & Capture Atomic Component (Cluster Component (Lakehouse Platform, Data Lakehouse Platform))
+status: active
+version: "1.0"
+effective_date: "2026-11-12"
+
+f_level: F3
+
+component_domain: iscc:domain:data-and-analytics
+
+facets:
+  component_kind: data
+
+parent: dea:information-system-component-data-lakehouse-platform-lakehouse-platform-cluster-component
+
+readme: ./README.md
