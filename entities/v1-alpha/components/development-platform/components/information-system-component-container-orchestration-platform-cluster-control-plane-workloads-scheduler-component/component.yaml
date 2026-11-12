@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads
 
+composition:
+  - target: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component-provisioning-lifecycle
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-container-orchestration-platform-cluster-control-plane-workloads-scheduler-component-storage-persistence
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
