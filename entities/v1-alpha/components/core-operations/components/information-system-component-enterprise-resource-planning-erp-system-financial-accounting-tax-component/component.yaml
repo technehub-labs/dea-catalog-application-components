@@ -14,4 +14,12 @@ facets:
 
 parent: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting
 
+composition:
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-tax-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
