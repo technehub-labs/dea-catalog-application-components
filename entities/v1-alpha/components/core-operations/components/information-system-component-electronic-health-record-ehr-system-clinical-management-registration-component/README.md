@@ -25,13 +25,18 @@ F2
 
 # 8. Composition (parent, children)
 - Parent: `dea:information-system-component-electronic-health-record-ehr-system-clinical-management`
-- Children: (none)
+- Child: `dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-administration`
+- Child: `dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-provisioning-lifecycle`
+- Child: `dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-validation-gating`
 
 # 9. Composition edges
-- (none; the parent is recorded in the `parent` field)
+- `dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-administration`: contains (required)
+- `dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-provisioning-lifecycle`: contains (required)
+- `dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-validation-gating`: contains (required)
 
 # 10. Functional realization (functions realized by this component)
 - Executes 3 vendor-neutral function record(s) of the P4 population (CR-IS-CAT-01C-P4 in technehub-labs/dea-catalog-system-functions); each function record lists this component in `executing_components`.
+- Decomposed by CR-IS-CAT-02C-P5 into 3 F3 atomic components via the canonical verb-cluster taxonomy of its P4 function names; see the child records.
 
 # 11. Cross-references (components related by other metamodel relationships)
 - (none in this CR; cross-catalogue relationships remain owned by CR-IS-CAT-02D)
@@ -56,6 +61,7 @@ Enterprise Architecture team (DEA-Architecture@example.com)
 
 # 18. Change history
 - 1.0: 2026-11-10: Initial P4 vendor-neutral record (CR-IS-CAT-02C-P4).
+- 1.1: 2026-11-12: P5 atomic decomposition (CR-IS-CAT-02C-P5): 3 F3 atomic components attached.
 
 # 19. References
 - `change-requests/CR-IS-CAT-02C-P4-vendor-neutral-component-population.md` (the CR doc)
@@ -64,3 +70,5 @@ Enterprise Architecture team (DEA-Architecture@example.com)
 - `taxonomy/` (the classification layer)
 - `schemas/entities/information-system-component.v2.json` (the v2 schema)
 - `technehub-labs/dea-catalog-system-functions` (the executing-function catalogue; CR-IS-CAT-01C-P4)
+- `change-requests/CR-IS-CAT-02C-P5-atomic-component-population.md` (the P5 CR doc)
+- `scripts/p5_component_data.json` (the P5 atom inventory)
