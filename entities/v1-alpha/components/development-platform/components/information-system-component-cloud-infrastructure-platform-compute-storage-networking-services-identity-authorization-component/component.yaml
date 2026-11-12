@@ -14,4 +14,18 @@ facets:
 
 parent: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services
 
+composition:
+  - target: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-identity-authorization-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-identity-authorization-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
