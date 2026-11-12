@@ -1,0 +1,17 @@
+id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-intake-capture
+type: ApplicationComponent
+name: Intake & Capture Atomic Component (Conditional Access Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+status: active
+version: "1.0"
+effective_date: "2026-11-12"
+
+f_level: F3
+
+component_domain: iscc:domain:security
+
+facets:
+  component_kind: security
+
+parent: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component
+
+readme: ./README.md
