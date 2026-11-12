@@ -14,4 +14,48 @@ facets:
 
 parent: dea:information-system-component-issue-tracking-platform-issue-tracking-planning
 
+composition:
+  - target: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-analysis-evaluation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-calculation-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-reporting-publication
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-storage-persistence
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-issue-tracking-platform-issue-tracking-planning-field-scheme-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

@@ -846,6 +846,1506 @@ components:
     type: ApplicationComponent
     status: active
     path: components/information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-administration
+    name: Administration Atomic Component (Auth Component (Authorization, Clearing & Settlement, Card Payment Network))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-administration/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Auth Component (Authorization, Clearing & Settlement, Card Payment Network))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-analysis-evaluation/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Auth Component (Authorization, Clearing & Settlement, Card Payment Network))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-calculation-settlement/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-intake-capture
+    name: Intake & Capture Atomic Component (Auth Component (Authorization, Clearing & Settlement, Card Payment Network))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-intake-capture/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-resolution-response
+    name: Resolution & Response Atomic Component (Auth Component (Authorization, Clearing & Settlement, Card Payment Network))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-resolution-response/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Auth Component (Authorization, Clearing & Settlement, Card Payment Network))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-routing-delivery/
+  - id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-validation-gating
+    name: Validation & Gating Atomic Component (Auth Component (Authorization, Clearing & Settlement, Card Payment Network))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-validation-gating/
+  - id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Exposure Component (Claims Intake & Adjudication, Claims Management System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-calculation-settlement/
+  - id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Exposure Component (Claims Intake & Adjudication, Claims Management System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-creation-authoring/
+  - id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-intake-capture
+    name: Intake & Capture Atomic Component (Exposure Component (Claims Intake & Adjudication, Claims Management System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-intake-capture/
+  - id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Exposure Component (Claims Intake & Adjudication, Claims Management System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-provisioning-lifecycle/
+  - id: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Exposure Component (Claims Intake & Adjudication, Claims Management System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-routing-delivery/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Account Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-account-component-calculation-settlement/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-posting-application
+    name: Posting & Application Atomic Component (Account Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-account-component-posting-application/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Account Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-account-component-provisioning-lifecycle/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-execution
+    name: Execution Atomic Component (Dormancy Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-execution/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-intake-capture
+    name: Intake & Capture Atomic Component (Dormancy Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-intake-capture/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-posting-application
+    name: Posting & Application Atomic Component (Dormancy Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-dormancy-component-posting-application/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-posting-engine-component-intake-capture
+    name: Intake & Capture Atomic Component (Posting Engine Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-posting-engine-component-intake-capture/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-posting-engine-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Posting Engine Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-posting-engine-component-reporting-publication/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-teller-component-administration
+    name: Administration Atomic Component (Teller Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-teller-component-administration/
+  - id: dea:information-system-component-core-banking-system-customer-deposit-accounts-teller-component-execution
+    name: Execution Atomic Component (Teller Component (Customer & Deposit Accounts, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-customer-deposit-accounts-teller-component-execution/
+  - id: dea:information-system-component-core-banking-system-deposits-payments-account-component-administration
+    name: Administration Atomic Component (Account Component (Deposits & Payments, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-deposits-payments-account-component-administration/
+  - id: dea:information-system-component-core-banking-system-deposits-payments-account-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Account Component (Deposits & Payments, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-deposits-payments-account-component-calculation-settlement/
+  - id: dea:information-system-component-core-banking-system-deposits-payments-account-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Account Component (Deposits & Payments, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-deposits-payments-account-component-creation-authoring/
+  - id: dea:information-system-component-core-banking-system-deposits-payments-account-component-intake-capture
+    name: Intake & Capture Atomic Component (Account Component (Deposits & Payments, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-deposits-payments-account-component-intake-capture/
+  - id: dea:information-system-component-core-banking-system-lending-disbursement-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Disbursement Component (Lending, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-disbursement-component-calculation-settlement/
+  - id: dea:information-system-component-core-banking-system-lending-disbursement-component-execution
+    name: Execution Atomic Component (Disbursement Component (Lending, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-disbursement-component-execution/
+  - id: dea:information-system-component-core-banking-system-lending-limit-component-execution
+    name: Execution Atomic Component (Limit Component (Lending, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-limit-component-execution/
+  - id: dea:information-system-component-core-banking-system-lending-limit-component-intake-capture
+    name: Intake & Capture Atomic Component (Limit Component (Lending, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-limit-component-intake-capture/
+  - id: dea:information-system-component-core-banking-system-lending-schedule-component-administration
+    name: Administration Atomic Component (Schedule Component (Lending, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-schedule-component-administration/
+  - id: dea:information-system-component-core-banking-system-lending-scoring-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Scoring Component (Lending, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-scoring-component-creation-authoring/
+  - id: dea:information-system-component-core-banking-system-lending-scoring-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Scoring Component (Lending, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-lending-scoring-component-integration-transformation/
+  - id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (SEPA Component (Payments & Financial Messaging, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-payments-financial-messaging-sepa-component-analysis-evaluation/
+  - id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-creation-authoring
+    name: Creation & Authoring Atomic Component (SEPA Component (Payments & Financial Messaging, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-payments-financial-messaging-sepa-component-creation-authoring/
+  - id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-execution
+    name: Execution Atomic Component (SEPA Component (Payments & Financial Messaging, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-payments-financial-messaging-sepa-component-execution/
+  - id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-intake-capture
+    name: Intake & Capture Atomic Component (SEPA Component (Payments & Financial Messaging, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-payments-financial-messaging-sepa-component-intake-capture/
+  - id: dea:information-system-component-core-banking-system-payments-financial-messaging-sepa-component-routing-delivery
+    name: Routing & Delivery Atomic Component (SEPA Component (Payments & Financial Messaging, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-payments-financial-messaging-sepa-component-routing-delivery/
+  - id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-administration
+    name: Administration Atomic Component (LC Component (Trade Finance & Treasury, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-trade-finance-treasury-lc-component-administration/
+  - id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-creation-authoring
+    name: Creation & Authoring Atomic Component (LC Component (Trade Finance & Treasury, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-trade-finance-treasury-lc-component-creation-authoring/
+  - id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-execution
+    name: Execution Atomic Component (LC Component (Trade Finance & Treasury, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-trade-finance-treasury-lc-component-execution/
+  - id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-intake-capture
+    name: Intake & Capture Atomic Component (LC Component (Trade Finance & Treasury, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-trade-finance-treasury-lc-component-intake-capture/
+  - id: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-validation-gating
+    name: Validation & Gating Atomic Component (LC Component (Trade Finance & Treasury, Core Banking System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-core-banking-system-trade-finance-treasury-lc-component-validation-gating/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-bcma-component-administration
+    name: Administration Atomic Component (BCMA Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-bcma-component-administration/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-bcma-component-routing-delivery
+    name: Routing & Delivery Atomic Component (BCMA Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-bcma-component-routing-delivery/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-administration
+    name: Administration Atomic Component (CPOE Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-administration/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-creation-authoring
+    name: Creation & Authoring Atomic Component (CPOE Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-creation-authoring/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-storage-persistence
+    name: Storage & Persistence Atomic Component (CPOE Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-cpoe-component-storage-persistence/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-administration
+    name: Administration Atomic Component (Orders Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-administration/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Orders Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-analysis-evaluation/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-execution
+    name: Execution Atomic Component (Orders Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-execution/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Orders Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-integration-transformation/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Orders Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-routing-delivery/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-validation-gating
+    name: Validation & Gating Atomic Component (Orders Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-orders-component-validation-gating/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-administration
+    name: Administration Atomic Component (Registration Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-administration/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Registration Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-provisioning-lifecycle/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-validation-gating
+    name: Validation & Gating Atomic Component (Registration Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-registration-component-validation-gating/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-results-component-execution
+    name: Execution Atomic Component (Results Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-results-component-execution/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-clinical-management-results-component-intake-capture
+    name: Intake & Capture Atomic Component (Results Component (Clinical Management, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-clinical-management-results-component-intake-capture/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component-detection-observation
+    name: Detection & Observation Atomic Component (Patient Portal Component (Patient Engagement & Population Health, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component-detection-observation/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Patient Portal Component (Patient Engagement & Population Health, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-patient-portal-component-routing-delivery/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-registry-component-administration
+    name: Administration Atomic Component (Registry Component (Patient Engagement & Population Health, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-patient-engagement-population-health-registry-component-administration/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-charge-router-component-validation-gating
+    name: Validation & Gating Atomic Component (Charge Router Component (Revenue Cycle, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-charge-router-component-validation-gating/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component-execution
+    name: Execution Atomic Component (Claim Scrubbing Component (Revenue Cycle, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component-execution/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Claim Scrubbing Component (Revenue Cycle, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-claim-scrubbing-component-routing-delivery/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component-posting-application
+    name: Posting & Application Atomic Component (Eligibility Component (Revenue Cycle, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component-posting-application/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component-validation-gating
+    name: Validation & Gating Atomic Component (Eligibility Component (Revenue Cycle, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-eligibility-component-validation-gating/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component-administration
+    name: Administration Atomic Component (Remittance Component (Revenue Cycle, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component-administration/
+  - id: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Remittance Component (Revenue Cycle, Electronic Health Record (EHR) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-electronic-health-record-ehr-system-revenue-cycle-remittance-component-routing-delivery/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-billing-component-execution
+    name: Execution Atomic Component (Billing Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-billing-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-collections-component-execution
+    name: Execution Atomic Component (Collections Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-collections-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Cost Center Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component-intake-capture
+    name: Intake & Capture Atomic Component (Cost Center Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-cost-center-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-component-execution
+    name: Execution Atomic Component (Invoice Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-administration
+    name: Administration Atomic Component (Invoice Processing Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-execution
+    name: Execution Atomic Component (Invoice Processing Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-intake-capture
+    name: Intake & Capture Atomic Component (Invoice Processing Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Invoice Processing Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-reporting-publication/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-execution
+    name: Execution Atomic Component (Journal Entry Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-intake-capture
+    name: Intake & Capture Atomic Component (Journal Entry Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-posting-application
+    name: Posting & Application Atomic Component (Journal Entry Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-posting-application/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-validation-gating
+    name: Validation & Gating Atomic Component (Journal Entry Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-entry-component-validation-gating/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Journal Import Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-execution
+    name: Execution Atomic Component (Journal Import Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-intake-capture
+    name: Intake & Capture Atomic Component (Journal Import Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-journal-import-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-administration
+    name: Administration Atomic Component (Ledger Accounting Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Ledger Accounting Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-execution
+    name: Execution Atomic Component (Ledger Accounting Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-posting-application
+    name: Posting & Application Atomic Component (Ledger Accounting Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-posting-application/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-storage-persistence
+    name: Storage & Persistence Atomic Component (Ledger Accounting Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-ledger-accounting-component-storage-persistence/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Payment Engine Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-analysis-evaluation/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-execution
+    name: Execution Atomic Component (Payment Engine Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-posting-application
+    name: Posting & Application Atomic Component (Payment Engine Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-engine-component-posting-application/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Payment Format Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-execution
+    name: Execution Atomic Component (Payment Format Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-intake-capture
+    name: Intake & Capture Atomic Component (Payment Format Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-format-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-administration
+    name: Administration Atomic Component (Payment Proposal Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-execution
+    name: Execution Atomic Component (Payment Proposal Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-intake-capture
+    name: Intake & Capture Atomic Component (Payment Proposal Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-payment-proposal-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component-administration
+    name: Administration Atomic Component (Reconciliation Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Reconciliation Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-reconciliation-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Requisition Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component-execution
+    name: Execution Atomic Component (Requisition Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-requisition-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-settlement-component-execution
+    name: Execution Atomic Component (Settlement Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-settlement-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-tax-component-execution
+    name: Execution Atomic Component (Tax Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-tax-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-administration
+    name: Administration Atomic Component (Voucher Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-execution
+    name: Execution Atomic Component (Voucher Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-posting-application
+    name: Posting & Application Atomic Component (Voucher Component (Financial Accounting, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-financial-accounting-voucher-component-posting-application/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-employee-master-component-administration
+    name: Administration Atomic Component (Employee Master Component (Human Capital Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-employee-master-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-employee-master-component-execution
+    name: Execution Atomic Component (Employee Master Component (Human Capital Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-employee-master-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component-administration
+    name: Administration Atomic Component (Payroll Engine Component (Human Capital Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component-intake-capture
+    name: Intake & Capture Atomic Component (Payroll Engine Component (Human Capital Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-payroll-engine-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-time-evaluation-component-execution
+    name: Execution Atomic Component (Time Evaluation Component (Human Capital Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-time-evaluation-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-time-evaluation-component-posting-application
+    name: Posting & Application Atomic Component (Time Evaluation Component (Human Capital Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-time-evaluation-component-posting-application/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component-administration
+    name: Administration Atomic Component (Wage Type Component (Human Capital Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component-execution
+    name: Execution Atomic Component (Wage Type Component (Human Capital Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-human-capital-management-wage-type-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-administration
+    name: Administration Atomic Component (Goods Movement Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Goods Movement Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-analysis-evaluation/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-detection-observation
+    name: Detection & Observation Atomic Component (Goods Movement Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-goods-movement-component-detection-observation/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component-execution
+    name: Execution Atomic Component (Material Master Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component-posting-application
+    name: Posting & Application Atomic Component (Material Master Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-material-master-component-posting-application/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-administration
+    name: Administration Atomic Component (Purchase Order Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Purchase Order Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-execution
+    name: Execution Atomic Component (Purchase Order Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Valuation Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-calculation-settlement/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-execution
+    name: Execution Atomic Component (Valuation Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Valuation Component (Materials Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-materials-management-valuation-component-integration-transformation/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-administration
+    name: Administration Atomic Component (BOM Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (BOM Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-analysis-evaluation/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-execution
+    name: Execution Atomic Component (BOM Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-bom-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Capacity Planning Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component-calculation-settlement/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component-execution
+    name: Execution Atomic Component (Capacity Planning Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-capacity-planning-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component-intake-capture
+    name: Intake & Capture Atomic Component (Order Settlement Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Order Settlement Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-order-settlement-component-provisioning-lifecycle/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Production Order Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component-execution
+    name: Execution Atomic Component (Production Order Component (Production Planning, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-production-planning-production-order-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-administration
+    name: Administration Atomic Component (WBS Component (Project Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-creation-authoring
+    name: Creation & Authoring Atomic Component (WBS Component (Project Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-execution
+    name: Execution Atomic Component (WBS Component (Project Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-validation-gating
+    name: Validation & Gating Atomic Component (WBS Component (Project Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-project-management-wbs-component-validation-gating/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-administration
+    name: Administration Atomic Component (Availability Check Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-execution
+    name: Execution Atomic Component (Availability Check Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-posting-application
+    name: Posting & Application Atomic Component (Availability Check Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-posting-application/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-validation-gating
+    name: Validation & Gating Atomic Component (Availability Check Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-availability-check-component-validation-gating/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-administration
+    name: Administration Atomic Component (Billing Document Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Billing Document Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-execution
+    name: Execution Atomic Component (Billing Document Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-billing-document-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-administration
+    name: Administration Atomic Component (Delivery Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-execution
+    name: Execution Atomic Component (Delivery Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-validation-gating
+    name: Validation & Gating Atomic Component (Delivery Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-delivery-component-validation-gating/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Sales Order Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component-intake-capture
+    name: Intake & Capture Atomic Component (Sales Order Component (Sales Order Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-sales-order-management-sales-order-component-intake-capture/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-fulfillment-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Fulfillment Component (Supply Chain Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-fulfillment-component-creation-authoring/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-fulfillment-component-detection-observation
+    name: Detection & Observation Atomic Component (Fulfillment Component (Supply Chain Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-fulfillment-component-detection-observation/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-lot-genealogy-component-execution
+    name: Execution Atomic Component (Lot Genealogy Component (Supply Chain Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-lot-genealogy-component-execution/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-reservations-component-administration
+    name: Administration Atomic Component (Reservations Component (Supply Chain Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-reservations-component-administration/
+  - id: dea:information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-shipping-component-execution
+    name: Execution Atomic Component (Shipping Component (Supply Chain Management, Enterprise Resource Planning (ERP) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-enterprise-resource-planning-erp-system-supply-chain-management-shipping-component-execution/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-administration
+    name: Administration Atomic Component (Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-administration/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-analysis-evaluation/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-calculation-settlement/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-creation-authoring/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-execution
+    name: Execution Atomic Component (Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-execution/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-intake-capture
+    name: Intake & Capture Atomic Component (Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-intake-capture/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-reporting-publication/
+  - id: dea:information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Dispatch Component (Manufacturing Execution, Manufacturing Execution System (MES)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-manufacturing-execution-system-mes-manufacturing-execution-dispatch-component-routing-delivery/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Online Charging Component (Charging Function, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-calculation-settlement/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Online Charging Component (Charging Function, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-creation-authoring/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-validation-gating
+    name: Validation & Gating Atomic Component (Online Charging Component (Charging Function, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-validation-gating/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-administration
+    name: Administration Atomic Component (Access & Mobility Component (Mobility & Session Management, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-administration/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-execution
+    name: Execution Atomic Component (Access & Mobility Component (Mobility & Session Management, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-execution/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Access & Mobility Component (Mobility & Session Management, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-provisioning-lifecycle/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-validation-gating
+    name: Validation & Gating Atomic Component (Access & Mobility Component (Mobility & Session Management, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-mobility-session-management-access-mobility-component-validation-gating/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-posting-application
+    name: Posting & Application Atomic Component (Policy Engine Component (Policy Control, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-posting-application/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Policy Engine Component (Policy Control, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-routing-delivery/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-validation-gating
+    name: Validation & Gating Atomic Component (Policy Engine Component (Policy Control, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-validation-gating/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-administration
+    name: Administration Atomic Component (Subscriber Repository Component (Subscriber Data Management, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-administration/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Subscriber Repository Component (Subscriber Data Management, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-creation-authoring/
+  - id: dea:information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Subscriber Repository Component (Subscriber Data Management, Mobile Core Network (EPC/5GC)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-mobile-core-network-epc-5gc-subscriber-data-management-subscriber-repository-component-integration-transformation/
+  - id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-administration
+    name: Administration Atomic Component (Authorization Component (Checkout & Wallet, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-checkout-wallet-authorization-component-administration/
+  - id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Authorization Component (Checkout & Wallet, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-checkout-wallet-authorization-component-analysis-evaluation/
+  - id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Authorization Component (Checkout & Wallet, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-checkout-wallet-authorization-component-creation-authoring/
+  - id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-execution
+    name: Execution Atomic Component (Authorization Component (Checkout & Wallet, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-checkout-wallet-authorization-component-execution/
+  - id: dea:information-system-component-payment-processing-platform-checkout-wallet-authorization-component-intake-capture
+    name: Intake & Capture Atomic Component (Authorization Component (Checkout & Wallet, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-checkout-wallet-authorization-component-intake-capture/
+  - id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Tokenization Component (Payments, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-payments-tokenization-component-calculation-settlement/
+  - id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Tokenization Component (Payments, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-payments-tokenization-component-creation-authoring/
+  - id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-execution
+    name: Execution Atomic Component (Tokenization Component (Payments, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-payments-tokenization-component-execution/
+  - id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-intake-capture
+    name: Intake & Capture Atomic Component (Tokenization Component (Payments, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-payments-tokenization-component-intake-capture/
+  - id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-resolution-response
+    name: Resolution & Response Atomic Component (Tokenization Component (Payments, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-payments-tokenization-component-resolution-response/
+  - id: dea:information-system-component-payment-processing-platform-payments-tokenization-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Tokenization Component (Payments, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-payments-tokenization-component-routing-delivery/
+  - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-administration
+    name: Administration Atomic Component (Billing Cycle Component (Subscription Billing & Payouts, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-administration/
+  - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Billing Cycle Component (Subscription Billing & Payouts, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-analysis-evaluation/
+  - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Billing Cycle Component (Subscription Billing & Payouts, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-calculation-settlement/
+  - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Billing Cycle Component (Subscription Billing & Payouts, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-creation-authoring/
+  - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-execution
+    name: Execution Atomic Component (Billing Cycle Component (Subscription Billing & Payouts, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-execution/
+  - id: dea:information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-storage-persistence
+    name: Storage & Persistence Atomic Component (Billing Cycle Component (Subscription Billing & Payouts, Payment Processing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-payment-processing-platform-subscription-billing-payouts-billing-cycle-component-storage-persistence/
+  - id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Rating Component (Policy Origination & Administration, Policy Administration System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-policy-administration-system-policy-origination-administration-rating-component-analysis-evaluation/
+  - id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Rating Component (Policy Origination & Administration, Policy Administration System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-policy-administration-system-policy-origination-administration-rating-component-creation-authoring/
+  - id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-execution
+    name: Execution Atomic Component (Rating Component (Policy Origination & Administration, Policy Administration System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-policy-administration-system-policy-origination-administration-rating-component-execution/
+  - id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-intake-capture
+    name: Intake & Capture Atomic Component (Rating Component (Policy Origination & Administration, Policy Administration System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-policy-administration-system-policy-origination-administration-rating-component-intake-capture/
+  - id: dea:information-system-component-policy-administration-system-policy-origination-administration-rating-component-validation-gating
+    name: Validation & Gating Atomic Component (Rating Component (Policy Origination & Administration, Policy Administration System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-policy-administration-system-policy-origination-administration-rating-component-validation-gating/
+  - id: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component-administration
+    name: Administration Atomic Component (Radio Resource Component (Cell & Radio Resource Management, Radio Access Network (RAN)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component-administration/
+  - id: dea:information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Radio Resource Component (Cell & Radio Resource Management, Radio Access Network (RAN)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-cell-radio-resource-management-radio-resource-component-provisioning-lifecycle/
+  - id: dea:information-system-component-radio-access-network-ran-handover-mobility-optimization-mobility-component-administration
+    name: Administration Atomic Component (Mobility Component (Handover & Mobility Optimization, Radio Access Network (RAN)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-handover-mobility-optimization-mobility-component-administration/
+  - id: dea:information-system-component-radio-access-network-ran-handover-mobility-optimization-mobility-component-execution
+    name: Execution Atomic Component (Mobility Component (Handover & Mobility Optimization, Radio Access Network (RAN)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-handover-mobility-optimization-mobility-component-execution/
+  - id: dea:information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component-administration
+    name: Administration Atomic Component (SON Engine Component (Self-Organizing Network, Radio Access Network (RAN)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component-administration/
+  - id: dea:information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component-detection-observation
+    name: Detection & Observation Atomic Component (SON Engine Component (Self-Organizing Network, Radio Access Network (RAN)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-radio-access-network-ran-self-organizing-network-son-engine-component-detection-observation/
+  - id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Mediation Component (Mediation & Charging, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-analysis-evaluation/
+  - id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-intake-capture
+    name: Intake & Capture Atomic Component (Mediation Component (Mediation & Charging, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-intake-capture/
+  - id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Mediation Component (Mediation & Charging, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-integration-transformation/
+  - id: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Mediation Component (Mediation & Charging, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-routing-delivery/
+  - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-administration
+    name: Administration Atomic Component (Order Component (Order Management & Orchestration, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-administration/
+  - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-detection-observation
+    name: Detection & Observation Atomic Component (Order Component (Order Management & Orchestration, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-detection-observation/
+  - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-execution
+    name: Execution Atomic Component (Order Component (Order Management & Orchestration, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-execution/
+  - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-intake-capture
+    name: Intake & Capture Atomic Component (Order Component (Order Management & Orchestration, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-intake-capture/
+  - id: dea:information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Order Component (Order Management & Orchestration, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-order-management-orchestration-order-component-integration-transformation/
+  - id: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-administration
+    name: Administration Atomic Component (Catalog Model Component (Product & Offer Catalog Management, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-administration/
+  - id: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Catalog Model Component (Product & Offer Catalog Management, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-creation-authoring/
+  - id: dea:information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Catalog Model Component (Product & Offer Catalog Management, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-product-offer-catalog-management-catalog-model-component-reporting-publication/
+  - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Rating Engine Component (Rating & Billing, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-calculation-settlement/
+  - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Rating Engine Component (Rating & Billing, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-creation-authoring/
+  - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-execution
+    name: Execution Atomic Component (Rating Engine Component (Rating & Billing, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-execution/
+  - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-intake-capture
+    name: Intake & Capture Atomic Component (Rating Engine Component (Rating & Billing, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-intake-capture/
+  - id: dea:information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-posting-application
+    name: Posting & Application Atomic Component (Rating Engine Component (Rating & Billing, Telecom Business Support System (BSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-business-support-system-bss-rating-billing-rating-engine-component-posting-application/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Event Correlation Component (Fault Management & Service Assurance, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-analysis-evaluation/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-detection-observation
+    name: Detection & Observation Atomic Component (Event Correlation Component (Fault Management & Service Assurance, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-detection-observation/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-intake-capture
+    name: Intake & Capture Atomic Component (Event Correlation Component (Fault Management & Service Assurance, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-intake-capture/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Event Correlation Component (Fault Management & Service Assurance, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-fault-management-service-assurance-event-correlation-component-routing-delivery/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-administration
+    name: Administration Atomic Component (Resource Model Component (Network Inventory & Topology, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-administration/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-detection-observation
+    name: Detection & Observation Atomic Component (Resource Model Component (Network Inventory & Topology, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-detection-observation/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Resource Model Component (Network Inventory & Topology, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-network-inventory-topology-resource-model-component-integration-transformation/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-detection-observation
+    name: Detection & Observation Atomic Component (Counter Component (Performance Management, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-detection-observation/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-intake-capture
+    name: Intake & Capture Atomic Component (Counter Component (Performance Management, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-intake-capture/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Counter Component (Performance Management, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-performance-management-counter-component-reporting-publication/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-administration
+    name: Administration Atomic Component (Activation Engine Component (Service Provisioning & Activation, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-administration/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-execution
+    name: Execution Atomic Component (Activation Engine Component (Service Provisioning & Activation, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-execution/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Activation Engine Component (Service Provisioning & Activation, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-provisioning-lifecycle/
+  - id: dea:information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-validation-gating
+    name: Validation & Gating Atomic Component (Activation Engine Component (Service Provisioning & Activation, Telecom Operations Support System (OSS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-telecom-operations-support-system-oss-service-provisioning-activation-activation-engine-component-validation-gating/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-administration
+    name: Administration Atomic Component (Optimizer Component (Transportation & Freight, Transportation Management System (TMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-administration/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Optimizer Component (Transportation & Freight, Transportation Management System (TMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-calculation-settlement/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Optimizer Component (Transportation & Freight, Transportation Management System (TMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-creation-authoring/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-execution
+    name: Execution Atomic Component (Optimizer Component (Transportation & Freight, Transportation Management System (TMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-execution/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Optimizer Component (Transportation & Freight, Transportation Management System (TMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-integration-transformation/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Optimizer Component (Transportation & Freight, Transportation Management System (TMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-routing-delivery/
+  - id: dea:information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-validation-gating
+    name: Validation & Gating Atomic Component (Optimizer Component (Transportation & Freight, Transportation Management System (TMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-transportation-management-system-tms-transportation-freight-optimizer-component-validation-gating/
+  - id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-administration
+    name: Administration Atomic Component (Task Allocation Component (Warehouse Operations, Warehouse Management System (WMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-administration/
+  - id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Task Allocation Component (Warehouse Operations, Warehouse Management System (WMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-calculation-settlement/
+  - id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Task Allocation Component (Warehouse Operations, Warehouse Management System (WMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-creation-authoring/
+  - id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-execution
+    name: Execution Atomic Component (Task Allocation Component (Warehouse Operations, Warehouse Management System (WMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-execution/
+  - id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-intake-capture
+    name: Intake & Capture Atomic Component (Task Allocation Component (Warehouse Operations, Warehouse Management System (WMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-intake-capture/
+  - id: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Task Allocation Component (Warehouse Operations, Warehouse Management System (WMS)))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-reporting-publication/
 
 change_history:
   - version: "1.0"
@@ -856,3 +2356,7 @@ change_history:
     date: 2026-11-10
     cr: CR-IS-CAT-02C-P4
     note: "P4 vendor-neutral component population. 136 records added. Total domain records: 139."
+  - version: "1.2"
+    date: 2026-11-12
+    cr: CR-IS-CAT-02C-P5
+    note: "P5 atomic-component population. 250 F3 records added. Total domain records: 389."

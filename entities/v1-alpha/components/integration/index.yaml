@@ -114,6 +114,174 @@ components:
     type: IntegrationComponent
     status: active
     path: components/information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component/
+  - id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-administration
+    name: Administration Atomic Component (SMS Component (Programmable Communications, Communications Platform (CPaaS)))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-communications-platform-cpaas-programmable-communications-sms-component-administration/
+  - id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-creation-authoring
+    name: Creation & Authoring Atomic Component (SMS Component (Programmable Communications, Communications Platform (CPaaS)))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-communications-platform-cpaas-programmable-communications-sms-component-creation-authoring/
+  - id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-intake-capture
+    name: Intake & Capture Atomic Component (SMS Component (Programmable Communications, Communications Platform (CPaaS)))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-communications-platform-cpaas-programmable-communications-sms-component-intake-capture/
+  - id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (SMS Component (Programmable Communications, Communications Platform (CPaaS)))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-communications-platform-cpaas-programmable-communications-sms-component-provisioning-lifecycle/
+  - id: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-validation-gating
+    name: Validation & Gating Atomic Component (SMS Component (Programmable Communications, Communications Platform (CPaaS)))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-communications-platform-cpaas-programmable-communications-sms-component-validation-gating/
+  - id: dea:information-system-component-email-delivery-platform-email-delivery-template-component-administration
+    name: Administration Atomic Component (Template Component (Email Delivery, Email Delivery Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-email-delivery-platform-email-delivery-template-component-administration/
+  - id: dea:information-system-component-email-delivery-platform-email-delivery-template-component-detection-observation
+    name: Detection & Observation Atomic Component (Template Component (Email Delivery, Email Delivery Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-email-delivery-platform-email-delivery-template-component-detection-observation/
+  - id: dea:information-system-component-email-delivery-platform-email-delivery-template-component-posting-application
+    name: Posting & Application Atomic Component (Template Component (Email Delivery, Email Delivery Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-email-delivery-platform-email-delivery-template-component-posting-application/
+  - id: dea:information-system-component-email-delivery-platform-email-delivery-template-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Template Component (Email Delivery, Email Delivery Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-email-delivery-platform-email-delivery-template-component-routing-delivery/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-administration
+    name: Administration Atomic Component (Partition Component (Event Streaming Platform, Event Streaming Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform-partition-component-administration/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Partition Component (Event Streaming Platform, Event Streaming Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform-partition-component-creation-authoring/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-detection-observation
+    name: Detection & Observation Atomic Component (Partition Component (Event Streaming Platform, Event Streaming Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform-partition-component-detection-observation/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-intake-capture
+    name: Intake & Capture Atomic Component (Partition Component (Event Streaming Platform, Event Streaming Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform-partition-component-intake-capture/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Partition Component (Event Streaming Platform, Event Streaming Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform-partition-component-integration-transformation/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-posting-application
+    name: Posting & Application Atomic Component (Partition Component (Event Streaming Platform, Event Streaming Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform-partition-component-posting-application/
+  - id: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-validation-gating
+    name: Validation & Gating Atomic Component (Partition Component (Event Streaming Platform, Event Streaming Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-event-streaming-platform-event-streaming-platform-partition-component-validation-gating/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-administration
+    name: Administration Atomic Component (Device Twin Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-administration/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-execution
+    name: Execution Atomic Component (Device Twin Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-execution/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-intake-capture
+    name: Intake & Capture Atomic Component (Device Twin Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-intake-capture/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Device Twin Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-integration-transformation/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Device Twin Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-provisioning-lifecycle/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Device Twin Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-device-twin-component-routing-delivery/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-administration
+    name: Administration Atomic Component (Rules Engine Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-administration/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-intake-capture
+    name: Intake & Capture Atomic Component (Rules Engine Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-intake-capture/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Rules Engine Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-integration-transformation/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Rules Engine Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-provisioning-lifecycle/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Rules Engine Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-routing-delivery/
+  - id: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-storage-persistence
+    name: Storage & Persistence Atomic Component (Rules Engine Component (Device Connectivity, IoT Device Management Platform))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-storage-persistence/
 
 change_history:
   - version: "1.0"
@@ -124,3 +292,7 @@ change_history:
     date: 2026-11-10
     cr: CR-IS-CAT-02C-P4
     note: "P4 vendor-neutral component population. 13 records added. Total domain records: 17."
+  - version: "1.2"
+    date: 2026-11-12
+    cr: CR-IS-CAT-02C-P5
+    note: "P5 atomic-component population. 28 F3 records added. Total domain records: 45."

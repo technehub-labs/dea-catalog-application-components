@@ -1,0 +1,17 @@
+id: dea:information-system-component-core-banking-system-deposits-payments-account-component-creation-authoring
+type: ApplicationComponent
+name: Creation & Authoring Atomic Component (Account Component (Deposits & Payments, Core Banking System))
+status: active
+version: "1.0"
+effective_date: "2026-11-12"
+
+f_level: F3
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-core-banking-system-deposits-payments-account-component
+
+readme: ./README.md

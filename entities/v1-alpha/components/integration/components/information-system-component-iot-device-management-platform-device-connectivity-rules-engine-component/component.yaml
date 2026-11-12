@@ -14,4 +14,42 @@ facets:
 
 parent: dea:information-system-component-iot-device-management-platform-device-connectivity
 
+composition:
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-provisioning-lifecycle
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-iot-device-management-platform-device-connectivity-rules-engine-component-storage-persistence
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

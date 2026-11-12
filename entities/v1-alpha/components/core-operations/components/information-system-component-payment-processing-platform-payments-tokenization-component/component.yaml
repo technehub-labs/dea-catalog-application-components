@@ -14,4 +14,42 @@ facets:
 
 parent: dea:information-system-component-payment-processing-platform-payments
 
+composition:
+  - target: dea:information-system-component-payment-processing-platform-payments-tokenization-component-calculation-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-payment-processing-platform-payments-tokenization-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-payment-processing-platform-payments-tokenization-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-payment-processing-platform-payments-tokenization-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-payment-processing-platform-payments-tokenization-component-resolution-response
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-payment-processing-platform-payments-tokenization-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

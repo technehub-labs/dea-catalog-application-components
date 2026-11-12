@@ -14,4 +14,48 @@ facets:
 
 parent: dea:information-system-component-card-payment-network-authorization-clearing-settlement
 
+composition:
+  - target: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-analysis-evaluation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-calculation-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-resolution-response
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

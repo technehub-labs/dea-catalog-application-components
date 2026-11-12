@@ -72,6 +72,78 @@ components:
     type: ApplicationComponent
     status: active
     path: components/information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-administration
+    name: Administration Atomic Component (Standards Component (Messaging & Connectivity, Financial Messaging Network))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity-standards-component-administration/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Standards Component (Messaging & Connectivity, Financial Messaging Network))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity-standards-component-creation-authoring/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-detection-observation
+    name: Detection & Observation Atomic Component (Standards Component (Messaging & Connectivity, Financial Messaging Network))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity-standards-component-detection-observation/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-execution
+    name: Execution Atomic Component (Standards Component (Messaging & Connectivity, Financial Messaging Network))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity-standards-component-execution/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-intake-capture
+    name: Intake & Capture Atomic Component (Standards Component (Messaging & Connectivity, Financial Messaging Network))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity-standards-component-intake-capture/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-resolution-response
+    name: Resolution & Response Atomic Component (Standards Component (Messaging & Connectivity, Financial Messaging Network))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity-standards-component-resolution-response/
+  - id: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Standards Component (Messaging & Connectivity, Financial Messaging Network))
+    f_level: F3
+    type: IntegrationComponent
+    status: active
+    path: components/information-system-component-financial-messaging-network-messaging-connectivity-standards-component-routing-delivery/
+  - id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-administration
+    name: Administration Atomic Component (Milestone Component (Visibility Network, Supply Chain Visibility Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-administration/
+  - id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Milestone Component (Visibility Network, Supply Chain Visibility Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-analysis-evaluation/
+  - id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-intake-capture
+    name: Intake & Capture Atomic Component (Milestone Component (Visibility Network, Supply Chain Visibility Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-intake-capture/
+  - id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Milestone Component (Visibility Network, Supply Chain Visibility Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-integration-transformation/
+  - id: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Milestone Component (Visibility Network, Supply Chain Visibility Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-reporting-publication/
 
 change_history:
   - version: "1.0"
@@ -82,3 +154,7 @@ change_history:
     date: 2026-11-10
     cr: CR-IS-CAT-02C-P4
     note: "P4 vendor-neutral component population. 6 records added. Total domain records: 10."
+  - version: "1.2"
+    date: 2026-11-12
+    cr: CR-IS-CAT-02C-P5
+    note: "P5 atomic-component population. 12 F3 records added. Total domain records: 22."

@@ -1,0 +1,17 @@
+id: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component-routing-delivery
+type: ApplicationComponent
+name: Routing & Delivery Atomic Component (Auth Component (Authorization, Clearing & Settlement, Card Payment Network))
+status: active
+version: "1.0"
+effective_date: "2026-11-12"
+
+f_level: F3
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-card-payment-network-authorization-clearing-settlement-auth-component
+
+readme: ./README.md

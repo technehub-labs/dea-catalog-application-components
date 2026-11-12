@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-core-banking-system-customer-deposit-accounts
 
+composition:
+  - target: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-calculation-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-posting-application
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-core-banking-system-customer-deposit-accounts-account-component-provisioning-lifecycle
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

@@ -14,4 +14,30 @@ facets:
 
 parent: dea:information-system-component-email-delivery-platform-email-delivery
 
+composition:
+  - target: dea:information-system-component-email-delivery-platform-email-delivery-template-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-email-delivery-platform-email-delivery-template-component-detection-observation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-email-delivery-platform-email-delivery-template-component-posting-application
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-email-delivery-platform-email-delivery-template-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

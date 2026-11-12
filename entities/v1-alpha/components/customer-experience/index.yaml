@@ -210,6 +210,366 @@ components:
     type: ApplicationComponent
     status: active
     path: components/information-system-component-e-commerce-platform-composable-commerce-api-projection-component/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-administration
+    name: Administration Atomic Component (Case Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-administration/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Case Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-creation-authoring/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-execution
+    name: Execution Atomic Component (Case Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-case-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Entitlement Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component-creation-authoring/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component-execution
+    name: Execution Atomic Component (Entitlement Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-entitlement-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-knowledge-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Knowledge Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-knowledge-component-creation-authoring/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-knowledge-component-validation-gating
+    name: Validation & Gating Atomic Component (Knowledge Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-knowledge-component-validation-gating/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-administration
+    name: Administration Atomic Component (Work Order Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-administration/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-execution
+    name: Execution Atomic Component (Work Order Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Work Order Component (Customer Service Management, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-management-work-order-component-routing-delivery/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Cross-Application Sync Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-analysis-evaluation/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-execution
+    name: Execution Atomic Component (Cross-Application Sync Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Cross-Application Sync Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-cross-application-sync-component-integration-transformation/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-administration
+    name: Administration Atomic Component (Entitlement Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-administration/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-execution
+    name: Execution Atomic Component (Entitlement Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Entitlement Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-entitlement-component-routing-delivery/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Routing Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-calculation-settlement/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Routing Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-creation-authoring/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Routing Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-routing-component-integration-transformation/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component-execution
+    name: Execution Atomic Component (Survey Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Survey Component (Customer Service & Marketing, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-customer-service-marketing-survey-component-routing-delivery/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-api-component-execution
+    name: Execution Atomic Component (API Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-api-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-api-component-integration-transformation
+    name: Integration & Transformation Atomic Component (API Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-api-component-integration-transformation/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-execution
+    name: Execution Atomic Component (Event Bus Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Event Bus Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-integration-transformation/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-validation-gating
+    name: Validation & Gating Atomic Component (Event Bus Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-validation-gating/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-administration
+    name: Administration Atomic Component (Flow Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-administration/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-intake-capture
+    name: Intake & Capture Atomic Component (Flow Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-intake-capture/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Flow Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-flow-component-reporting-publication/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-sandbox-component-execution
+    name: Execution Atomic Component (Sandbox Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-platform-automation-services-sandbox-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Lead Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component-creation-authoring/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component-intake-capture
+    name: Intake & Capture Atomic Component (Lead Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-lead-component-intake-capture/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component-administration
+    name: Administration Atomic Component (Opportunity Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component-administration/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component-execution
+    name: Execution Atomic Component (Opportunity Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-opportunity-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-administration
+    name: Administration Atomic Component (Price Book Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-administration/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-execution
+    name: Execution Atomic Component (Price Book Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-execution/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-validation-gating
+    name: Validation & Gating Atomic Component (Price Book Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-price-book-component-validation-gating/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component-administration
+    name: Administration Atomic Component (Quote Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component-administration/
+  - id: dea:information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component-execution
+    name: Execution Atomic Component (Quote Component (Sales Force Automation, Customer Relationship Management (CRM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-relationship-management-crm-system-sales-force-automation-quote-component-execution/
+  - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-administration
+    name: Administration Atomic Component (Trigger Component (Customer Service Management, Customer Service Ticketing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-administration/
+  - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Trigger Component (Customer Service Management, Customer Service Ticketing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-creation-authoring/
+  - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-execution
+    name: Execution Atomic Component (Trigger Component (Customer Service Management, Customer Service Ticketing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-execution/
+  - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-posting-application
+    name: Posting & Application Atomic Component (Trigger Component (Customer Service Management, Customer Service Ticketing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-posting-application/
+  - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Trigger Component (Customer Service Management, Customer Service Ticketing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-routing-delivery/
+  - id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-validation-gating
+    name: Validation & Gating Atomic Component (Trigger Component (Customer Service Management, Customer Service Ticketing Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-validation-gating/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-administration
+    name: Administration Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-administration/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-analysis-evaluation/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-calculation-settlement/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-creation-authoring/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-execution
+    name: Execution Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-execution/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-intake-capture
+    name: Intake & Capture Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-intake-capture/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-routing-delivery/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-storage-persistence
+    name: Storage & Persistence Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-storage-persistence/
+  - id: dea:information-system-component-e-commerce-platform-commerce-orders-catalog-component-validation-gating
+    name: Validation & Gating Atomic Component (Catalog Component (Commerce & Orders, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-commerce-orders-catalog-component-validation-gating/
+  - id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-administration
+    name: Administration Atomic Component (Projection Component (Composable Commerce API, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-composable-commerce-api-projection-component-administration/
+  - id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (Projection Component (Composable Commerce API, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-composable-commerce-api-projection-component-calculation-settlement/
+  - id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-execution
+    name: Execution Atomic Component (Projection Component (Composable Commerce API, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-composable-commerce-api-projection-component-execution/
+  - id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-posting-application
+    name: Posting & Application Atomic Component (Projection Component (Composable Commerce API, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-composable-commerce-api-projection-component-posting-application/
+  - id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-reporting-publication
+    name: Reporting & Publication Atomic Component (Projection Component (Composable Commerce API, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-composable-commerce-api-projection-component-reporting-publication/
+  - id: dea:information-system-component-e-commerce-platform-composable-commerce-api-projection-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Projection Component (Composable Commerce API, E-Commerce Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-e-commerce-platform-composable-commerce-api-projection-component-routing-delivery/
 
 change_history:
   - version: "1.0"
@@ -220,3 +580,7 @@ change_history:
     date: 2026-11-10
     cr: CR-IS-CAT-02C-P4
     note: "P4 vendor-neutral component population. 29 records added. Total domain records: 33."
+  - version: "1.2"
+    date: 2026-11-12
+    cr: CR-IS-CAT-02C-P5
+    note: "P5 atomic-component population. 60 F3 records added. Total domain records: 93."

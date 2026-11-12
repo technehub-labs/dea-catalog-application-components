@@ -14,4 +14,18 @@ facets:
 
 parent: dea:information-system-component-core-banking-system-lending
 
+composition:
+  - target: dea:information-system-component-core-banking-system-lending-limit-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-core-banking-system-lending-limit-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

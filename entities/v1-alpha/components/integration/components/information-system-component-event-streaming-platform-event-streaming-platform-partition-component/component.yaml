@@ -14,4 +14,48 @@ facets:
 
 parent: dea:information-system-component-event-streaming-platform-event-streaming-platform
 
+composition:
+  - target: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-detection-observation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-posting-application
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-event-streaming-platform-event-streaming-platform-partition-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

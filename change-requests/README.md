@@ -33,3 +33,8 @@ Snapshot: `~/.hermes/profiles/coder/kanban/dea-metamodel-is-snapshot-2026-10-18.
 ## CR-IS-CAT-02C-P4
 
 - **CR-IS-CAT-02C-P4 -- P4 vendor-neutral component population** (34 F0 system classes + 63 F1 component groups + 141 F2 composite components across 8 of 10 ISCC domains; vendor products are evidence only per G-12). See [CR-IS-CAT-02C-P4](./CR-IS-CAT-02C-P4-vendor-neutral-component-population.md).
+
+
+## CR-IS-CAT-02C-P5
+
+- **CR-IS-CAT-02C-P5 -- P5 atomic component population** (459 F3 atomic components decomposed from the 141 P4 F2 composite components via the canonical verb-cluster taxonomy of the 594 CR-IS-CAT-01C-P4 function names; all 594 functions allocated; total catalog 735 records). See [CR-IS-CAT-02C-P5](./CR-IS-CAT-02C-P5-atomic-component-population.md).

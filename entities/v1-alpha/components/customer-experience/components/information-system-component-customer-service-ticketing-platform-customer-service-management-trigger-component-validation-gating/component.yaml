@@ -1,0 +1,17 @@
+id: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component-validation-gating
+type: ApplicationComponent
+name: Validation & Gating Atomic Component (Trigger Component (Customer Service Management, Customer Service Ticketing Platform))
+status: active
+version: "1.0"
+effective_date: "2026-11-12"
+
+f_level: F3
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-customer-service-ticketing-platform-customer-service-management-trigger-component
+
+readme: ./README.md

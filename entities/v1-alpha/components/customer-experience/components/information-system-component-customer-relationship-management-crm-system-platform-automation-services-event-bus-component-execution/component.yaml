@@ -1,0 +1,17 @@
+id: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-execution
+type: ApplicationComponent
+name: Execution Atomic Component (Event Bus Component (Platform Automation Services, Customer Relationship Management (CRM) System))
+status: active
+version: "1.0"
+effective_date: "2026-11-12"
+
+f_level: F3
+
+component_domain: iscc:domain:customer-experience
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component
+
+readme: ./README.md

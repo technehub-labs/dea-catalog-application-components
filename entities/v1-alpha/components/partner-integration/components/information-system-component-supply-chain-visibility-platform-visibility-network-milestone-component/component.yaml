@@ -14,4 +14,36 @@ facets:
 
 parent: dea:information-system-component-supply-chain-visibility-platform-visibility-network
 
+composition:
+  - target: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-analysis-evaluation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-supply-chain-visibility-platform-visibility-network-milestone-component-reporting-publication
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services
 
+composition:
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

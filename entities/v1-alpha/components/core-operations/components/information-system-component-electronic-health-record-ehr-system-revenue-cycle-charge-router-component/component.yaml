@@ -14,4 +14,12 @@ facets:
 
 parent: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle
 
+composition:
+  - target: dea:information-system-component-electronic-health-record-ehr-system-revenue-cycle-charge-router-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

@@ -14,4 +14,36 @@ facets:
 
 parent: dea:information-system-component-claims-management-system-claims-intake-adjudication
 
+composition:
+  - target: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-calculation-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-provisioning-lifecycle
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-claims-management-system-claims-intake-adjudication-exposure-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

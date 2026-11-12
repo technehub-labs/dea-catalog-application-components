@@ -14,4 +14,48 @@ facets:
 
 parent: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse
 
+composition:
+  - target: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-analysis-evaluation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-reporting-publication
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-storage-persistence
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-data-warehouse-cloud-data-warehouse-virtual-warehouse-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

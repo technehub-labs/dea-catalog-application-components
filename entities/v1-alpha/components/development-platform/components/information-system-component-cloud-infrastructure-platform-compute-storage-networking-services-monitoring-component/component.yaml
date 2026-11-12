@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services
 
+composition:
+  - target: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component-analysis-evaluation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component-resolution-response
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-cloud-infrastructure-platform-compute-storage-networking-services-monitoring-component-storage-persistence
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

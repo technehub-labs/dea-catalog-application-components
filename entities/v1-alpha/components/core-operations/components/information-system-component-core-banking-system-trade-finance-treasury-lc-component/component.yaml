@@ -14,4 +14,36 @@ facets:
 
 parent: dea:information-system-component-core-banking-system-trade-finance-treasury
 
+composition:
+  - target: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-core-banking-system-trade-finance-treasury-lc-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
