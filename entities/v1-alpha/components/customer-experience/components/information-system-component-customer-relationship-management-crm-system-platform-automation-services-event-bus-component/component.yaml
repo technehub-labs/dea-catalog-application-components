@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services
 
+composition:
+  - target: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-customer-relationship-management-crm-system-platform-automation-services-event-bus-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
