@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management
 
+composition:
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-materials-management-purchase-order-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
