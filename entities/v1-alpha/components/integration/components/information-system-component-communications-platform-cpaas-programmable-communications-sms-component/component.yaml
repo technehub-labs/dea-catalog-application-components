@@ -14,4 +14,36 @@ facets:
 
 parent: dea:information-system-component-communications-platform-cpaas-programmable-communications
 
+composition:
+  - target: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-provisioning-lifecycle
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-communications-platform-cpaas-programmable-communications-sms-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

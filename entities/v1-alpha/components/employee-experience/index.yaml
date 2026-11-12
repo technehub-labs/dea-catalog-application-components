@@ -126,6 +126,198 @@ components:
     type: ApplicationComponent
     status: active
     path: components/information-system-component-it-service-management-itsm-platform-it-service-management-sla-component/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component-administration
+    name: Administration Atomic Component (Absence Plan Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component-administration/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component-execution
+    name: Execution Atomic Component (Absence Plan Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-absence-plan-component-execution/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component-administration
+    name: Administration Atomic Component (Business Process Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component-administration/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component-execution
+    name: Execution Atomic Component (Business Process Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-business-process-component-execution/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-administration
+    name: Administration Atomic Component (Compensation Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-administration/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-execution
+    name: Execution Atomic Component (Compensation Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-execution/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Compensation Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-compensation-component-provisioning-lifecycle/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component-administration
+    name: Administration Atomic Component (Payroll Flow Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component-administration/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Payroll Flow Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-payroll-flow-component-routing-delivery/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component-administration
+    name: Administration Atomic Component (Performance Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component-administration/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component-execution
+    name: Execution Atomic Component (Performance Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-performance-component-execution/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-position-component-administration
+    name: Administration Atomic Component (Position Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-position-component-administration/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-position-component-execution
+    name: Execution Atomic Component (Position Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-position-component-execution/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Skills Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-creation-authoring/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-execution
+    name: Execution Atomic Component (Skills Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-execution/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-intake-capture
+    name: Intake & Capture Atomic Component (Skills Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-skills-component-intake-capture/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component-administration
+    name: Administration Atomic Component (Worker Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component-administration/
+  - id: dea:information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component-execution
+    name: Execution Atomic Component (Worker Component (Human Capital Management, Human Capital Management (HCM) System))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-human-capital-management-hcm-system-human-capital-management-worker-component-execution/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-approval-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Approval Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-approval-component-analysis-evaluation/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-approval-component-routing-delivery
+    name: Routing & Delivery Atomic Component (Approval Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-approval-component-routing-delivery/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-administration
+    name: Administration Atomic Component (CMDB Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-administration/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-execution
+    name: Execution Atomic Component (CMDB Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-execution/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-integration-transformation
+    name: Integration & Transformation Atomic Component (CMDB Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-integration-transformation/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-resolution-response
+    name: Resolution & Response Atomic Component (CMDB Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-cmdb-component-resolution-response/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Knowledge Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-analysis-evaluation/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-detection-observation
+    name: Detection & Observation Atomic Component (Knowledge Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-detection-observation/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-execution
+    name: Execution Atomic Component (Knowledge Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-execution/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-resolution-response
+    name: Resolution & Response Atomic Component (Knowledge Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-knowledge-component-resolution-response/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-calculation-settlement
+    name: Calculation & Settlement Atomic Component (SLA Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-calculation-settlement/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-creation-authoring
+    name: Creation & Authoring Atomic Component (SLA Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-creation-authoring/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-detection-observation
+    name: Detection & Observation Atomic Component (SLA Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-detection-observation/
+  - id: dea:information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-routing-delivery
+    name: Routing & Delivery Atomic Component (SLA Component (IT Service Management, IT Service Management (ITSM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-it-service-management-itsm-platform-it-service-management-sla-component-routing-delivery/
 
 change_history:
   - version: "1.0"
@@ -136,3 +328,7 @@ change_history:
     date: 2026-11-10
     cr: CR-IS-CAT-02C-P4
     note: "P4 vendor-neutral component population. 16 records added. Total domain records: 19."
+  - version: "1.2"
+    date: 2026-11-12
+    cr: CR-IS-CAT-02C-P5
+    note: "P5 atomic-component population. 32 F3 records added. Total domain records: 51."
