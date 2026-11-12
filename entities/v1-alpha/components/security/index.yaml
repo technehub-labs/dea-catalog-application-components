@@ -84,6 +84,138 @@ components:
     type: ApplicationComponent
     status: active
     path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-intake-capture
+    name: Intake & Capture Atomic Component (Conditional Access Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-intake-capture/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Conditional Access Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-provisioning-lifecycle/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-validation-gating
+    name: Validation & Gating Atomic Component (Conditional Access Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-conditional-access-component-validation-gating/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-creation-authoring
+    name: Creation & Authoring Atomic Component (MFA Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-creation-authoring/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-intake-capture
+    name: Intake & Capture Atomic Component (MFA Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-intake-capture/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-routing-delivery
+    name: Routing & Delivery Atomic Component (MFA Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-mfa-component-routing-delivery/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-execution
+    name: Execution Atomic Component (PIM Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-execution/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-integration-transformation
+    name: Integration & Transformation Atomic Component (PIM Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-integration-transformation/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-validation-gating
+    name: Validation & Gating Atomic Component (PIM Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-pim-component-validation-gating/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-creation-authoring
+    name: Creation & Authoring Atomic Component (Realm Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-creation-authoring/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-intake-capture
+    name: Intake & Capture Atomic Component (Realm Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-intake-capture/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-integration-transformation
+    name: Integration & Transformation Atomic Component (Realm Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-integration-transformation/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-validation-gating
+    name: Validation & Gating Atomic Component (Realm Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-realm-component-validation-gating/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-administration
+    name: Administration Atomic Component (SAML Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-administration/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (SAML Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-analysis-evaluation/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-creation-authoring
+    name: Creation & Authoring Atomic Component (SAML Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-creation-authoring/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-integration-transformation
+    name: Integration & Transformation Atomic Component (SAML Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-integration-transformation/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (SAML Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-provisioning-lifecycle/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-validation-gating
+    name: Validation & Gating Atomic Component (SAML Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-saml-component-validation-gating/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-analysis-evaluation
+    name: Analysis & Evaluation Atomic Component (Sync Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-analysis-evaluation/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-detection-observation
+    name: Detection & Observation Atomic Component (Sync Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-detection-observation/
+  - id: dea:information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-provisioning-lifecycle
+    name: Provisioning & Lifecycle Atomic Component (Sync Component (Identity & Access Services, Identity and Access Management (IAM) Platform))
+    f_level: F3
+    type: ApplicationComponent
+    status: active
+    path: components/information-system-component-identity-and-access-management-iam-platform-identity-access-services-sync-component-provisioning-lifecycle/
 
 change_history:
   - version: "1.0"
@@ -94,3 +226,7 @@ change_history:
     date: 2026-11-10
     cr: CR-IS-CAT-02C-P4
     note: "P4 vendor-neutral component population. 8 records added. Total domain records: 12."
+  - version: "1.2"
+    date: 2026-11-12
+    cr: CR-IS-CAT-02C-P5
+    note: "P5 atomic-component population. 22 F3 records added. Total domain records: 34."
