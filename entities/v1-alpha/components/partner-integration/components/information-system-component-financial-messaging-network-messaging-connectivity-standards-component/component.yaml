@@ -14,4 +14,48 @@ facets:
 
 parent: dea:information-system-component-financial-messaging-network-messaging-connectivity
 
+composition:
+  - target: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-detection-observation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-resolution-response
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-financial-messaging-network-messaging-connectivity-standards-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
