@@ -14,4 +14,30 @@ facets:
 
 parent: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting
 
+composition:
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-enterprise-resource-planning-erp-system-financial-accounting-invoice-processing-component-reporting-publication
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
