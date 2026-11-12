@@ -14,4 +14,30 @@ facets:
 
 parent: dea:information-system-component-telecom-business-support-system-bss-mediation-charging
 
+composition:
+  - target: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-analysis-evaluation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-integration-transformation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-telecom-business-support-system-bss-mediation-charging-mediation-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
