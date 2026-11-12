@@ -14,4 +14,42 @@ facets:
 
 parent: dea:information-system-component-warehouse-management-system-wms-warehouse-operations
 
+composition:
+  - target: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-calculation-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-warehouse-management-system-wms-warehouse-operations-task-allocation-component-reporting-publication
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
