@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code
 
+composition:
+  - target: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component-administration
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component-detection-observation
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-infrastructure-as-code-iac-platform-infrastructure-as-code-plan-component-posting-application
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

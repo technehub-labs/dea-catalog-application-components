@@ -14,4 +14,30 @@ facets:
 
 parent: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows
 
+composition:
+  - target: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component-execution
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component-intake-capture
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-continuous-integration-continuous-delivery-ci-cd-platform-ci-cd-workflows-matrix-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md
