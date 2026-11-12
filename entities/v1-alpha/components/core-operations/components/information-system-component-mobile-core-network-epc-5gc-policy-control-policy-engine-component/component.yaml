@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-mobile-core-network-epc-5gc-policy-control
 
+composition:
+  - target: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-posting-application
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-routing-delivery
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

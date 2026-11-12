@@ -14,4 +14,24 @@ facets:
 
 parent: dea:information-system-component-mobile-core-network-epc-5gc-charging-function
 
+composition:
+  - target: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-calculation-settlement
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-creation-authoring
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+  - target: dea:information-system-component-mobile-core-network-epc-5gc-charging-function-online-charging-component-validation-gating
+    kind: contains
+    cardinality: required
+    version: "1.0"
+    effective_date: "2026-11-12"
+    status: active
+
 readme: ./README.md

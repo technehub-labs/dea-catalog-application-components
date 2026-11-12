@@ -1,0 +1,17 @@
+id: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component-validation-gating
+type: ApplicationComponent
+name: Validation & Gating Atomic Component (Policy Engine Component (Policy Control, Mobile Core Network (EPC/5GC)))
+status: active
+version: "1.0"
+effective_date: "2026-11-12"
+
+f_level: F3
+
+component_domain: iscc:domain:core-operations
+
+facets:
+  component_kind: apc
+
+parent: dea:information-system-component-mobile-core-network-epc-5gc-policy-control-policy-engine-component
+
+readme: ./README.md
