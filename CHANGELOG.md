@@ -48,3 +48,13 @@
 - Vendor products are evidence only per G-12; the component_kind facet is asserted (apc/igc/data/security); deployment-specific facets are deferred to per-deployment CRs.
 - New scripts/generate_p4_population.py + scripts/p4_component_data.json (deterministic and idempotent; per G-10).
 - Total catalog: 276 records. Executed-function crawl: CR-IS-CAT-01C-P4 in the ISF catalogue.
+
+
+## CR-IS-CAT-02C-P5 (2026-11-12)
+
+- ISC P5 atomic population: 459 F3 atomic component records via the canonical verb-cluster decomposition of the 141 P4 F2 composite components.
+- Method: the 594 CR-IS-CAT-01C-P4 function names (157 distinct leading verbs) are mapped into a 15-cluster canonical taxonomy; one atom per (F2, cluster) pair present in the evidence. All 594 functions allocated to exactly one atom.
+- The 141 P4 F2 records gain their first composition edges (kind=contains, cardinality=required); the F2 ids and records are otherwise unchanged. The 10 legacy F2s and 28 legacy F4s are untouched.
+- New scripts/generate_p5_population.py + scripts/p5_component_data.json (deterministic and idempotent; per G-10).
+- The relationship registry is unchanged: composition is not a registry kind (per CR-IS-CAT-02D).
+- Total catalog: 735 records (34 F0 + 63 F1 + 151 F2 + 459 F3 + 28 F4). Reference integrity: 15 resolved / 12 forward / 0 unresolved.
